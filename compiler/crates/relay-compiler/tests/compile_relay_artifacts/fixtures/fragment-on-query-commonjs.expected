@@ -37,6 +37,7 @@ fragment fragmentOnQueryCommonjs_ProfilePicture on User {
         "name": "size"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "RefetchableFragmentQuery",
@@ -61,15 +62,18 @@ fragment fragmentOnQueryCommonjs_ProfilePicture on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "size"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "RefetchableFragmentQuery",
     "selections": [
@@ -83,6 +87,7 @@ fragment fragmentOnQueryCommonjs_ProfilePicture on User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -124,6 +129,7 @@ fragment fragmentOnQueryCommonjs_ProfilePicture on User {
                   }
                 ],
                 "concreteType": "Image",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "profilePicture",
                 "plural": false,
@@ -193,6 +199,7 @@ fragment fragmentOnQueryCommonjs_RefetchableFragment_1Bmzm5 on Query {
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentOnQueryCommonjs_ProfilePicture",
@@ -207,6 +214,7 @@ fragment fragmentOnQueryCommonjs_RefetchableFragment_1Bmzm5 on Query {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -240,6 +248,7 @@ import RefetchableFragmentQuery_graphql from './RefetchableFragmentQuery.graphql
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "refetch": {
@@ -260,6 +269,7 @@ import RefetchableFragmentQuery_graphql from './RefetchableFragmentQuery.graphql
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,

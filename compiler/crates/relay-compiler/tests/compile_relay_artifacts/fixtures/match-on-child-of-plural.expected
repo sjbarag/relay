@@ -41,6 +41,7 @@ fragment matchOnChildOfPlural_MarkdownUserNameRenderer_name on MarkdownUserNameR
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -84,6 +85,7 @@ fragment matchOnChildOfPlural_MarkdownUserNameRenderer_name on MarkdownUserNameR
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -112,6 +114,7 @@ fragment matchOnChildOfPlural_MarkdownUserNameRenderer_name on MarkdownUserNameR
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "matchOnChildOfPlural_ActorsRendererFragmentQuery",
@@ -128,6 +131,7 @@ fragment matchOnChildOfPlural_MarkdownUserNameRenderer_name on MarkdownUserNameR
       "alias": null,
       "args": null,
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "actors",
       "plural": true,
@@ -142,6 +146,7 @@ fragment matchOnChildOfPlural_MarkdownUserNameRenderer_name on MarkdownUserNameR
             }
           ],
           "concreteType": null,
+          "directives": null,
           "kind": "LinkedField",
           "name": "nameRenderer",
           "plural": false,
@@ -187,6 +192,7 @@ fragment matchOnChildOfPlural_MarkdownUserNameRenderer_name on MarkdownUserNameR
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "matchOnChildOfPlural_MarkdownUserNameRenderer_name",
@@ -203,6 +209,7 @@ fragment matchOnChildOfPlural_MarkdownUserNameRenderer_name on MarkdownUserNameR
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -225,6 +232,7 @@ fragment matchOnChildOfPlural_MarkdownUserNameRenderer_name on MarkdownUserNameR
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "matchOnChildOfPlural_PlainUserNameRenderer_name",
@@ -241,6 +249,7 @@ fragment matchOnChildOfPlural_MarkdownUserNameRenderer_name on MarkdownUserNameR
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

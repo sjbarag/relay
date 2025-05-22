@@ -13,6 +13,7 @@ fragment updatableFragmentSpreadWithTypenameSibling_user on User @updatable {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "updatableFragmentSpreadWithTypenameSiblingQuery",
@@ -21,6 +22,7 @@ fragment updatableFragmentSpreadWithTypenameSibling_user on User @updatable {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -48,6 +50,7 @@ fragment updatableFragmentSpreadWithTypenameSibling_user on User @updatable {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "updatableFragmentSpreadWithTypenameSiblingQuery",
     "selections": [
@@ -55,6 +58,7 @@ fragment updatableFragmentSpreadWithTypenameSibling_user on User @updatable {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -102,6 +106,7 @@ query updatableFragmentSpreadWithTypenameSiblingQuery {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "updatableFragmentSpreadWithTypenameSibling_user",

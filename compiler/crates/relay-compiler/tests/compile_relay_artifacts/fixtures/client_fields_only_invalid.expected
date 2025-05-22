@@ -18,6 +18,7 @@ extend type Settings {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "clientFieldsOnlyInvalidQuery",
@@ -26,6 +27,7 @@ extend type Settings {
         "alias": null,
         "args": null,
         "concreteType": "Settings",
+        "directives": null,
         "kind": "LinkedField",
         "name": "defaultSettings",
         "plural": false,
@@ -45,6 +47,7 @@ extend type Settings {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "clientFieldsOnlyInvalidQuery",
     "selections": [
@@ -52,6 +55,7 @@ extend type Settings {
         "alias": null,
         "args": null,
         "concreteType": "Settings",
+        "directives": null,
         "kind": "LinkedField",
         "name": "defaultSettings",
         "plural": false,
@@ -90,6 +94,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "clientFieldsOnlyInvalidFragment",

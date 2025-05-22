@@ -31,6 +31,7 @@ fragment fragmentOnQuery_ProfilePicture on User {
         "name": "size"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "RefetchableFragmentQuery",
@@ -55,15 +56,18 @@ fragment fragmentOnQuery_ProfilePicture on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "size"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "RefetchableFragmentQuery",
     "selections": [
@@ -77,6 +81,7 @@ fragment fragmentOnQuery_ProfilePicture on User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -118,6 +123,7 @@ fragment fragmentOnQuery_ProfilePicture on User {
                   }
                 ],
                 "concreteType": "Image",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "profilePicture",
                 "plural": false,
@@ -187,6 +193,7 @@ fragment fragmentOnQuery_RefetchableFragment_1Bmzm5 on Query {
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentOnQuery_ProfilePicture",
@@ -201,6 +208,7 @@ fragment fragmentOnQuery_RefetchableFragment_1Bmzm5 on Query {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -233,6 +241,7 @@ fragment fragmentOnQuery_RefetchableFragment_1Bmzm5 on Query {
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "refetch": {
@@ -253,6 +262,7 @@ fragment fragmentOnQuery_RefetchableFragment_1Bmzm5 on Query {
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,

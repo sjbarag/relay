@@ -21,6 +21,7 @@ query selectionSetConflictValidQuery {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "selectionSetConflictValidQuery",
@@ -29,6 +30,7 @@ query selectionSetConflictValidQuery {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -48,6 +50,7 @@ query selectionSetConflictValidQuery {
               }
             ],
             "concreteType": "Image",
+            "directives": null,
             "kind": "LinkedField",
             "name": "profile_picture",
             "plural": false,
@@ -96,6 +99,7 @@ query selectionSetConflictValidQuery {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "nodes",
         "plural": true,
@@ -118,6 +122,7 @@ query selectionSetConflictValidQuery {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "selectionSetConflictValidQuery",
     "selections": [
@@ -125,6 +130,7 @@ query selectionSetConflictValidQuery {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -144,6 +150,7 @@ query selectionSetConflictValidQuery {
               }
             ],
             "concreteType": "Image",
+            "directives": null,
             "kind": "LinkedField",
             "name": "profile_picture",
             "plural": false,
@@ -200,6 +207,7 @@ query selectionSetConflictValidQuery {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "nodes",
         "plural": true,

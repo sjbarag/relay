@@ -42,6 +42,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name on Plai
   "argumentDefinitions": [
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "queryWithModuleDirectiveAndArguments_MarkdownUserNameRenderer_name$cond"
     }
@@ -67,6 +68,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name on Plai
           "alias": null,
           "args": null,
           "concreteType": "MarkdownUserNameData",
+          "directives": null,
           "kind": "LinkedField",
           "name": "data",
           "plural": false,
@@ -109,6 +111,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name on Plai
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "queryWithModuleDirectiveAndArguments_NameRendererQuery",
@@ -123,6 +126,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name on Plai
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -150,15 +154,18 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name on Plai
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "cond"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "queryWithModuleDirectiveAndArguments_NameRendererQuery",
     "selections": [
@@ -172,6 +179,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name on Plai
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -199,6 +207,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name on Plai
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -320,6 +329,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name_WrdK8 o
   "argumentDefinitions": [
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name$cond"
     }
@@ -345,6 +355,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name_WrdK8 o
           "alias": null,
           "args": null,
           "concreteType": "PlainUserNameData",
+          "directives": null,
           "kind": "LinkedField",
           "name": "data",
           "plural": false,
@@ -381,6 +392,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name_WrdK8 o
       "name": "cond"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithModuleDirectiveAndArguments_MarkdownUserNameRenderer_name",
@@ -402,6 +414,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name_WrdK8 o
           "alias": null,
           "args": null,
           "concreteType": "MarkdownUserNameData",
+          "directives": null,
           "kind": "LinkedField",
           "name": "data",
           "plural": false,
@@ -436,6 +449,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name_WrdK8 o
       "name": "local_cond"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithModuleDirectiveAndArguments_NameRendererFragment",
@@ -452,6 +466,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name_WrdK8 o
       "alias": null,
       "args": null,
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRenderer",
       "plural": false,
@@ -512,6 +527,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name_WrdK8 o
       "name": "cond"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name",
@@ -533,6 +549,7 @@ fragment queryWithModuleDirectiveAndArguments_PlainUserNameRenderer_name_WrdK8 o
           "alias": null,
           "args": null,
           "concreteType": "PlainUserNameData",
+          "directives": null,
           "kind": "LinkedField",
           "name": "data",
           "plural": false,

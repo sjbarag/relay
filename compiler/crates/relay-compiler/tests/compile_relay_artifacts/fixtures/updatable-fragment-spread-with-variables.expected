@@ -18,6 +18,7 @@ fragment updatableFragmentSpreadWithVariables_user on User @updatable {
         "name": "if"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "updatableFragmentSpreadWithVariablesQuery",
@@ -26,6 +27,7 @@ fragment updatableFragmentSpreadWithVariables_user on User @updatable {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -47,10 +49,12 @@ fragment updatableFragmentSpreadWithVariables_user on User @updatable {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "if"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "updatableFragmentSpreadWithVariablesQuery",
     "selections": [
@@ -58,6 +62,7 @@ fragment updatableFragmentSpreadWithVariables_user on User @updatable {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -110,6 +115,7 @@ query updatableFragmentSpreadWithVariablesQuery {
       "name": "if"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "updatableFragmentSpreadWithVariables_user",

@@ -32,29 +32,14 @@ query NodeQuery($id: ID!, $last: Int, $first: Int) {
 }
 ==================================== OUTPUT ===================================
 (function(){
-var v0 = {
-  "defaultValue": null,
-  "kind": "LocalArgument",
-  "name": "first"
-},
-v1 = {
-  "defaultValue": null,
-  "kind": "LocalArgument",
-  "name": "id"
-},
-v2 = {
-  "defaultValue": null,
-  "kind": "LocalArgument",
-  "name": "last"
-},
-v3 = [
+var v0 = [
   {
     "kind": "Variable",
     "name": "id",
     "variableName": "id"
   }
 ],
-v4 = {
+v1 = {
   "alias": null,
   "args": null,
   "kind": "ScalarField",
@@ -62,17 +47,18 @@ v4 = {
   "directives": null,
   "storageKey": null
 },
-v5 = [
+v2 = [
   {
     "kind": "Literal",
     "name": "first",
     "value": 1
   }
 ],
-v6 = {
+v3 = {
   "alias": null,
   "args": null,
   "concreteType": "CommentsEdge",
+  "directives": null,
   "kind": "LinkedField",
   "name": "edges",
   "plural": true,
@@ -81,11 +67,12 @@ v6 = {
       "alias": null,
       "args": null,
       "concreteType": "Comment",
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,
       "selections": [
-        (v4/*: any*/)
+        (v1/*: any*/)
       ],
       "storageKey": null
     },
@@ -104,6 +91,7 @@ v6 = {
           "alias": null,
           "args": null,
           "concreteType": "Comment",
+          "directives": null,
           "kind": "LinkedField",
           "name": "node",
           "plural": false,
@@ -126,7 +114,7 @@ v6 = {
   ],
   "storageKey": null
 },
-v7 = {
+v4 = {
   "alias": null,
   "args": null,
   "kind": "ScalarField",
@@ -134,7 +122,7 @@ v7 = {
   "directives": null,
   "storageKey": null
 },
-v8 = {
+v5 = {
   "alias": null,
   "args": null,
   "kind": "ScalarField",
@@ -142,12 +130,13 @@ v8 = {
   "directives": null,
   "storageKey": null
 },
-v9 = [
-  (v6/*: any*/),
+v6 = [
+  (v3/*: any*/),
   {
     "alias": null,
     "args": null,
     "concreteType": "PageInfo",
+    "directives": null,
     "kind": "LinkedField",
     "name": "pageInfo",
     "plural": false,
@@ -155,8 +144,8 @@ v9 = [
       {
         "kind": "InlineFragment",
         "selections": [
-          (v7/*: any*/),
-          (v8/*: any*/)
+          (v4/*: any*/),
+          (v5/*: any*/)
         ],
         "type": "PageInfo",
         "abstractKey": null
@@ -165,14 +154,14 @@ v9 = [
     "storageKey": null
   }
 ],
-v10 = [
+v7 = [
   {
     "kind": "Literal",
     "name": "last",
     "value": 2
   }
 ],
-v11 = {
+v8 = {
   "alias": null,
   "args": null,
   "kind": "ScalarField",
@@ -180,7 +169,7 @@ v11 = {
   "directives": null,
   "storageKey": null
 },
-v12 = {
+v9 = {
   "alias": null,
   "args": null,
   "kind": "ScalarField",
@@ -188,12 +177,13 @@ v12 = {
   "directives": null,
   "storageKey": null
 },
-v13 = [
-  (v6/*: any*/),
+v10 = [
+  (v3/*: any*/),
   {
     "alias": null,
     "args": null,
     "concreteType": "PageInfo",
+    "directives": null,
     "kind": "LinkedField",
     "name": "pageInfo",
     "plural": false,
@@ -201,8 +191,8 @@ v13 = [
       {
         "kind": "InlineFragment",
         "selections": [
-          (v11/*: any*/),
-          (v12/*: any*/)
+          (v8/*: any*/),
+          (v9/*: any*/)
         ],
         "type": "PageInfo",
         "abstractKey": null
@@ -211,7 +201,7 @@ v13 = [
     "storageKey": null
   }
 ],
-v14 = [
+v11 = [
   {
     "kind": "Variable",
     "name": "first",
@@ -223,12 +213,13 @@ v14 = [
     "variableName": "last"
   }
 ],
-v15 = [
-  (v6/*: any*/),
+v12 = [
+  (v3/*: any*/),
   {
     "alias": null,
     "args": null,
     "concreteType": "PageInfo",
+    "directives": null,
     "kind": "LinkedField",
     "name": "pageInfo",
     "plural": false,
@@ -236,10 +227,10 @@ v15 = [
       {
         "kind": "InlineFragment",
         "selections": [
-          (v7/*: any*/),
+          (v4/*: any*/),
+          (v5/*: any*/),
           (v8/*: any*/),
-          (v11/*: any*/),
-          (v12/*: any*/)
+          (v9/*: any*/)
         ],
         "type": "PageInfo",
         "abstractKey": null
@@ -251,54 +242,71 @@ v15 = [
 return {
   "fragment": {
     "argumentDefinitions": [
-      (v0/*: any*/),
-      (v1/*: any*/),
-      (v2/*: any*/)
+      {
+        "defaultValue": null,
+        "kind": "LocalArgument",
+        "name": "first"
+      },
+      {
+        "defaultValue": null,
+        "kind": "LocalArgument",
+        "name": "id"
+      },
+      {
+        "defaultValue": null,
+        "kind": "LocalArgument",
+        "name": "last"
+      }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "NodeQuery",
     "selections": [
       {
         "alias": null,
-        "args": (v3/*: any*/),
+        "args": (v0/*: any*/),
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
         "selections": [
-          (v4/*: any*/),
+          (v1/*: any*/),
           {
             "kind": "InlineFragment",
             "selections": [
               {
                 "alias": "forwardComments",
-                "args": (v5/*: any*/),
+                "args": (v2/*: any*/),
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "__NodeQuery_forwardComments_connection",
                 "plural": false,
-                "selections": (v9/*: any*/),
+                "selections": (v6/*: any*/),
                 "storageKey": "__NodeQuery_forwardComments_connection(first:1)"
               },
               {
                 "alias": "backwardComments",
-                "args": (v10/*: any*/),
+                "args": (v7/*: any*/),
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "__NodeQuery_backwardComments_connection",
                 "plural": false,
-                "selections": (v13/*: any*/),
+                "selections": (v10/*: any*/),
                 "storageKey": "__NodeQuery_backwardComments_connection(last:2)"
               },
               {
                 "alias": "mixedDirectionComments",
-                "args": (v14/*: any*/),
+                "args": (v11/*: any*/),
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "__NodeQuery_mixedDirectionComments_connection",
                 "plural": false,
-                "selections": (v15/*: any*/),
+                "selections": (v12/*: any*/),
                 "storageKey": null
               }
             ],
@@ -315,38 +323,56 @@ return {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [
-      (v1/*: any*/),
-      (v2/*: any*/),
-      (v0/*: any*/)
+      {
+        "defaultValue": null,
+        "directives": null,
+        "kind": "LocalArgument",
+        "name": "id"
+      },
+      {
+        "defaultValue": null,
+        "directives": null,
+        "kind": "LocalArgument",
+        "name": "last"
+      },
+      {
+        "defaultValue": null,
+        "directives": null,
+        "kind": "LocalArgument",
+        "name": "first"
+      }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "NodeQuery",
     "selections": [
       {
         "alias": null,
-        "args": (v3/*: any*/),
+        "args": (v0/*: any*/),
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
         "selections": [
-          (v4/*: any*/),
+          (v1/*: any*/),
           {
             "kind": "InlineFragment",
             "selections": [
               {
                 "alias": "forwardComments",
-                "args": (v5/*: any*/),
+                "args": (v2/*: any*/),
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
-                "selections": (v9/*: any*/),
+                "selections": (v6/*: any*/),
                 "storageKey": "comments(first:1)"
               },
               {
                 "alias": "forwardComments",
-                "args": (v5/*: any*/),
+                "args": (v2/*: any*/),
                 "filters": null,
                 "handle": "connection",
                 "key": "NodeQuery_forwardComments",
@@ -355,17 +381,18 @@ return {
               },
               {
                 "alias": "backwardComments",
-                "args": (v10/*: any*/),
+                "args": (v7/*: any*/),
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
-                "selections": (v13/*: any*/),
+                "selections": (v10/*: any*/),
                 "storageKey": "comments(last:2)"
               },
               {
                 "alias": "backwardComments",
-                "args": (v10/*: any*/),
+                "args": (v7/*: any*/),
                 "filters": null,
                 "handle": "connection",
                 "key": "NodeQuery_backwardComments",
@@ -374,17 +401,18 @@ return {
               },
               {
                 "alias": "mixedDirectionComments",
-                "args": (v14/*: any*/),
+                "args": (v11/*: any*/),
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
-                "selections": (v15/*: any*/),
+                "selections": (v12/*: any*/),
                 "storageKey": null
               },
               {
                 "alias": "mixedDirectionComments",
-                "args": (v14/*: any*/),
+                "args": (v11/*: any*/),
                 "filters": null,
                 "handle": "connection",
                 "key": "NodeQuery_mixedDirectionComments",

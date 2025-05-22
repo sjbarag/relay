@@ -16,6 +16,7 @@ fragment streamAndHandleFragment on Feedback {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "streamAndHandleQuery",
@@ -30,6 +31,7 @@ fragment streamAndHandleFragment on Feedback {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -49,6 +51,7 @@ fragment streamAndHandleFragment on Feedback {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "streamAndHandleQuery",
     "selections": [
@@ -62,6 +65,7 @@ fragment streamAndHandleFragment on Feedback {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -86,6 +90,7 @@ fragment streamAndHandleFragment on Feedback {
                     "alias": null,
                     "args": null,
                     "concreteType": null,
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "actors",
                     "plural": true,
@@ -185,6 +190,7 @@ fragment streamAndHandleFragment on Feedback {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "streamAndHandleFragment",
@@ -196,6 +202,7 @@ fragment streamAndHandleFragment on Feedback {
           "alias": "actors",
           "args": null,
           "concreteType": null,
+          "directives": null,
           "kind": "LinkedField",
           "name": "__actors_actors_handler",
           "plural": true,

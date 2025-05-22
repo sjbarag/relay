@@ -22,6 +22,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "redundantSelectionInInlineFragmentsQuery",
@@ -36,6 +37,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -75,6 +77,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "redundantSelectionInInlineFragmentsQuery",
     "selections": [
@@ -88,6 +91,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -167,6 +171,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "redundantSelectionInInlineFragments_interface",
@@ -186,6 +191,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "redundantSelectionInInlineFragments_interface_concrete",

@@ -30,6 +30,7 @@ scalar ClientScalar
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "clientOnlyQueryWithScalarExtensionQuery",
@@ -178,6 +179,7 @@ scalar ClientScalar
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "clientOnlyQueryWithScalarExtensionQuery",
     "selections": [

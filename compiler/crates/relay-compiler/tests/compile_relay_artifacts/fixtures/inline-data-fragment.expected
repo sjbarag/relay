@@ -29,6 +29,7 @@ fragment inlineDataFragment_Profile on User @inline {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "inlineDataFragment_TestQuery",
@@ -45,6 +46,7 @@ fragment inlineDataFragment_Profile on User @inline {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "inlineDataFragment_TestQuery",
     "selections": [
@@ -52,6 +54,7 @@ fragment inlineDataFragment_Profile on User @inline {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -66,6 +69,7 @@ fragment inlineDataFragment_Profile on User @inline {
               }
             ],
             "concreteType": "Image",
+            "directives": null,
             "kind": "LinkedField",
             "name": "profilePicture",
             "plural": false,
@@ -118,6 +122,7 @@ fragment inlineDataFragment_Profile on User @inline {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "username",
         "plural": false,
@@ -143,6 +148,7 @@ fragment inlineDataFragment_Profile on User @inline {
                   }
                 ],
                 "concreteType": "Image",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "profilePicture",
                 "plural": false,
@@ -225,6 +231,7 @@ fragment inlineDataFragment_Profile on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "inlineDataFragment_ParentFragment",
@@ -233,6 +240,7 @@ fragment inlineDataFragment_Profile on User {
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -251,6 +259,7 @@ fragment inlineDataFragment_Profile on User {
                 }
               ],
               "concreteType": "Image",
+              "directives": null,
               "kind": "LinkedField",
               "name": "profilePicture",
               "plural": false,
@@ -276,7 +285,8 @@ fragment inlineDataFragment_Profile on User {
             }
           ],
           "args": null,
-          "argumentDefinitions": []
+          "argumentDefinitions": [],
+          "directives": null
         },
         {
           "alias": null,
@@ -288,6 +298,7 @@ fragment inlineDataFragment_Profile on User {
             }
           ],
           "concreteType": "Image",
+          "directives": null,
           "kind": "LinkedField",
           "name": "profilePicture",
           "plural": false,
@@ -324,6 +335,7 @@ fragment inlineDataFragment_Profile on User {
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "username",
       "plural": false,
@@ -345,6 +357,7 @@ fragment inlineDataFragment_Profile on User {
                     }
                   ],
                   "concreteType": "Image",
+                  "directives": null,
                   "kind": "LinkedField",
                   "name": "profilePicture",
                   "plural": false,
@@ -374,7 +387,8 @@ fragment inlineDataFragment_Profile on User {
             }
           ],
           "args": null,
-          "argumentDefinitions": []
+          "argumentDefinitions": [],
+          "directives": null
         }
       ],
       "storageKey": "username(name:\"test\")"

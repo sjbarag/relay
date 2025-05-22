@@ -36,6 +36,7 @@ query relayClientIdField_RelayClientIDFieldQuery($id: ID!) {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "relayClientIdField_RelayClientIDFieldQuery",
@@ -44,6 +45,7 @@ query relayClientIdField_RelayClientIDFieldQuery($id: ID!) {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -90,6 +92,7 @@ query relayClientIdField_RelayClientIDFieldQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -123,6 +126,7 @@ query relayClientIdField_RelayClientIDFieldQuery($id: ID!) {
                   }
                 ],
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "commentBody",
                 "plural": false,
@@ -142,6 +146,7 @@ query relayClientIdField_RelayClientIDFieldQuery($id: ID!) {
                         "alias": null,
                         "args": null,
                         "concreteType": "Text",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "text",
                         "plural": false,
@@ -253,10 +258,12 @@ query relayClientIdField_RelayClientIDFieldQuery($id: ID!) {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "relayClientIdField_RelayClientIDFieldQuery",
     "selections": [
@@ -264,6 +271,7 @@ query relayClientIdField_RelayClientIDFieldQuery($id: ID!) {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -310,6 +318,7 @@ query relayClientIdField_RelayClientIDFieldQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -343,6 +352,7 @@ query relayClientIdField_RelayClientIDFieldQuery($id: ID!) {
                   }
                 ],
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "commentBody",
                 "plural": false,
@@ -362,6 +372,7 @@ query relayClientIdField_RelayClientIDFieldQuery($id: ID!) {
                         "alias": null,
                         "args": null,
                         "concreteType": "Text",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "text",
                         "plural": false,

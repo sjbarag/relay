@@ -20,6 +20,7 @@ extend type User {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "hasClientEdges": true
@@ -43,6 +44,7 @@ extend type User {
         "alias": null,
         "args": null,
         "concreteType": "ClientUser",
+        "directives": null,
         "kind": "LinkedField",
         "name": "best_friend",
         "plural": false,

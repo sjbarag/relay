@@ -24,6 +24,7 @@ query selectionsOnInterfaceQuery($id: ID!) {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "selectionsOnInterfaceQuery",
@@ -38,6 +39,7 @@ query selectionsOnInterfaceQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -64,10 +66,12 @@ query selectionsOnInterfaceQuery($id: ID!) {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "selectionsOnInterfaceQuery",
     "selections": [
@@ -81,6 +85,7 @@ query selectionsOnInterfaceQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -182,6 +187,7 @@ fragment selectionsOnInterfaceUserFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "selectionsOnInterfacePageFragment",
@@ -207,6 +213,7 @@ fragment selectionsOnInterfaceUserFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "selectionsOnInterfaceUserFragment",

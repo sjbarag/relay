@@ -18,6 +18,7 @@ fragment unmaskedFragmentSpreadsOnQuery_UserUtil_user on User {
         "name": "isRelative"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "unmaskedFragmentSpreadsOnQuery_TestQuery",
@@ -26,6 +27,7 @@ fragment unmaskedFragmentSpreadsOnQuery_UserUtil_user on User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -56,10 +58,12 @@ fragment unmaskedFragmentSpreadsOnQuery_UserUtil_user on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "isRelative"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "unmaskedFragmentSpreadsOnQuery_TestQuery",
     "selections": [
@@ -67,6 +71,7 @@ fragment unmaskedFragmentSpreadsOnQuery_UserUtil_user on User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -127,6 +132,7 @@ query unmaskedFragmentSpreadsOnQuery_TestQuery(
       "name": "isRelative"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "unmaskedFragmentSpreadsOnQuery_UserUtil_user",

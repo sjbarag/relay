@@ -8,6 +8,7 @@ query QueryWithMetadata {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "QueryWithMetadata",
@@ -22,6 +23,7 @@ query QueryWithMetadata {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -44,6 +46,7 @@ query QueryWithMetadata {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "QueryWithMetadata",
     "selections": [
@@ -57,6 +60,7 @@ query QueryWithMetadata {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,

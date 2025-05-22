@@ -9,6 +9,7 @@ query explicitNullArgument_TestQuery {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "explicitNullArgument_TestQuery",
@@ -17,6 +18,7 @@ query explicitNullArgument_TestQuery {
         "alias": null,
         "args": null,
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -39,6 +41,7 @@ query explicitNullArgument_TestQuery {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "explicitNullArgument_TestQuery",
     "selections": [
@@ -46,6 +49,7 @@ query explicitNullArgument_TestQuery {
         "alias": null,
         "args": null,
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,

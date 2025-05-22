@@ -118,6 +118,7 @@ import JSResource from 'JSResource';
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "client3DResolversEnabledClient3DFragment_clientSideQuery",
@@ -129,6 +130,7 @@ import JSResource from 'JSResource';
             "alias": null,
             "args": null,
             "concreteType": "Persona",
+            "directives": null,
             "kind": "LinkedField",
             "name": "persona",
             "plural": false,
@@ -145,6 +147,7 @@ import JSResource from 'JSResource';
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "basicUser",
                 "plural": false,
@@ -194,6 +197,7 @@ import JSResource from 'JSResource';
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "client3DResolversEnabledClient3DFragment_clientSideQuery",
     "selections": [
@@ -204,6 +208,7 @@ import JSResource from 'JSResource';
             "alias": null,
             "args": null,
             "concreteType": "Persona",
+            "directives": null,
             "kind": "LinkedField",
             "name": "persona",
             "plural": false,
@@ -220,6 +225,7 @@ import JSResource from 'JSResource';
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "basicUser",
                 "plural": false,
@@ -309,6 +315,7 @@ import ClientUser__id_graphql from './ClientUser__id.graphql';
 import {resolverDataInjector} from 'relay-runtime/experimental';
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "ClientUser____relay_model_instance",
@@ -333,6 +340,7 @@ import {resolverDataInjector} from 'relay-runtime/experimental';
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "ClientUser__id",
@@ -360,6 +368,7 @@ import SpecialUser__id_graphql from './SpecialUser__id.graphql';
 import {resolverDataInjector} from 'relay-runtime/experimental';
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "SpecialUser____relay_model_instance",
@@ -384,6 +393,7 @@ import {resolverDataInjector} from 'relay-runtime/experimental';
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "SpecialUser__id",
@@ -408,6 +418,7 @@ import {resolverDataInjector} from 'relay-runtime/experimental';
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "client3DResolversEnabledClient3DFragment_ClientUserFragment",
@@ -440,6 +451,7 @@ import {resolverDataInjector} from 'relay-runtime/experimental';
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "client3DResolversEnabledClient3DFragment_SpecialUserFragment",

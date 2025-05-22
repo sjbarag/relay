@@ -18,6 +18,7 @@ query linkedHandleField_LinkedHandleFieldQuery($id: ID!) {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "linkedHandleField_LinkedHandleFieldQuery",
@@ -32,6 +33,7 @@ query linkedHandleField_LinkedHandleFieldQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -43,6 +45,7 @@ query linkedHandleField_LinkedHandleFieldQuery($id: ID!) {
                 "alias": "friends",
                 "args": null,
                 "concreteType": "FriendsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "__friends_clientFriends",
                 "plural": false,
@@ -74,10 +77,12 @@ query linkedHandleField_LinkedHandleFieldQuery($id: ID!) {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "linkedHandleField_LinkedHandleFieldQuery",
     "selections": [
@@ -91,6 +96,7 @@ query linkedHandleField_LinkedHandleFieldQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -116,6 +122,7 @@ query linkedHandleField_LinkedHandleFieldQuery($id: ID!) {
                   }
                 ],
                 "concreteType": "FriendsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "friends",
                 "plural": false,

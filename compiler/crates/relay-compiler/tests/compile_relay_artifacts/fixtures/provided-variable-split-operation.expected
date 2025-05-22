@@ -59,6 +59,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -102,6 +103,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -137,6 +139,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "providedVariableSplitOperation_Query",
@@ -151,6 +154,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -172,15 +176,18 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__shouldIncludeData_RelayProvider"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "providedVariableSplitOperation_Query",
     "selections": [
@@ -194,6 +201,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -227,6 +235,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
                   }
                 ],
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -341,6 +350,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableSplitOperationFragment",
@@ -363,6 +373,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRenderer",
       "plural": false,
@@ -410,6 +421,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
       "name": "__relay_internal__pv__shouldIncludeData_RelayProvider"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableSplitOperation_MarkdownUserNameRenderer_name",
@@ -433,6 +445,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -455,6 +468,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableSplitOperation_PlainUserNameRenderer_name",
@@ -471,6 +485,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

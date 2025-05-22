@@ -39,6 +39,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -74,6 +75,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "multipleModuleWithAliasQuery",
@@ -88,6 +90,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -99,6 +102,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -158,10 +162,12 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "multipleModuleWithAliasQuery",
     "selections": [
@@ -175,6 +181,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -194,6 +201,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -284,6 +292,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "multipleModuleWithAliasFragment_propName",
@@ -300,6 +309,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

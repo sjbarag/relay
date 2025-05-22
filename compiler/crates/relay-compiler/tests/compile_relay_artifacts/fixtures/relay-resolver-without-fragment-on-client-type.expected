@@ -22,6 +22,7 @@ extend type ClientType {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "relayResolverWithoutFragmentOnClientTypeQuery",
@@ -33,6 +34,7 @@ extend type ClientType {
             "alias": null,
             "args": null,
             "concreteType": "ClientType",
+            "directives": null,
             "kind": "LinkedField",
             "name": "client_type",
             "plural": false,
@@ -58,6 +60,7 @@ extend type ClientType {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "relayResolverWithoutFragmentOnClientTypeQuery",
     "selections": [
@@ -68,6 +71,7 @@ extend type ClientType {
             "alias": null,
             "args": null,
             "concreteType": "ClientType",
+            "directives": null,
             "kind": "LinkedField",
             "name": "client_type",
             "plural": false,

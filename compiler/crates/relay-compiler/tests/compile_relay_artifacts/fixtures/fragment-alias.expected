@@ -12,6 +12,7 @@ fragment fragmentAliasNotEnabled_fragment on Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "fragmentAliasNotEnabled_Query",
@@ -39,6 +40,7 @@ fragment fragmentAliasNotEnabled_fragment on Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "fragmentAliasNotEnabled_Query",
     "selections": [
@@ -46,6 +48,7 @@ fragment fragmentAliasNotEnabled_fragment on Query {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -88,6 +91,7 @@ fragment fragmentAliasNotEnabled_fragment on Query {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentAliasNotEnabled_fragment",
@@ -96,6 +100,7 @@ fragment fragmentAliasNotEnabled_fragment on Query {
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,

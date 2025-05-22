@@ -13,6 +13,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "resolverFieldWithAllRuntimeArgsOmitted_Query",
@@ -38,6 +39,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "resolverFieldWithAllRuntimeArgsOmitted_Query",
     "selections": [

@@ -31,6 +31,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserUtil_user on User {
         "name": "isRelative"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "unmaskedFragmentSpreadsGlobalArguments_TestQuery",
@@ -39,6 +40,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserUtil_user on User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -60,15 +62,18 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserUtil_user on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "ProfilePicture_SIZE"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "isRelative"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "unmaskedFragmentSpreadsGlobalArguments_TestQuery",
     "selections": [
@@ -76,6 +81,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserUtil_user on User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -90,6 +96,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserUtil_user on User {
               }
             ],
             "concreteType": "Image",
+            "directives": null,
             "kind": "LinkedField",
             "name": "profilePicture",
             "plural": false,
@@ -182,6 +189,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserProfile_user on User {
       "name": "isRelative"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "unmaskedFragmentSpreadsGlobalArguments_UserProfile_user",
@@ -196,6 +204,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserProfile_user on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -245,6 +254,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserProfile_user on User {
       "name": "isRelative"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "unmaskedFragmentSpreadsGlobalArguments_UserUtil_user",

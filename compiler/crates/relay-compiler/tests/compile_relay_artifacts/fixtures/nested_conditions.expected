@@ -43,6 +43,7 @@ fragment nestedConditions_QueryFragment2 on Query {
       "name": "sentinel"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "nestedConditions_QueryFragment",
@@ -51,6 +52,7 @@ fragment nestedConditions_QueryFragment2 on Query {
       "alias": null,
       "args": null,
       "concreteType": "Viewer",
+      "directives": null,
       "kind": "LinkedField",
       "name": "viewer",
       "plural": false,
@@ -64,6 +66,7 @@ fragment nestedConditions_QueryFragment2 on Query {
               "alias": null,
               "args": null,
               "concreteType": "User",
+              "directives": null,
               "kind": "LinkedField",
               "name": "account_user",
               "plural": false,
@@ -118,6 +121,7 @@ fragment nestedConditions_QueryFragment2 on Query {
                   "alias": null,
                   "args": null,
                   "concreteType": null,
+                  "directives": null,
                   "kind": "LinkedField",
                   "name": "actor",
                   "plural": false,
@@ -160,6 +164,7 @@ fragment nestedConditions_QueryFragment2 on Query {
       "name": "sentinel"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "nestedConditions_QueryFragment2",
@@ -168,6 +173,7 @@ fragment nestedConditions_QueryFragment2 on Query {
       "alias": null,
       "args": null,
       "concreteType": "Viewer",
+      "directives": null,
       "kind": "LinkedField",
       "name": "viewer",
       "plural": false,
@@ -191,6 +197,7 @@ fragment nestedConditions_QueryFragment2 on Query {
                       "alias": null,
                       "args": null,
                       "concreteType": "User",
+                      "directives": null,
                       "kind": "LinkedField",
                       "name": "account_user",
                       "plural": false,

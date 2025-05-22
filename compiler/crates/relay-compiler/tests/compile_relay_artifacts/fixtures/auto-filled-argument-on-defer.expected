@@ -20,6 +20,7 @@ fragment autoFilledArgumentOnDeferDeferredFragment on User {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "autoFilledArgumentOnDeferQuery",
@@ -28,6 +29,7 @@ fragment autoFilledArgumentOnDeferDeferredFragment on User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -55,6 +57,7 @@ fragment autoFilledArgumentOnDeferDeferredFragment on User {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "autoFilledArgumentOnDeferQuery",
     "selections": [
@@ -62,6 +65,7 @@ fragment autoFilledArgumentOnDeferDeferredFragment on User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -143,6 +147,7 @@ fragment autoFilledArgumentOnDeferUserFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "autoFilledArgumentOnDeferDeferredFragment",
@@ -170,6 +175,7 @@ fragment autoFilledArgumentOnDeferUserFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "autoFilledArgumentOnDeferUserFragment",

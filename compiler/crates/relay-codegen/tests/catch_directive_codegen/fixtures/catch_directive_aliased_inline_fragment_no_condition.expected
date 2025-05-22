@@ -8,6 +8,7 @@ fragment MyFragment on Node  {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "MyFragment",
@@ -36,7 +37,8 @@ fragment MyFragment on Node  {
             }
           ],
           "type": null,
-          "abstractKey": null
+          "abstractKey": null,
+          "directives": null
         },
         "kind": "AliasedInlineFragmentSpread",
         "name": "myAlias"

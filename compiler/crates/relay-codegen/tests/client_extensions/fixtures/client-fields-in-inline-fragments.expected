@@ -41,6 +41,7 @@ extend type Page {
       "name": "arg"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "Foo_user",
@@ -65,6 +66,7 @@ extend type Page {
           "alias": null,
           "args": null,
           "concreteType": "StreetAddress",
+          "directives": null,
           "kind": "LinkedField",
           "name": "address",
           "plural": false,
@@ -118,6 +120,7 @@ extend type Page {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "Foo",
   "selections": [
@@ -125,6 +128,7 @@ extend type Page {
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,

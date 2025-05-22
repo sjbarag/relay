@@ -58,6 +58,7 @@ interface ClientNamed {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "siblingClientSelections_ClientTypeFragment",
@@ -82,6 +83,7 @@ interface ClientNamed {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "siblingClientSelections_Foo_user",
@@ -117,6 +119,7 @@ interface ClientNamed {
           "alias": null,
           "args": null,
           "concreteType": "Foo",
+          "directives": null,
           "kind": "LinkedField",
           "name": "client_foo",
           "plural": false,
@@ -136,6 +139,7 @@ interface ClientNamed {
           "alias": null,
           "args": null,
           "concreteType": "FriendsConnection",
+          "directives": null,
           "kind": "LinkedField",
           "name": "client_friends",
           "plural": false,
@@ -144,6 +148,7 @@ interface ClientNamed {
               "alias": null,
               "args": null,
               "concreteType": "FriendsEdge",
+              "directives": null,
               "kind": "LinkedField",
               "name": "edges",
               "plural": true,
@@ -160,6 +165,7 @@ interface ClientNamed {
                   "alias": null,
                   "args": null,
                   "concreteType": "User",
+                  "directives": null,
                   "kind": "LinkedField",
                   "name": "node",
                   "plural": false,
@@ -185,6 +191,7 @@ interface ClientNamed {
           "alias": null,
           "args": null,
           "concreteType": "ClientType",
+          "directives": null,
           "kind": "LinkedField",
           "name": "client_foo2",
           "plural": false,

@@ -35,6 +35,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "deferMultipleFragmentsSameParent_QueryWithMultipeDeferredFragmentsOnSameParentQuery",
@@ -49,6 +50,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -93,10 +95,12 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "deferMultipleFragmentsSameParent_QueryWithMultipeDeferredFragmentsOnSameParentQuery",
     "selections": [
@@ -110,6 +114,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -148,6 +153,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
                       }
                     ],
                     "concreteType": "CommentsConnection",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "comments",
                     "plural": false,
@@ -156,6 +162,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
                         "alias": null,
                         "args": null,
                         "concreteType": "CommentsEdge",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "edges",
                         "plural": true,
@@ -164,6 +171,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
                             "alias": null,
                             "args": null,
                             "concreteType": "Comment",
+                            "directives": null,
                             "kind": "LinkedField",
                             "name": "node",
                             "plural": false,
@@ -186,6 +194,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
                         "alias": null,
                         "args": null,
                         "concreteType": "PageInfo",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "pageInfo",
                         "plural": false,
@@ -222,6 +231,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
                     "alias": null,
                     "args": null,
                     "concreteType": "Text",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "body",
                     "plural": false,
@@ -293,6 +303,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "deferMultipleFragmentsSameParent_FeedbackComments_feedback",
@@ -307,6 +318,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
         }
       ],
       "concreteType": "CommentsConnection",
+      "directives": null,
       "kind": "LinkedField",
       "name": "comments",
       "plural": false,
@@ -315,6 +327,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
           "alias": null,
           "args": null,
           "concreteType": "CommentsEdge",
+          "directives": null,
           "kind": "LinkedField",
           "name": "edges",
           "plural": true,
@@ -323,6 +336,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
               "alias": null,
               "args": null,
               "concreteType": "Comment",
+              "directives": null,
               "kind": "LinkedField",
               "name": "node",
               "plural": false,
@@ -345,6 +359,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
           "alias": null,
           "args": null,
           "concreteType": "PageInfo",
+          "directives": null,
           "kind": "LinkedField",
           "name": "pageInfo",
           "plural": false,
@@ -370,6 +385,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "deferMultipleFragmentsSameParent_FeedbackText_feedback",
@@ -378,6 +394,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
       "alias": null,
       "args": null,
       "concreteType": "Text",
+      "directives": null,
       "kind": "LinkedField",
       "name": "body",
       "plural": false,

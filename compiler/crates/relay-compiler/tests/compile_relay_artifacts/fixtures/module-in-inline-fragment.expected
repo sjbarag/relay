@@ -44,6 +44,7 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -79,6 +80,7 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "moduleInInlineFragment_MultipleNameRendererQuery",
@@ -93,6 +95,7 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -114,10 +117,12 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "moduleInInlineFragment_MultipleNameRendererQuery",
     "selections": [
@@ -131,6 +136,7 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -158,6 +164,7 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -185,6 +192,7 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
                         "alias": null,
                         "args": null,
                         "concreteType": "User",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "user",
                         "plural": false,
@@ -290,6 +298,7 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "moduleInInlineFragment_FooNameRendererFragment",
@@ -306,6 +315,7 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
       "alias": null,
       "args": null,
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRenderer",
       "plural": false,
@@ -325,6 +335,7 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
               "alias": null,
               "args": null,
               "concreteType": "User",
+              "directives": null,
               "kind": "LinkedField",
               "name": "user",
               "plural": false,
@@ -369,6 +380,7 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "moduleInInlineFragment_MarkdownUserNameRenderer_name",
@@ -385,6 +397,7 @@ fragment moduleInInlineFragment_MarkdownUserNameRenderer_name on MarkdownUserNam
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

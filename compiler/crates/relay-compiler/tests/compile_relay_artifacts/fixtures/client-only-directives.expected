@@ -13,6 +13,7 @@ directive @exampleDirective on FIELD
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "clientOnlyDirectivesQuery",
@@ -21,6 +22,7 @@ directive @exampleDirective on FIELD
         "alias": null,
         "args": null,
         "concreteType": "Viewer",
+        "directives": null,
         "kind": "LinkedField",
         "name": "viewer",
         "plural": false,
@@ -29,6 +31,7 @@ directive @exampleDirective on FIELD
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "actor",
             "plural": false,
@@ -54,6 +57,7 @@ directive @exampleDirective on FIELD
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "clientOnlyDirectivesQuery",
     "selections": [
@@ -61,6 +65,7 @@ directive @exampleDirective on FIELD
         "alias": null,
         "args": null,
         "concreteType": "Viewer",
+        "directives": null,
         "kind": "LinkedField",
         "name": "viewer",
         "plural": false,
@@ -69,6 +74,7 @@ directive @exampleDirective on FIELD
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "actor",
             "plural": false,

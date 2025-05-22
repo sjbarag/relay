@@ -23,6 +23,7 @@ type Foo {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "clientFieldsOfClientType_Foo_user",
@@ -42,6 +43,7 @@ type Foo {
           "alias": null,
           "args": null,
           "concreteType": "Foo",
+          "directives": null,
           "kind": "LinkedField",
           "name": "client_foo",
           "plural": false,
@@ -64,6 +66,7 @@ type Foo {
                 }
               ],
               "concreteType": "Image",
+              "directives": null,
               "kind": "LinkedField",
               "name": "profile_picture",
               "plural": false,

@@ -29,6 +29,7 @@ import condA_provider from '../bareProvider';
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "providedVariableDirectiveCommonjsRelativizeEnabledQuery",
@@ -37,6 +38,7 @@ import condA_provider from '../bareProvider';
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -58,20 +60,24 @@ import condA_provider from '../bareProvider';
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__bareProvider"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__relProvider"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__parentProvider"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "providedVariableDirectiveCommonjsRelativizeEnabledQuery",
     "selections": [
@@ -79,6 +85,7 @@ import condA_provider from '../bareProvider';
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -191,6 +198,7 @@ fragment providedVariableDirectiveCommonjsRelativizeEnabledFragment on User {
       "name": "__relay_internal__pv__relProvider"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableDirectiveCommonjsRelativizeEnabledFragment",

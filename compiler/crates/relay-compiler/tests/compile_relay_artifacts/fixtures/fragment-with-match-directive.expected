@@ -39,6 +39,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -82,6 +83,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -110,6 +112,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentWithMatchDirective_MarkdownUserNameRenderer_name",
@@ -126,6 +129,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -148,6 +152,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentWithMatchDirective_NameRendererFragment",
@@ -170,6 +175,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRenderer",
       "plural": false,
@@ -212,6 +218,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentWithMatchDirective_PlainUserNameRenderer_name",
@@ -228,6 +235,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

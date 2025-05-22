@@ -42,6 +42,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "resolverWithRootFragmentOnModelType_Query",
@@ -53,6 +54,7 @@ extend type Query {
             "alias": null,
             "args": null,
             "concreteType": "MyType",
+            "directives": null,
             "kind": "LinkedField",
             "name": "my_type",
             "plural": false,
@@ -82,6 +84,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "resolverWithRootFragmentOnModelType_Query",
     "selections": [
@@ -92,6 +95,7 @@ extend type Query {
             "alias": null,
             "args": null,
             "concreteType": "MyType",
+            "directives": null,
             "kind": "LinkedField",
             "name": "my_type",
             "plural": false,
@@ -149,6 +153,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "MyType____relay_model_instance",
@@ -173,6 +178,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "MyType__id",
@@ -197,6 +203,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "resolverWithRootFragmentOnModelTypeRootFragment",

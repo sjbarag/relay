@@ -10,6 +10,7 @@ mutation catchDirectiveMutationMutation @catch(to: RESULT) {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": {
       "catchTo": "RESULT"
@@ -28,6 +29,7 @@ mutation catchDirectiveMutationMutation @catch(to: RESULT) {
           }
         ],
         "concreteType": "UnfriendResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "unfriend",
         "plural": false,
@@ -36,6 +38,7 @@ mutation catchDirectiveMutationMutation @catch(to: RESULT) {
             "alias": null,
             "args": null,
             "concreteType": "User",
+            "directives": null,
             "kind": "LinkedField",
             "name": "formerFriend",
             "plural": false,
@@ -61,6 +64,7 @@ mutation catchDirectiveMutationMutation @catch(to: RESULT) {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "catchDirectiveMutationMutation",
     "selections": [
@@ -76,6 +80,7 @@ mutation catchDirectiveMutationMutation @catch(to: RESULT) {
           }
         ],
         "concreteType": "UnfriendResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "unfriend",
         "plural": false,
@@ -84,6 +89,7 @@ mutation catchDirectiveMutationMutation @catch(to: RESULT) {
             "alias": null,
             "args": null,
             "concreteType": "User",
+            "directives": null,
             "kind": "LinkedField",
             "name": "formerFriend",
             "plural": false,

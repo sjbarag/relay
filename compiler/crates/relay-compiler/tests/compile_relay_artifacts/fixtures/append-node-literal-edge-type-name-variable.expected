@@ -31,6 +31,7 @@ mutation appendNodeLiteralEdgeTypeNameVariableMutation(
         "name": "input"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "appendNodeLiteralEdgeTypeNameVariableMutation",
@@ -45,6 +46,7 @@ mutation appendNodeLiteralEdgeTypeNameVariableMutation(
           }
         ],
         "concreteType": "CommentCreateResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "commentCreate",
         "plural": false,
@@ -53,6 +55,7 @@ mutation appendNodeLiteralEdgeTypeNameVariableMutation(
             "alias": null,
             "args": null,
             "concreteType": "Comment",
+            "directives": null,
             "kind": "LinkedField",
             "name": "comment",
             "plural": false,
@@ -80,20 +83,24 @@ mutation appendNodeLiteralEdgeTypeNameVariableMutation(
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "connections"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "input"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "edgeTypeName"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "appendNodeLiteralEdgeTypeNameVariableMutation",
     "selections": [
@@ -107,6 +114,7 @@ mutation appendNodeLiteralEdgeTypeNameVariableMutation(
           }
         ],
         "concreteType": "CommentCreateResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "commentCreate",
         "plural": false,
@@ -115,6 +123,7 @@ mutation appendNodeLiteralEdgeTypeNameVariableMutation(
             "alias": null,
             "args": null,
             "concreteType": "Comment",
+            "directives": null,
             "kind": "LinkedField",
             "name": "comment",
             "plural": false,

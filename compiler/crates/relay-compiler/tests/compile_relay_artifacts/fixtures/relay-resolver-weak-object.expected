@@ -23,6 +23,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": {
       "hasClientEdges": true
@@ -51,6 +52,7 @@ extend type Query {
           "alias": null,
           "args": null,
           "concreteType": "MyClientType",
+          "directives": null,
           "kind": "LinkedField",
           "name": "client_type",
           "plural": false,
@@ -74,6 +76,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "relayResolverWeakObject_Query",
     "selections": [
@@ -91,6 +94,7 @@ extend type Query {
           "alias": null,
           "args": null,
           "concreteType": "MyClientType",
+          "directives": null,
           "kind": "LinkedField",
           "name": "client_type",
           "plural": false,
@@ -125,6 +129,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "MyClientType____relay_model_instance",

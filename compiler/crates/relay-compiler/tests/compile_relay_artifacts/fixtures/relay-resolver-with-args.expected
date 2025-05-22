@@ -23,6 +23,7 @@ extend type User {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "relayResolverWithArgs_Query",
@@ -37,6 +38,7 @@ extend type User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -77,6 +79,7 @@ extend type User {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "relayResolverWithArgs_Query",
     "selections": [
@@ -90,6 +93,7 @@ extend type User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -129,6 +133,7 @@ extend type User {
                         }
                       ],
                       "concreteType": "Image",
+                      "directives": null,
                       "kind": "LinkedField",
                       "name": "profile_picture",
                       "plural": false,
@@ -207,6 +212,7 @@ fragment relayResolverWithArgs_PopStarNameResolverFragment_name_QMvSr on User {
       "name": "scale"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "relayResolverWithArgs_PopStarNameResolverFragment_name",
@@ -229,6 +235,7 @@ fragment relayResolverWithArgs_PopStarNameResolverFragment_name_QMvSr on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,

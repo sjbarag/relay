@@ -33,6 +33,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "relayResolverEdgeToInterfaceQuery",
@@ -44,6 +45,7 @@ extend type Query {
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "cat",
             "plural": false,
@@ -91,6 +93,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "relayResolverEdgeToInterfaceQuery",
     "selections": [
@@ -101,6 +104,7 @@ extend type Query {
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "cat",
             "plural": false,
@@ -174,6 +178,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "Persian____relay_model_instance",
@@ -198,6 +203,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "Persian__id",
@@ -222,6 +228,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "Tabby____relay_model_instance",
@@ -246,6 +253,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "Tabby__id",

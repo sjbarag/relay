@@ -45,6 +45,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_MarkdownUserNameRenderer_na
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -80,6 +81,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_MarkdownUserNameRenderer_na
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "queryWithMatchDirectiveNoInlineExperimental_NameRendererQuery",
@@ -94,6 +96,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_MarkdownUserNameRenderer_na
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -115,10 +118,12 @@ fragment queryWithMatchDirectiveNoInlineExperimental_MarkdownUserNameRenderer_na
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "queryWithMatchDirectiveNoInlineExperimental_NameRendererQuery",
     "selections": [
@@ -132,6 +137,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_MarkdownUserNameRenderer_na
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -165,6 +171,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_MarkdownUserNameRenderer_na
                   }
                 ],
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -290,6 +297,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_PlainUserNameRenderer_name 
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -318,6 +326,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_PlainUserNameRenderer_name 
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithMatchDirectiveNoInlineExperimental_MarkdownUserNameRenderer_name",
@@ -334,6 +343,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_PlainUserNameRenderer_name 
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -356,6 +366,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_PlainUserNameRenderer_name 
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithMatchDirectiveNoInlineExperimental_NameRendererFragment",
@@ -378,6 +389,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_PlainUserNameRenderer_name 
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRenderer",
       "plural": false,
@@ -420,6 +432,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_PlainUserNameRenderer_name 
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithMatchDirectiveNoInlineExperimental_PlainUserNameRenderer_name",
@@ -436,6 +449,7 @@ fragment queryWithMatchDirectiveNoInlineExperimental_PlainUserNameRenderer_name 
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

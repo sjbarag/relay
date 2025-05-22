@@ -25,6 +25,7 @@ query complexArgumentsWithMutlipleVariables_TestQueryWithLiteralQuery($latArg: S
         "name": "lonArg"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "complexArgumentsWithMutlipleVariables_TestQueryWithLiteralQuery",
@@ -88,6 +89,7 @@ query complexArgumentsWithMutlipleVariables_TestQueryWithLiteralQuery($latArg: S
           }
         ],
         "concreteType": "Route",
+        "directives": null,
         "kind": "LinkedField",
         "name": "route",
         "plural": false,
@@ -112,15 +114,18 @@ query complexArgumentsWithMutlipleVariables_TestQueryWithLiteralQuery($latArg: S
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "latArg"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "lonArg"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "complexArgumentsWithMutlipleVariables_TestQueryWithLiteralQuery",
     "selections": [
@@ -183,6 +188,7 @@ query complexArgumentsWithMutlipleVariables_TestQueryWithLiteralQuery($latArg: S
           }
         ],
         "concreteType": "Route",
+        "directives": null,
         "kind": "LinkedField",
         "name": "route",
         "plural": false,

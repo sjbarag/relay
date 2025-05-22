@@ -11,6 +11,7 @@ query RelayReaderNamedFragmentsTest2Query {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "RelayReaderNamedFragmentsTest_user",
@@ -30,6 +31,7 @@ query RelayReaderNamedFragmentsTest2Query {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "RelayReaderNamedFragmentsTest2Query",
   "selections": [
@@ -37,6 +39,7 @@ query RelayReaderNamedFragmentsTest2Query {
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,

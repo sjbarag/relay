@@ -21,6 +21,7 @@ fragment requiredArgumentNotPassedDefaultValueFragment on User @argumentDefiniti
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "requiredArgumentNotPassedDefaultValueQuery",
@@ -29,6 +30,7 @@ fragment requiredArgumentNotPassedDefaultValueFragment on User @argumentDefiniti
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -48,6 +50,7 @@ fragment requiredArgumentNotPassedDefaultValueFragment on User @argumentDefiniti
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "requiredArgumentNotPassedDefaultValueQuery",
     "selections": [
@@ -55,6 +58,7 @@ fragment requiredArgumentNotPassedDefaultValueFragment on User @argumentDefiniti
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -71,6 +75,7 @@ fragment requiredArgumentNotPassedDefaultValueFragment on User @argumentDefiniti
               }
             ],
             "concreteType": "Image",
+            "directives": null,
             "kind": "LinkedField",
             "name": "profilePicture",
             "plural": false,
@@ -135,6 +140,7 @@ fragment requiredArgumentNotPassedDefaultValueFragment on User {
       "name": "sizearg"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "requiredArgumentNotPassedDefaultValueFragment",
@@ -149,6 +155,7 @@ fragment requiredArgumentNotPassedDefaultValueFragment on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,

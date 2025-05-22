@@ -47,20 +47,24 @@ fragment UserFragment on User
   "argumentDefinitions": [
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "id"
     },
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "cond"
     },
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "PictureSize"
     }
   ],
+  "directives": null,
   "kind": "Operation",
   "name": "NodeQuery",
   "selections": [
@@ -74,6 +78,7 @@ fragment UserFragment on User
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,
@@ -164,6 +169,7 @@ fragment UserFragment on User
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "UserFragment",
@@ -199,6 +205,7 @@ fragment UserFragment on User
         }
       ],
       "concreteType": "FriendsConnection",
+      "directives": null,
       "kind": "LinkedField",
       "name": "friends",
       "plural": false,
@@ -239,6 +246,7 @@ fragment UserFragment on User
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -280,6 +288,7 @@ fragment UserFragment on User
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -321,6 +330,7 @@ fragment UserFragment on User
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -362,6 +372,7 @@ fragment UserFragment on User
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,

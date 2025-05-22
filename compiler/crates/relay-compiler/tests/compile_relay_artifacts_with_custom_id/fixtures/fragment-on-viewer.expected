@@ -23,6 +23,7 @@ fragment fragmentOnViewer_ProfilePicture on User {
         "name": "size"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "RefetchableFragmentQuery",
@@ -31,6 +32,7 @@ fragment fragmentOnViewer_ProfilePicture on User {
         "alias": null,
         "args": null,
         "concreteType": "Viewer",
+        "directives": null,
         "kind": "LinkedField",
         "name": "viewer",
         "plural": false,
@@ -52,10 +54,12 @@ fragment fragmentOnViewer_ProfilePicture on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "size"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "RefetchableFragmentQuery",
     "selections": [
@@ -63,6 +67,7 @@ fragment fragmentOnViewer_ProfilePicture on User {
         "alias": null,
         "args": null,
         "concreteType": "Viewer",
+        "directives": null,
         "kind": "LinkedField",
         "name": "viewer",
         "plural": false,
@@ -71,6 +76,7 @@ fragment fragmentOnViewer_ProfilePicture on User {
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "actor",
             "plural": false,
@@ -112,6 +118,7 @@ fragment fragmentOnViewer_ProfilePicture on User {
                       }
                     ],
                     "concreteType": "Image",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "profilePicture",
                     "plural": false,
@@ -182,6 +189,7 @@ fragment fragmentOnViewer_RefetchableFragment on Viewer {
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentOnViewer_ProfilePicture",
@@ -196,6 +204,7 @@ fragment fragmentOnViewer_RefetchableFragment on Viewer {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -223,6 +232,7 @@ fragment fragmentOnViewer_RefetchableFragment on Viewer {
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "refetch": {
@@ -239,6 +249,7 @@ fragment fragmentOnViewer_RefetchableFragment on Viewer {
       "alias": null,
       "args": null,
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "actor",
       "plural": false,

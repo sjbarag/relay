@@ -15,6 +15,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorFragmentSpread_NodeFr
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "abstractTypeRefinementDontFlattenTypeDiscriminatorFragmentSpread_AbstractTypeRefinementQuery",
@@ -29,6 +30,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorFragmentSpread_NodeFr
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -48,6 +50,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorFragmentSpread_NodeFr
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "abstractTypeRefinementDontFlattenTypeDiscriminatorFragmentSpread_AbstractTypeRefinementQuery",
     "selections": [
@@ -61,6 +64,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorFragmentSpread_NodeFr
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -118,6 +122,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorFragmentSpread_NodeFr
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "abstractTypeRefinementDontFlattenTypeDiscriminatorFragmentSpread_NodeFragment",

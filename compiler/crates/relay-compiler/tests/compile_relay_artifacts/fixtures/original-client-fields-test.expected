@@ -64,6 +64,7 @@ type Foo implements Named {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "originalClientFieldsTest_BestFriendsQuery",
@@ -78,6 +79,7 @@ type Foo implements Named {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -99,6 +101,7 @@ type Foo implements Named {
         "alias": null,
         "args": null,
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "named",
         "plural": false,
@@ -140,10 +143,12 @@ type Foo implements Named {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "originalClientFieldsTest_BestFriendsQuery",
     "selections": [
@@ -157,6 +162,7 @@ type Foo implements Named {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -191,6 +197,7 @@ type Foo implements Named {
                     "alias": null,
                     "args": null,
                     "concreteType": "FriendsConnection",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "best_friends",
                     "plural": false,
@@ -199,6 +206,7 @@ type Foo implements Named {
                         "alias": null,
                         "args": null,
                         "concreteType": "FriendsEdge",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "edges",
                         "plural": true,
@@ -215,6 +223,7 @@ type Foo implements Named {
                             "alias": null,
                             "args": null,
                             "concreteType": "User",
+                            "directives": null,
                             "kind": "LinkedField",
                             "name": "node",
                             "plural": false,
@@ -237,6 +246,7 @@ type Foo implements Named {
                         "alias": null,
                         "args": null,
                         "concreteType": "PageInfo",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "pageInfo",
                         "plural": false,
@@ -276,6 +286,7 @@ type Foo implements Named {
         "alias": null,
         "args": null,
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "named",
         "plural": false,
@@ -369,6 +380,7 @@ fragment originalClientFieldsTest_NodeFragment on Node {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "originalClientFieldsTest_BestFriends",
@@ -385,6 +397,7 @@ fragment originalClientFieldsTest_NodeFragment on Node {
           "alias": null,
           "args": null,
           "concreteType": "FriendsConnection",
+          "directives": null,
           "kind": "LinkedField",
           "name": "best_friends",
           "plural": false,
@@ -393,6 +406,7 @@ fragment originalClientFieldsTest_NodeFragment on Node {
               "alias": null,
               "args": null,
               "concreteType": "FriendsEdge",
+              "directives": null,
               "kind": "LinkedField",
               "name": "edges",
               "plural": true,
@@ -409,6 +423,7 @@ fragment originalClientFieldsTest_NodeFragment on Node {
                   "alias": null,
                   "args": null,
                   "concreteType": "User",
+                  "directives": null,
                   "kind": "LinkedField",
                   "name": "node",
                   "plural": false,
@@ -431,6 +446,7 @@ fragment originalClientFieldsTest_NodeFragment on Node {
               "alias": null,
               "args": null,
               "concreteType": "PageInfo",
+              "directives": null,
               "kind": "LinkedField",
               "name": "pageInfo",
               "plural": false,
@@ -458,6 +474,7 @@ fragment originalClientFieldsTest_NodeFragment on Node {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "originalClientFieldsTest_FooFragment",
@@ -482,6 +499,7 @@ fragment originalClientFieldsTest_NodeFragment on Node {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "originalClientFieldsTest_NodeFragment",
@@ -501,6 +519,7 @@ fragment originalClientFieldsTest_NodeFragment on Node {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "originalClientFieldsTest_OnlyClientFields",
@@ -512,6 +531,7 @@ fragment originalClientFieldsTest_NodeFragment on Node {
           "alias": null,
           "args": null,
           "concreteType": "FriendsConnection",
+          "directives": null,
           "kind": "LinkedField",
           "name": "best_friends",
           "plural": false,

@@ -25,6 +25,7 @@ extend type User {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "BestFriendResolverFragment_name",
@@ -44,6 +45,7 @@ extend type User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "hasClientEdges": true
@@ -71,6 +73,7 @@ extend type User {
         "alias": null,
         "args": null,
         "concreteType": "ClientOnlyType",
+        "directives": null,
         "kind": "LinkedField",
         "name": "client_only_obj",
         "plural": true,

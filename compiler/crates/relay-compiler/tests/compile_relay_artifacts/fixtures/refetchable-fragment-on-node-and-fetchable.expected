@@ -15,6 +15,7 @@ fragment refetchableFragmentOnNodeAndFetchable_RefetchableFragment on FetchableT
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "RefetchableFragmentQuery",
@@ -29,6 +30,7 @@ fragment refetchableFragmentOnNodeAndFetchable_RefetchableFragment on FetchableT
           }
         ],
         "concreteType": "FetchableType",
+        "directives": null,
         "kind": "LinkedField",
         "name": "fetch__FetchableType",
         "plural": false,
@@ -50,10 +52,12 @@ fragment refetchableFragmentOnNodeAndFetchable_RefetchableFragment on FetchableT
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "RefetchableFragmentQuery",
     "selections": [
@@ -67,6 +71,7 @@ fragment refetchableFragmentOnNodeAndFetchable_RefetchableFragment on FetchableT
           }
         ],
         "concreteType": "FetchableType",
+        "directives": null,
         "kind": "LinkedField",
         "name": "fetch__FetchableType",
         "plural": false,
@@ -121,6 +126,7 @@ fragment refetchableFragmentOnNodeAndFetchable_RefetchableFragment on FetchableT
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "refetch": {

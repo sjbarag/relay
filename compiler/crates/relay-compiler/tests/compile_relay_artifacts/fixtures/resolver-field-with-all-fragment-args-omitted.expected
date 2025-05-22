@@ -23,6 +23,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "resolverFieldWithAllFragmentArgsOmitted_Query",
@@ -48,6 +49,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "resolverFieldWithAllFragmentArgsOmitted_Query",
     "selections": [
@@ -88,6 +90,7 @@ Query Text is Empty.
       "name": "task_number"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "resolverFieldWithAllFragmentArgsOmitted_Fragment",
@@ -102,6 +105,7 @@ Query Text is Empty.
         }
       ],
       "concreteType": "Task",
+      "directives": null,
       "kind": "LinkedField",
       "name": "task",
       "plural": false,

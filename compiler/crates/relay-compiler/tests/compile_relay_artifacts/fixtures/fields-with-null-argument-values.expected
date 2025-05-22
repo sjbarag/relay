@@ -28,6 +28,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "fieldsWithNullArgumentValues_NodeQuery",
@@ -42,6 +43,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -67,6 +69,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                   }
                 ],
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
@@ -92,6 +95,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                   }
                 ],
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
@@ -111,6 +115,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                 "alias": "comments3",
                 "args": null,
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
@@ -136,6 +141,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                   }
                 ],
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
@@ -167,10 +173,12 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "fieldsWithNullArgumentValues_NodeQuery",
     "selections": [
@@ -184,6 +192,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -217,6 +226,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                   }
                 ],
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
@@ -242,6 +252,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                   }
                 ],
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
@@ -261,6 +272,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                 "alias": "comments3",
                 "args": null,
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
@@ -286,6 +298,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                   }
                 ],
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,

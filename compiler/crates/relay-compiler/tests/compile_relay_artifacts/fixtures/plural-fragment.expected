@@ -5,6 +5,7 @@ fragment pluralFragment_PluralFragment on User @relay(plural: true) {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "plural": true

@@ -16,6 +16,7 @@ fragment UserFragment on User {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "UserFragment",
@@ -35,6 +36,7 @@ fragment UserFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "SimpleQuery",
   "selections": [
@@ -48,6 +50,7 @@ fragment UserFragment on User {
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,
@@ -69,6 +72,7 @@ fragment UserFragment on User {
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "actor",
                 "plural": false,

@@ -33,6 +33,7 @@ interface ClientNamed {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "clientInlineFragmentsInQuery_FooQuery",
@@ -47,6 +48,7 @@ interface ClientNamed {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -68,10 +70,12 @@ interface ClientNamed {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "clientInlineFragmentsInQuery_FooQuery",
     "selections": [
@@ -85,6 +89,7 @@ interface ClientNamed {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -115,6 +120,7 @@ interface ClientNamed {
                     "alias": null,
                     "args": null,
                     "concreteType": null,
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "foo",
                     "plural": false,
@@ -181,6 +187,7 @@ fragment clientInlineFragmentsInQuery_Foo_user on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "clientInlineFragmentsInQuery_Foo_user",
@@ -200,6 +207,7 @@ fragment clientInlineFragmentsInQuery_Foo_user on User {
           "alias": null,
           "args": null,
           "concreteType": null,
+          "directives": null,
           "kind": "LinkedField",
           "name": "foo",
           "plural": false,

@@ -8,6 +8,7 @@ fragment MyFragment on Node  {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "MyFragment",

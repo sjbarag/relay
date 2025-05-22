@@ -28,6 +28,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": {
       "hasClientEdges": true
@@ -55,6 +56,7 @@ extend type Query {
           "alias": null,
           "args": null,
           "concreteType": "ClientType",
+          "directives": null,
           "kind": "LinkedField",
           "name": "client_edge",
           "plural": false,
@@ -78,6 +80,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "clientEdgeFromServerTypeToClientType_Query",
     "selections": [
@@ -93,6 +96,7 @@ extend type Query {
                 "alias": null,
                 "args": null,
                 "concreteType": "User",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "me",
                 "plural": false,
@@ -120,6 +124,7 @@ extend type Query {
           "alias": null,
           "args": null,
           "concreteType": "ClientType",
+          "directives": null,
           "kind": "LinkedField",
           "name": "client_edge",
           "plural": false,
@@ -163,6 +168,7 @@ fragment clientEdgeFromServerTypeToClientType_resolver_fragment on Query {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "clientEdgeFromServerTypeToClientType_resolver_fragment",
@@ -171,6 +177,7 @@ fragment clientEdgeFromServerTypeToClientType_resolver_fragment on Query {
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,

@@ -48,6 +48,7 @@ fragment queryWithModuleDirectiveJsresourceImport_MarkdownUserNameRenderer_name 
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -84,6 +85,7 @@ import JSResource from 'JSResource';
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "queryWithModuleDirectiveJsresourceImport_NameRendererQuery",
@@ -98,6 +100,7 @@ import JSResource from 'JSResource';
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -119,10 +122,12 @@ import JSResource from 'JSResource';
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "queryWithModuleDirectiveJsresourceImport_NameRendererQuery",
     "selections": [
@@ -136,6 +141,7 @@ import JSResource from 'JSResource';
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -163,6 +169,7 @@ import JSResource from 'JSResource';
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -246,6 +253,7 @@ fragment queryWithModuleDirectiveJsresourceImport_NameRendererFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithModuleDirectiveJsresourceImport_MarkdownUserNameRenderer_name",
@@ -262,6 +270,7 @@ fragment queryWithModuleDirectiveJsresourceImport_NameRendererFragment on User {
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -284,6 +293,7 @@ fragment queryWithModuleDirectiveJsresourceImport_NameRendererFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithModuleDirectiveJsresourceImport_NameRendererFragment",
@@ -300,6 +310,7 @@ fragment queryWithModuleDirectiveJsresourceImport_NameRendererFragment on User {
       "alias": null,
       "args": null,
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRenderer",
       "plural": false,

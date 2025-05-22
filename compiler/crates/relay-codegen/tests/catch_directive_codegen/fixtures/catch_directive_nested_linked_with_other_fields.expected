@@ -8,6 +8,7 @@ fragment MyFragmentFirst on User {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "MyFragmentFirst",
@@ -18,6 +19,7 @@ fragment MyFragmentFirst on User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "parents",
         "plural": true,

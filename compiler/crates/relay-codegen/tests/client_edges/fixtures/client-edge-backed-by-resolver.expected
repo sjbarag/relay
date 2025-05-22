@@ -19,10 +19,12 @@ extend type User {
   "argumentDefinitions": [
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "id"
     }
   ],
+  "directives": null,
   "kind": "Operation",
   "name": "ClientEdgeQuery_Foo_user_best_friend",
   "selections": [
@@ -36,6 +38,7 @@ extend type User {
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,
@@ -53,6 +56,7 @@ extend type User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "BestFriendResolverFragment_name",
@@ -72,6 +76,7 @@ extend type User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "hasClientEdges": true
@@ -98,6 +103,7 @@ extend type User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "best_friend",
         "plural": false,
@@ -121,6 +127,7 @@ extend type User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "refetch": {

@@ -25,6 +25,7 @@ mutation appendNodeLiteralEdgeTypeNameCommentCreateMutation(
         "name": "input"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "appendNodeLiteralEdgeTypeNameCommentCreateMutation",
@@ -39,6 +40,7 @@ mutation appendNodeLiteralEdgeTypeNameCommentCreateMutation(
           }
         ],
         "concreteType": "CommentCreateResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "commentCreate",
         "plural": false,
@@ -47,6 +49,7 @@ mutation appendNodeLiteralEdgeTypeNameCommentCreateMutation(
             "alias": null,
             "args": null,
             "concreteType": "Comment",
+            "directives": null,
             "kind": "LinkedField",
             "name": "comment",
             "plural": false,
@@ -74,15 +77,18 @@ mutation appendNodeLiteralEdgeTypeNameCommentCreateMutation(
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "connections"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "input"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "appendNodeLiteralEdgeTypeNameCommentCreateMutation",
     "selections": [
@@ -96,6 +102,7 @@ mutation appendNodeLiteralEdgeTypeNameCommentCreateMutation(
           }
         ],
         "concreteType": "CommentCreateResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "commentCreate",
         "plural": false,
@@ -104,6 +111,7 @@ mutation appendNodeLiteralEdgeTypeNameCommentCreateMutation(
             "alias": null,
             "args": null,
             "concreteType": "Comment",
+            "directives": null,
             "kind": "LinkedField",
             "name": "comment",
             "plural": false,

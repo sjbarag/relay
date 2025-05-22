@@ -27,6 +27,7 @@ extend type User {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "Foo",
   "selections": [
@@ -34,6 +35,7 @@ extend type User {
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -61,6 +63,7 @@ extend type User {
             "alias": null,
             "args": null,
             "concreteType": "Cat",
+            "directives": null,
             "kind": "LinkedField",
             "name": "pet",
             "plural": false,

@@ -37,6 +37,7 @@ fragment moduleWithDefer_MarkdownUserNameRenderer_name on MarkdownUserNameRender
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -72,6 +73,7 @@ fragment moduleWithDefer_MarkdownUserNameRenderer_name on MarkdownUserNameRender
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "moduleWithDefer_MultipleNameRendererQuery",
@@ -86,6 +88,7 @@ fragment moduleWithDefer_MarkdownUserNameRenderer_name on MarkdownUserNameRender
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -107,10 +110,12 @@ fragment moduleWithDefer_MarkdownUserNameRenderer_name on MarkdownUserNameRender
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "moduleWithDefer_MultipleNameRendererQuery",
     "selections": [
@@ -124,6 +129,7 @@ fragment moduleWithDefer_MarkdownUserNameRenderer_name on MarkdownUserNameRender
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -151,6 +157,7 @@ fragment moduleWithDefer_MarkdownUserNameRenderer_name on MarkdownUserNameRender
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -243,6 +250,7 @@ fragment moduleWithDefer_MarkdownUserNameRenderer_name on MarkdownUserNameRender
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "moduleWithDefer_FooNameRendererFragment",
@@ -259,6 +267,7 @@ fragment moduleWithDefer_MarkdownUserNameRenderer_name on MarkdownUserNameRender
       "alias": null,
       "args": null,
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRenderer",
       "plural": false,
@@ -292,6 +301,7 @@ fragment moduleWithDefer_MarkdownUserNameRenderer_name on MarkdownUserNameRender
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "moduleWithDefer_MarkdownUserNameRenderer_name",
@@ -308,6 +318,7 @@ fragment moduleWithDefer_MarkdownUserNameRenderer_name on MarkdownUserNameRender
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

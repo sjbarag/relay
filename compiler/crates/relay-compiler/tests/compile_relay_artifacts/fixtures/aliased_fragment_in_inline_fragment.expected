@@ -18,6 +18,7 @@ fragment aliasedFragmentInInlineFragmentInner on User {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "aliasedFragmentInInlineFragmentQuery",
@@ -26,6 +27,7 @@ fragment aliasedFragmentInInlineFragmentInner on User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -45,6 +47,7 @@ fragment aliasedFragmentInInlineFragmentInner on User {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "aliasedFragmentInInlineFragmentQuery",
     "selections": [
@@ -52,6 +55,7 @@ fragment aliasedFragmentInInlineFragmentInner on User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -107,6 +111,7 @@ fragment aliasedFragmentInInlineFragmentInner on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "aliasedFragmentInInlineFragment",
@@ -134,6 +139,7 @@ fragment aliasedFragmentInInlineFragmentInner on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "aliasedFragmentInInlineFragmentInner",

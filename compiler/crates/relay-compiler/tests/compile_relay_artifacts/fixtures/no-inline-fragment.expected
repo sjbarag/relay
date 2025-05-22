@@ -81,6 +81,7 @@ fragment noInlineFragment_child on User
         "name": "shadowed_global"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "noInlineFragmentQuery",
@@ -89,6 +90,7 @@ fragment noInlineFragment_child on User
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -126,20 +128,24 @@ fragment noInlineFragment_child on User
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "global"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "shadowed_global"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "global_from_parent"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "noInlineFragmentQuery",
     "selections": [
@@ -147,6 +153,7 @@ fragment noInlineFragment_child on User
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -244,16 +251,19 @@ fragment noInlineFragment_parent_4pGKCl on User {
   "argumentDefinitions": [
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "noInlineFragment_parent$scalar_from_parent"
     },
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "noInlineFragment_parent$global_from_parent"
     },
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "noInlineFragment_parent$shadowed_global"
     }
@@ -272,6 +282,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -297,6 +308,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -322,6 +334,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -347,6 +360,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -372,6 +386,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -412,6 +427,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
       "name": "shadowed_global"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "noInlineFragment_child",
@@ -426,6 +442,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -451,6 +468,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -476,6 +494,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -501,6 +520,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -543,6 +563,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
       "name": "shadowed_global"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "noInlineFragment_parent",
@@ -557,6 +578,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -582,6 +604,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -607,6 +630,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -632,6 +656,7 @@ fragment noInlineFragment_parent_4pGKCl on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,

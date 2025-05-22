@@ -20,6 +20,7 @@ extend type User {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "relayResolverRequired_Query",
@@ -34,6 +35,7 @@ extend type User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -72,6 +74,7 @@ extend type User {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "relayResolverRequired_Query",
     "selections": [
@@ -85,6 +88,7 @@ extend type User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -168,6 +172,7 @@ fragment relayResolverRequired_PopStarNameResolverFragment_name on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "relayResolverRequired_PopStarNameResolverFragment_name",

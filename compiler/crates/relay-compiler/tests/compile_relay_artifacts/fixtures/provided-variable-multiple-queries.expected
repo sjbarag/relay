@@ -37,6 +37,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "providedVariableMultipleQueries_MultiFragmentQuery",
@@ -51,6 +52,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -77,15 +79,18 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__includeNameProvider"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__numberOfFriendsProvider"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "providedVariableMultipleQueries_MultiFragmentQuery",
     "selections": [
@@ -99,6 +104,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -139,6 +145,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
                   }
                 ],
                 "concreteType": "FriendsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "friends",
                 "plural": false,
@@ -155,6 +162,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
                     "alias": null,
                     "args": null,
                     "concreteType": "FriendsEdge",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "edges",
                     "plural": true,
@@ -163,6 +171,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
                         "alias": null,
                         "args": null,
                         "concreteType": "User",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "node",
                         "plural": false,
@@ -264,6 +273,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "providedVariableMultipleQueries_OneFragmentQuery",
@@ -278,6 +288,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -299,10 +310,12 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__includeNameProvider"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "providedVariableMultipleQueries_OneFragmentQuery",
     "selections": [
@@ -316,6 +329,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -404,6 +418,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
       "name": "__relay_internal__pv__numberOfFriendsProvider"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableMultipleQueries_MultiProvidedVar",
@@ -418,6 +433,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
         }
       ],
       "concreteType": "FriendsConnection",
+      "directives": null,
       "kind": "LinkedField",
       "name": "friends",
       "plural": false,
@@ -434,6 +450,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
           "alias": null,
           "args": null,
           "concreteType": "FriendsEdge",
+          "directives": null,
           "kind": "LinkedField",
           "name": "edges",
           "plural": true,
@@ -442,6 +459,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
               "alias": null,
               "args": null,
               "concreteType": "User",
+              "directives": null,
               "kind": "LinkedField",
               "name": "node",
               "plural": false,
@@ -482,6 +500,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
       "name": "__relay_internal__pv__includeNameProvider"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableMultipleQueries_OneProvidedVar",

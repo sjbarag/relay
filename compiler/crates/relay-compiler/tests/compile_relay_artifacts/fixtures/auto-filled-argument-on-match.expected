@@ -40,6 +40,7 @@ fragment autoFilledArgumentOnMatchMarkdownUserNameRenderer_name on MarkdownUserN
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -83,6 +84,7 @@ fragment autoFilledArgumentOnMatchMarkdownUserNameRenderer_name on MarkdownUserN
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -111,6 +113,7 @@ fragment autoFilledArgumentOnMatchMarkdownUserNameRenderer_name on MarkdownUserN
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "autoFilledArgumentOnMatchMarkdownUserNameRenderer_name",
@@ -127,6 +130,7 @@ fragment autoFilledArgumentOnMatchMarkdownUserNameRenderer_name on MarkdownUserN
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -149,6 +153,7 @@ fragment autoFilledArgumentOnMatchMarkdownUserNameRenderer_name on MarkdownUserN
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "autoFilledArgumentOnMatchNameRendererFragment",
@@ -176,6 +181,7 @@ fragment autoFilledArgumentOnMatchMarkdownUserNameRenderer_name on MarkdownUserN
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRendererForContext",
       "plural": false,
@@ -218,6 +224,7 @@ fragment autoFilledArgumentOnMatchMarkdownUserNameRenderer_name on MarkdownUserN
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "autoFilledArgumentOnMatchPlainUserNameRenderer_name",
@@ -234,6 +241,7 @@ fragment autoFilledArgumentOnMatchMarkdownUserNameRenderer_name on MarkdownUserN
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

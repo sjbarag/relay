@@ -50,6 +50,7 @@ fragment deferIfArguments_F2 on User {
         "name": "valueFromQuery"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "deferIfArgumentsQuery",
@@ -84,10 +85,12 @@ fragment deferIfArguments_F2 on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "valueFromQuery"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "deferIfArgumentsQuery",
     "selections": [
@@ -95,6 +98,7 @@ fragment deferIfArguments_F2 on User {
         "alias": "withDefaultTrue",
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -129,6 +133,7 @@ fragment deferIfArguments_F2 on User {
         "alias": "withDefaultFalse",
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -156,6 +161,7 @@ fragment deferIfArguments_F2 on User {
         "alias": "setToTrue",
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -190,6 +196,7 @@ fragment deferIfArguments_F2 on User {
         "alias": "setToFalse",
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -217,6 +224,7 @@ fragment deferIfArguments_F2 on User {
         "alias": "withValueFromQueryDirectly",
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -251,6 +259,7 @@ fragment deferIfArguments_F2 on User {
         "alias": "withValueFromQueryViaArgDef",
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -365,6 +374,7 @@ fragment deferIfArguments_F2 on User {
       "name": "valueFromQuery"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "deferIfArguments_F1",
@@ -373,6 +383,7 @@ fragment deferIfArguments_F2 on User {
       "alias": "withDefaultTrue",
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -394,6 +405,7 @@ fragment deferIfArguments_F2 on User {
       "alias": "withDefaultFalse",
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -415,6 +427,7 @@ fragment deferIfArguments_F2 on User {
       "alias": "setToTrue",
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -436,6 +449,7 @@ fragment deferIfArguments_F2 on User {
       "alias": "setToFalse",
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -457,6 +471,7 @@ fragment deferIfArguments_F2 on User {
       "alias": "withValueFromQueryDirectly",
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -478,6 +493,7 @@ fragment deferIfArguments_F2 on User {
       "alias": "withValueFromQueryViaArgDef",
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -502,6 +518,7 @@ fragment deferIfArguments_F2 on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "deferIfArguments_F2",

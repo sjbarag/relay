@@ -45,15 +45,18 @@ type ClientUser {
   "argumentDefinitions": [
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "id"
     },
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "arg"
     }
   ],
+  "directives": null,
   "kind": "Operation",
   "name": "FooQuery",
   "selections": [
@@ -64,6 +67,7 @@ type ClientUser {
           "alias": null,
           "args": null,
           "concreteType": "ClientUser",
+          "directives": null,
           "kind": "LinkedField",
           "name": "client_user",
           "plural": false,
@@ -96,6 +100,7 @@ type ClientUser {
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,
@@ -116,6 +121,7 @@ type ClientUser {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "ClientFragment",
@@ -140,6 +146,7 @@ type ClientUser {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "FooMutation",
   "selections": [
@@ -161,6 +168,7 @@ type ClientUser {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "FooSubscription",
   "selections": [

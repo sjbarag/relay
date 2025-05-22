@@ -21,6 +21,7 @@ extend type User {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "relayResolversWithDifferentFieldArgsAreNotMerged_Query",
@@ -35,6 +36,7 @@ extend type User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -94,6 +96,7 @@ extend type User {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "relayResolversWithDifferentFieldArgsAreNotMerged_Query",
     "selections": [
@@ -107,6 +110,7 @@ extend type User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -224,6 +228,7 @@ fragment relayResolversWithDifferentFieldArgsAreNotMerged_PopStarNameResolverFra
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "relayResolversWithDifferentFieldArgsAreNotMerged_PopStarNameResolverFragment_name",

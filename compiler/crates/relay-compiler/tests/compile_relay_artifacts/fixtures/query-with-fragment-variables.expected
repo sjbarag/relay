@@ -44,6 +44,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
         "name": "pictureSize"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "queryWithFragmentVariables_TestQuery",
@@ -58,6 +59,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -105,11 +107,13 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "cond"
       },
@@ -117,10 +121,12 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
         "defaultValue": [
           128
         ],
+        "directives": null,
         "kind": "LocalArgument",
         "name": "pictureSize"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "queryWithFragmentVariables_TestQuery",
     "selections": [
@@ -134,6 +140,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -167,6 +174,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
                   }
                 ],
                 "concreteType": "Image",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "profilePicture",
                 "plural": false,
@@ -204,6 +212,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
                       }
                     ],
                     "concreteType": "FriendsConnection",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "friends",
                     "plural": false,
@@ -212,6 +221,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
                         "alias": null,
                         "args": null,
                         "concreteType": "FriendsEdge",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "edges",
                         "plural": true,
@@ -220,6 +230,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
                             "alias": null,
                             "args": null,
                             "concreteType": "User",
+                            "directives": null,
                             "kind": "LinkedField",
                             "name": "node",
                             "plural": false,
@@ -234,6 +245,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
                                   }
                                 ],
                                 "concreteType": "Image",
+                                "directives": null,
                                 "kind": "LinkedField",
                                 "name": "profilePicture",
                                 "plural": false,
@@ -328,6 +340,7 @@ fragment queryWithFragmentVariables_Profile_4CNNX6 on User {
       "name": "pictureSize"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithFragmentVariables_Profile",
@@ -342,6 +355,7 @@ fragment queryWithFragmentVariables_Profile_4CNNX6 on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -369,6 +383,7 @@ fragment queryWithFragmentVariables_Profile_4CNNX6 on User {
       "name": "pictureSize"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithFragmentVariables_ProfileFriends",
@@ -383,6 +398,7 @@ fragment queryWithFragmentVariables_Profile_4CNNX6 on User {
         }
       ],
       "concreteType": "FriendsConnection",
+      "directives": null,
       "kind": "LinkedField",
       "name": "friends",
       "plural": false,
@@ -391,6 +407,7 @@ fragment queryWithFragmentVariables_Profile_4CNNX6 on User {
           "alias": null,
           "args": null,
           "concreteType": "FriendsEdge",
+          "directives": null,
           "kind": "LinkedField",
           "name": "edges",
           "plural": true,
@@ -399,6 +416,7 @@ fragment queryWithFragmentVariables_Profile_4CNNX6 on User {
               "alias": null,
               "args": null,
               "concreteType": "User",
+              "directives": null,
               "kind": "LinkedField",
               "name": "node",
               "plural": false,

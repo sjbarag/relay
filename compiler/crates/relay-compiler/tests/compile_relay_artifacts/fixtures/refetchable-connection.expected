@@ -36,6 +36,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "RefetchableConnectionQuery",
@@ -50,6 +51,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -71,20 +73,24 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "count"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "cursor"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "RefetchableConnectionQuery",
     "selections": [
@@ -98,6 +104,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -136,6 +143,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback
                   }
                 ],
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
@@ -144,6 +152,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback
                     "alias": null,
                     "args": null,
                     "concreteType": "CommentsEdge",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "edges",
                     "plural": true,
@@ -160,6 +169,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback
                         "alias": null,
                         "args": null,
                         "concreteType": "Comment",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "node",
                         "plural": false,
@@ -190,6 +200,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback
                     "alias": null,
                     "args": null,
                     "concreteType": "PageInfo",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "pageInfo",
                     "plural": false,
@@ -298,6 +309,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback {
       "name": "cursor"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "connection": [
@@ -345,6 +357,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback {
       "alias": "comments",
       "args": null,
       "concreteType": "CommentsConnection",
+      "directives": null,
       "kind": "LinkedField",
       "name": "__RefetchableConnection_comments_connection",
       "plural": false,
@@ -353,6 +366,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback {
           "alias": null,
           "args": null,
           "concreteType": "CommentsEdge",
+          "directives": null,
           "kind": "LinkedField",
           "name": "edges",
           "plural": true,
@@ -369,6 +383,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback {
               "alias": null,
               "args": null,
               "concreteType": "Comment",
+              "directives": null,
               "kind": "LinkedField",
               "name": "node",
               "plural": false,
@@ -399,6 +414,7 @@ fragment refetchableConnection_RefetchableConnection_feedback on Feedback {
           "alias": null,
           "args": null,
           "concreteType": "PageInfo",
+          "directives": null,
           "kind": "LinkedField",
           "name": "pageInfo",
           "plural": false,

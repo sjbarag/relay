@@ -30,6 +30,7 @@ query streamConnection_NodeQuery($id: ID!) {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "streamConnection_NodeQuery",
@@ -44,6 +45,7 @@ query streamConnection_NodeQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -63,6 +65,7 @@ query streamConnection_NodeQuery($id: ID!) {
                 "alias": "comments",
                 "args": null,
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "__NodeQuery_comments_connection",
                 "plural": false,
@@ -74,6 +77,7 @@ query streamConnection_NodeQuery($id: ID!) {
                         "alias": null,
                         "args": null,
                         "concreteType": "CommentsEdge",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "edges",
                         "plural": true,
@@ -82,6 +86,7 @@ query streamConnection_NodeQuery($id: ID!) {
                             "alias": null,
                             "args": null,
                             "concreteType": "Comment",
+                            "directives": null,
                             "kind": "LinkedField",
                             "name": "node",
                             "plural": false,
@@ -90,6 +95,7 @@ query streamConnection_NodeQuery($id: ID!) {
                                 "alias": null,
                                 "args": null,
                                 "concreteType": null,
+                                "directives": null,
                                 "kind": "LinkedField",
                                 "name": "actor",
                                 "plural": false,
@@ -136,6 +142,7 @@ query streamConnection_NodeQuery($id: ID!) {
                         "alias": null,
                         "args": null,
                         "concreteType": "PageInfo",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "pageInfo",
                         "plural": false,
@@ -180,10 +187,12 @@ query streamConnection_NodeQuery($id: ID!) {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "streamConnection_NodeQuery",
     "selections": [
@@ -197,6 +206,7 @@ query streamConnection_NodeQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -230,6 +240,7 @@ query streamConnection_NodeQuery($id: ID!) {
                   }
                 ],
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
@@ -243,6 +254,7 @@ query streamConnection_NodeQuery($id: ID!) {
                         "alias": null,
                         "args": null,
                         "concreteType": "CommentsEdge",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "edges",
                         "plural": true,
@@ -251,6 +263,7 @@ query streamConnection_NodeQuery($id: ID!) {
                             "alias": null,
                             "args": null,
                             "concreteType": "Comment",
+                            "directives": null,
                             "kind": "LinkedField",
                             "name": "node",
                             "plural": false,
@@ -259,6 +272,7 @@ query streamConnection_NodeQuery($id: ID!) {
                                 "alias": null,
                                 "args": null,
                                 "concreteType": null,
+                                "directives": null,
                                 "kind": "LinkedField",
                                 "name": "actor",
                                 "plural": false,
@@ -331,6 +345,7 @@ query streamConnection_NodeQuery($id: ID!) {
                         "alias": null,
                         "args": null,
                         "concreteType": "PageInfo",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "pageInfo",
                         "plural": false,

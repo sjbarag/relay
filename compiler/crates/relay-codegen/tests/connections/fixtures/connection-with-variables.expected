@@ -27,6 +27,7 @@ fragment Example on User {
       "name": "preset"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "connection": [
@@ -57,6 +58,7 @@ fragment Example on User {
         }
       ],
       "concreteType": "FriendsConnection",
+      "directives": null,
       "kind": "LinkedField",
       "name": "__Example_friends_connection",
       "plural": false,
@@ -65,6 +67,7 @@ fragment Example on User {
           "alias": null,
           "args": null,
           "concreteType": "FriendsEdge",
+          "directives": null,
           "kind": "LinkedField",
           "name": "edges",
           "plural": true,
@@ -73,6 +76,7 @@ fragment Example on User {
               "alias": null,
               "args": null,
               "concreteType": "User",
+              "directives": null,
               "kind": "LinkedField",
               "name": "node",
               "plural": false,
@@ -87,6 +91,7 @@ fragment Example on User {
                     }
                   ],
                   "concreteType": "Image",
+                  "directives": null,
                   "kind": "LinkedField",
                   "name": "profilePicture",
                   "plural": false,
@@ -120,6 +125,7 @@ fragment Example on User {
                   "alias": null,
                   "args": null,
                   "concreteType": "User",
+                  "directives": null,
                   "kind": "LinkedField",
                   "name": "node",
                   "plural": false,
@@ -146,6 +152,7 @@ fragment Example on User {
           "alias": null,
           "args": null,
           "concreteType": "PageInfo",
+          "directives": null,
           "kind": "LinkedField",
           "name": "pageInfo",
           "plural": false,

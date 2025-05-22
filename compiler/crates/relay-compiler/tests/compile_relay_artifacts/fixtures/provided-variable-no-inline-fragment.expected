@@ -30,6 +30,7 @@ fragment providedVariableNoInlineFragment on User
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -51,6 +52,7 @@ fragment providedVariableNoInlineFragment on User
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "providedVariableNoInlineFragment_Query",
@@ -59,6 +61,7 @@ fragment providedVariableNoInlineFragment on User
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -80,10 +83,12 @@ fragment providedVariableNoInlineFragment on User
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__jsScaleProvider"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "providedVariableNoInlineFragment_Query",
     "selections": [
@@ -91,6 +96,7 @@ fragment providedVariableNoInlineFragment on User
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -151,6 +157,7 @@ fragment providedVariableNoInlineFragment on User {
       "name": "__relay_internal__pv__jsScaleProvider"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableNoInlineFragment",
@@ -165,6 +172,7 @@ fragment providedVariableNoInlineFragment on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,

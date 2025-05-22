@@ -52,6 +52,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
         "name": "lastCount"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "RefetchableFragmentQuery",
@@ -66,6 +67,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -98,30 +100,36 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "beforeCursor"
       },
       {
         "defaultValue": 10,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "count"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "cursor"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "lastCount"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "RefetchableFragmentQuery",
     "selections": [
@@ -135,6 +143,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -195,6 +204,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                   }
                 ],
                 "concreteType": "FriendsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "friends",
                 "plural": false,
@@ -203,6 +213,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                     "alias": null,
                     "args": null,
                     "concreteType": "FriendsEdge",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "edges",
                     "plural": true,
@@ -211,6 +222,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                         "alias": null,
                         "args": null,
                         "concreteType": "User",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "node",
                         "plural": false,
@@ -249,6 +261,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                     "alias": null,
                     "args": null,
                     "concreteType": "PageInfo",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "pageInfo",
                     "plural": false,
@@ -401,6 +414,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
       "name": "lastCount"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "connection": [
@@ -462,6 +476,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
           "alias": "friends",
           "args": null,
           "concreteType": "FriendsConnection",
+          "directives": null,
           "kind": "LinkedField",
           "name": "__PaginationFragment_friends_connection",
           "plural": false,
@@ -470,6 +485,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
               "alias": null,
               "args": null,
               "concreteType": "FriendsEdge",
+              "directives": null,
               "kind": "LinkedField",
               "name": "edges",
               "plural": true,
@@ -478,6 +494,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
                   "alias": null,
                   "args": null,
                   "concreteType": "User",
+                  "directives": null,
                   "kind": "LinkedField",
                   "name": "node",
                   "plural": false,
@@ -516,6 +533,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
               "alias": null,
               "args": null,
               "concreteType": "PageInfo",
+              "directives": null,
               "kind": "LinkedField",
               "name": "pageInfo",
               "plural": false,

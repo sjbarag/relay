@@ -12,6 +12,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "clientFieldsOnlyNoFragmentInvalidQuery",
@@ -36,6 +37,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "clientFieldsOnlyNoFragmentInvalidQuery",
     "selections": [

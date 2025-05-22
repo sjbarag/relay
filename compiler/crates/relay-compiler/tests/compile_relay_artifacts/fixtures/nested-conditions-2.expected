@@ -61,6 +61,7 @@ fragment nestedConditions2_NestedFragment2 on User {
         "name": "c7"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "nestedConditions2Query",
@@ -69,6 +70,7 @@ fragment nestedConditions2_NestedFragment2 on User {
         "alias": null,
         "args": null,
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -168,40 +170,48 @@ fragment nestedConditions2_NestedFragment2 on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "c1"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "c2"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "c3"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "c4"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "c5"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "c6"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "c7"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "nestedConditions2Query",
     "selections": [
@@ -209,6 +219,7 @@ fragment nestedConditions2_NestedFragment2 on User {
         "alias": null,
         "args": null,
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -385,6 +396,7 @@ fragment nestedConditions2_NestedFragment2 on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "nestedConditions2_NestedFragment",
@@ -404,6 +416,7 @@ fragment nestedConditions2_NestedFragment2 on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "nestedConditions2_NestedFragment2",

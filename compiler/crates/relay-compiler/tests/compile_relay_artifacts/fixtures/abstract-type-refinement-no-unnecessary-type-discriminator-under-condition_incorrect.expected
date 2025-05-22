@@ -36,6 +36,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
         "name": "myVar"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncorrect_ChangeNameMutation",
@@ -50,6 +51,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
           }
         ],
         "concreteType": "ActorNameChangePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "actorNameChange",
         "plural": false,
@@ -58,6 +60,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "actor",
             "plural": false,
@@ -144,15 +147,18 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "input"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "myVar"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncorrect_ChangeNameMutation",
     "selections": [
@@ -166,6 +172,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
           }
         ],
         "concreteType": "ActorNameChangePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "actorNameChange",
         "plural": false,
@@ -174,6 +181,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "actor",
             "plural": false,

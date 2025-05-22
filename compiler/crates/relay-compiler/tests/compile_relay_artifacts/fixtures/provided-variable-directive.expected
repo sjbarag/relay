@@ -21,6 +21,7 @@ fragment providedVariableDirective_DeferredFragment on Image {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "providedVariableDirectiveQuery",
@@ -29,6 +30,7 @@ fragment providedVariableDirective_DeferredFragment on Image {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -50,10 +52,12 @@ fragment providedVariableDirective_DeferredFragment on Image {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__jsProvider"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "providedVariableDirectiveQuery",
     "selections": [
@@ -61,6 +65,7 @@ fragment providedVariableDirective_DeferredFragment on Image {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -75,6 +80,7 @@ fragment providedVariableDirective_DeferredFragment on Image {
               }
             ],
             "concreteType": "Image",
+            "directives": null,
             "kind": "LinkedField",
             "name": "profile_picture",
             "plural": false,
@@ -152,6 +158,7 @@ fragment providedVariableDirective_DeferredFragment on Image {
       "name": "__relay_internal__pv__jsProvider"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableDirectiveFragment",
@@ -166,6 +173,7 @@ fragment providedVariableDirective_DeferredFragment on Image {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -190,6 +198,7 @@ fragment providedVariableDirective_DeferredFragment on Image {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableDirective_DeferredFragment",

@@ -14,6 +14,7 @@ query complexArguments_TestQuery($date: String) {
         "name": "date"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "complexArguments_TestQuery",
@@ -34,6 +35,7 @@ query complexArguments_TestQuery($date: String) {
           }
         ],
         "concreteType": "ItemFilterResult",
+        "directives": null,
         "kind": "LinkedField",
         "name": "items",
         "plural": false,
@@ -58,10 +60,12 @@ query complexArguments_TestQuery($date: String) {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "date"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "complexArguments_TestQuery",
     "selections": [
@@ -81,6 +85,7 @@ query complexArguments_TestQuery($date: String) {
           }
         ],
         "concreteType": "ItemFilterResult",
+        "directives": null,
         "kind": "LinkedField",
         "name": "items",
         "plural": false,

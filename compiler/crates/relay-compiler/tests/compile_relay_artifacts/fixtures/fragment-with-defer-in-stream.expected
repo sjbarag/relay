@@ -26,6 +26,7 @@ fragment fragmentWithDeferInStream_ActorFragment on Actor {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "fragmentWithDeferInStream_QueryWithFragmentWithStreamQuery",
@@ -40,6 +41,7 @@ fragment fragmentWithDeferInStream_ActorFragment on Actor {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -69,10 +71,12 @@ fragment fragmentWithDeferInStream_ActorFragment on Actor {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "fragmentWithDeferInStream_QueryWithFragmentWithStreamQuery",
     "selections": [
@@ -86,6 +90,7 @@ fragment fragmentWithDeferInStream_ActorFragment on Actor {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -118,6 +123,7 @@ fragment fragmentWithDeferInStream_ActorFragment on Actor {
                     "alias": null,
                     "args": null,
                     "concreteType": null,
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "actors",
                     "plural": true,
@@ -210,6 +216,7 @@ fragment fragmentWithDeferInStream_FeedbackFragment on Feedback {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentWithDeferInStream_ActorFragment",
@@ -229,6 +236,7 @@ fragment fragmentWithDeferInStream_FeedbackFragment on Feedback {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentWithDeferInStream_FeedbackFragment",
@@ -248,6 +256,7 @@ fragment fragmentWithDeferInStream_FeedbackFragment on Feedback {
           "alias": null,
           "args": null,
           "concreteType": null,
+          "directives": null,
           "kind": "LinkedField",
           "name": "actors",
           "plural": true,

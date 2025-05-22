@@ -21,6 +21,7 @@ extend type User {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "relayResolverWithOutputTypeScalar_name",
@@ -37,6 +38,7 @@ extend type User {
       "alias": null,
       "args": null,
       "concreteType": "StreetAddress",
+      "directives": null,
       "kind": "LinkedField",
       "name": "address",
       "plural": false,
@@ -56,6 +58,7 @@ extend type User {
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "parents",
       "plural": true,
@@ -78,6 +81,7 @@ extend type User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "relayResolverWithOutputTypeScalar_user",

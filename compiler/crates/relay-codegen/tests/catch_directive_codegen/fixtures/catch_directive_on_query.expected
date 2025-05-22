@@ -8,6 +8,7 @@ query Foo {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "Foo",
   "selections": [
@@ -15,6 +16,7 @@ query Foo {
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,

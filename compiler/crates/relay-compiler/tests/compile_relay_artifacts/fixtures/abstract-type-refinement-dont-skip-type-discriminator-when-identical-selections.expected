@@ -25,6 +25,7 @@ fragment abstractTypeRefinementDontSkipTypeDiscriminatorWhenIdenticalSelections_
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "abstractTypeRefinementDontSkipTypeDiscriminatorWhenIdenticalSelections_AbstractTypeRefinementQuery",
@@ -39,6 +40,7 @@ fragment abstractTypeRefinementDontSkipTypeDiscriminatorWhenIdenticalSelections_
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -66,6 +68,7 @@ fragment abstractTypeRefinementDontSkipTypeDiscriminatorWhenIdenticalSelections_
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "abstractTypeRefinementDontSkipTypeDiscriminatorWhenIdenticalSelections_AbstractTypeRefinementQuery",
     "selections": [
@@ -79,6 +82,7 @@ fragment abstractTypeRefinementDontSkipTypeDiscriminatorWhenIdenticalSelections_
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -163,6 +167,7 @@ fragment abstractTypeRefinementDontSkipTypeDiscriminatorWhenIdenticalSelections_
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "abstractTypeRefinementDontSkipTypeDiscriminatorWhenIdenticalSelections_NodeFragment",

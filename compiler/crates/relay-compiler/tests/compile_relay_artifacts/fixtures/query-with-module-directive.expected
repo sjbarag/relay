@@ -38,6 +38,7 @@ fragment queryWithModuleDirective_MarkdownUserNameRenderer_name on MarkdownUserN
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -73,6 +74,7 @@ fragment queryWithModuleDirective_MarkdownUserNameRenderer_name on MarkdownUserN
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "queryWithModuleDirective_NameRendererQuery",
@@ -87,6 +89,7 @@ fragment queryWithModuleDirective_MarkdownUserNameRenderer_name on MarkdownUserN
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -108,10 +111,12 @@ fragment queryWithModuleDirective_MarkdownUserNameRenderer_name on MarkdownUserN
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "queryWithModuleDirective_NameRendererQuery",
     "selections": [
@@ -125,6 +130,7 @@ fragment queryWithModuleDirective_MarkdownUserNameRenderer_name on MarkdownUserN
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -152,6 +158,7 @@ fragment queryWithModuleDirective_MarkdownUserNameRenderer_name on MarkdownUserN
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -235,6 +242,7 @@ fragment queryWithModuleDirective_NameRendererFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithModuleDirective_MarkdownUserNameRenderer_name",
@@ -251,6 +259,7 @@ fragment queryWithModuleDirective_NameRendererFragment on User {
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -273,6 +282,7 @@ fragment queryWithModuleDirective_NameRendererFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "queryWithModuleDirective_NameRendererFragment",
@@ -289,6 +299,7 @@ fragment queryWithModuleDirective_NameRendererFragment on User {
       "alias": null,
       "args": null,
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRenderer",
       "plural": false,

@@ -25,6 +25,7 @@ extend type Query {
         "name": "globalArg"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "fragmentArgPassedToResolverRutimeArg_MeQuery",
@@ -49,10 +50,12 @@ extend type Query {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "globalArg"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "fragmentArgPassedToResolverRutimeArg_MeQuery",
     "selections": [
@@ -99,6 +102,7 @@ Query Text is Empty.
       "name": "fragmentArg"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentArgPassedToResolverRutimeArgFragment",

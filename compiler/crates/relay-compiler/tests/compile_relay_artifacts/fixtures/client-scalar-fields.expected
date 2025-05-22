@@ -21,6 +21,7 @@ extend type FriendsConnection {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "clientScalarFields_Foo_user",
@@ -37,6 +38,7 @@ extend type FriendsConnection {
       "alias": null,
       "args": null,
       "concreteType": "FriendsConnection",
+      "directives": null,
       "kind": "LinkedField",
       "name": "friends",
       "plural": false,

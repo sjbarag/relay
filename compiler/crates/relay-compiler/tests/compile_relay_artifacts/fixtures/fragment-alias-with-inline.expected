@@ -12,6 +12,7 @@ fragment fragmentAliasWithInline_fragment on Query @inline {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "fragmentAliasWithInline_Query",
@@ -28,6 +29,7 @@ fragment fragmentAliasWithInline_fragment on Query @inline {
                   "alias": null,
                   "args": null,
                   "concreteType": "User",
+                  "directives": null,
                   "kind": "LinkedField",
                   "name": "me",
                   "plural": false,
@@ -45,7 +47,8 @@ fragment fragmentAliasWithInline_fragment on Query @inline {
                 }
               ],
               "args": null,
-              "argumentDefinitions": []
+              "argumentDefinitions": [],
+              "directives": null
             }
           ],
           "type": "Query",
@@ -61,6 +64,7 @@ fragment fragmentAliasWithInline_fragment on Query @inline {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "fragmentAliasWithInline_Query",
     "selections": [
@@ -68,6 +72,7 @@ fragment fragmentAliasWithInline_fragment on Query @inline {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,

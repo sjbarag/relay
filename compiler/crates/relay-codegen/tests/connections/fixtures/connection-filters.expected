@@ -27,24 +27,12 @@ query NodeQuery($id: ID!, $orderBy: String) {
 (function(){
 var v0 = [
   {
-    "defaultValue": null,
-    "kind": "LocalArgument",
-    "name": "id"
-  },
-  {
-    "defaultValue": null,
-    "kind": "LocalArgument",
-    "name": "orderBy"
-  }
-],
-v1 = [
-  {
     "kind": "Variable",
     "name": "id",
     "variableName": "id"
   }
 ],
-v2 = {
+v1 = {
   "alias": null,
   "args": null,
   "kind": "ScalarField",
@@ -52,20 +40,20 @@ v2 = {
   "directives": null,
   "storageKey": null
 },
-v3 = {
+v2 = {
   "kind": "Literal",
   "name": "first",
   "value": 10
 },
-v4 = [
-  (v3/*: any*/),
+v3 = [
+  (v2/*: any*/),
   {
     "kind": "Variable",
     "name": "orderby",
     "variableName": "orderBy"
   }
 ],
-v5 = {
+v4 = {
   "alias": null,
   "args": null,
   "kind": "ScalarField",
@@ -73,10 +61,10 @@ v5 = {
   "directives": null,
   "storageKey": null
 },
-v6 = [
-  (v3/*: any*/)
+v5 = [
+  (v2/*: any*/)
 ],
-v7 = {
+v6 = {
   "alias": null,
   "args": null,
   "kind": "ScalarField",
@@ -84,7 +72,7 @@ v7 = {
   "directives": null,
   "storageKey": null
 },
-v8 = [
+v7 = [
   {
     "alias": null,
     "args": null,
@@ -94,10 +82,11 @@ v8 = [
     "storageKey": null
   }
 ],
-v9 = {
+v8 = {
   "alias": null,
   "args": null,
   "concreteType": "PageInfo",
+  "directives": null,
   "kind": "LinkedField",
   "name": "pageInfo",
   "plural": false,
@@ -128,11 +117,12 @@ v9 = {
   ],
   "storageKey": null
 },
-v10 = [
+v9 = [
   {
     "alias": null,
     "args": null,
     "concreteType": "FriendsEdge",
+    "directives": null,
     "kind": "LinkedField",
     "name": "edges",
     "plural": true,
@@ -141,26 +131,28 @@ v10 = [
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
         "selections": [
-          (v5/*: any*/)
+          (v4/*: any*/)
         ],
         "storageKey": null
       },
       {
         "kind": "InlineFragment",
         "selections": [
-          (v7/*: any*/),
+          (v6/*: any*/),
           {
             "alias": null,
             "args": null,
             "concreteType": "User",
+            "directives": null,
             "kind": "LinkedField",
             "name": "node",
             "plural": false,
-            "selections": (v8/*: any*/),
+            "selections": (v7/*: any*/),
             "storageKey": null
           }
         ],
@@ -170,20 +162,21 @@ v10 = [
     ],
     "storageKey": null
   },
-  (v9/*: any*/)
+  (v8/*: any*/)
 ],
-v11 = {
+v10 = {
   "kind": "InlineFragment",
   "selections": [
-    (v7/*: any*/),
+    (v6/*: any*/),
     {
       "alias": null,
       "args": null,
       "concreteType": "Comment",
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,
-      "selections": (v8/*: any*/),
+      "selections": (v7/*: any*/),
       "storageKey": null
     }
   ],
@@ -192,27 +185,41 @@ v11 = {
 };
 return {
   "fragment": {
-    "argumentDefinitions": (v0/*: any*/),
+    "argumentDefinitions": [
+      {
+        "defaultValue": null,
+        "kind": "LocalArgument",
+        "name": "id"
+      },
+      {
+        "defaultValue": null,
+        "kind": "LocalArgument",
+        "name": "orderBy"
+      }
+    ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "NodeQuery",
     "selections": [
       {
         "alias": null,
-        "args": (v1/*: any*/),
+        "args": (v0/*: any*/),
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
         "selections": [
-          (v2/*: any*/),
+          (v1/*: any*/),
           {
             "kind": "InlineFragment",
             "selections": [
               {
                 "alias": "comments",
-                "args": (v4/*: any*/),
+                "args": (v3/*: any*/),
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "__NodeQuery_comments_connection",
                 "plural": false,
@@ -221,6 +228,7 @@ return {
                     "alias": null,
                     "args": null,
                     "concreteType": "CommentsEdge",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "edges",
                     "plural": true,
@@ -229,6 +237,7 @@ return {
                         "alias": null,
                         "args": null,
                         "concreteType": "Comment",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "node",
                         "plural": false,
@@ -237,19 +246,21 @@ return {
                             "alias": null,
                             "args": null,
                             "concreteType": null,
+                            "directives": null,
                             "kind": "LinkedField",
                             "name": "actor",
                             "plural": false,
                             "selections": [
-                              (v5/*: any*/),
+                              (v4/*: any*/),
                               {
                                 "alias": "friends",
-                                "args": (v6/*: any*/),
+                                "args": (v5/*: any*/),
                                 "concreteType": "FriendsConnection",
+                                "directives": null,
                                 "kind": "LinkedField",
                                 "name": "__NodeQuery_friends_connection",
                                 "plural": false,
-                                "selections": (v10/*: any*/),
+                                "selections": (v9/*: any*/),
                                 "storageKey": "__NodeQuery_friends_connection(first:10)"
                               }
                             ],
@@ -258,11 +269,11 @@ return {
                         ],
                         "storageKey": null
                       },
-                      (v11/*: any*/)
+                      (v10/*: any*/)
                     ],
                     "storageKey": null
                   },
-                  (v9/*: any*/)
+                  (v8/*: any*/)
                 ],
                 "storageKey": null
               }
@@ -279,26 +290,42 @@ return {
   },
   "kind": "Request",
   "operation": {
-    "argumentDefinitions": (v0/*: any*/),
+    "argumentDefinitions": [
+      {
+        "defaultValue": null,
+        "directives": null,
+        "kind": "LocalArgument",
+        "name": "id"
+      },
+      {
+        "defaultValue": null,
+        "directives": null,
+        "kind": "LocalArgument",
+        "name": "orderBy"
+      }
+    ],
+    "directives": null,
     "kind": "Operation",
     "name": "NodeQuery",
     "selections": [
       {
         "alias": null,
-        "args": (v1/*: any*/),
+        "args": (v0/*: any*/),
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
         "selections": [
-          (v2/*: any*/),
+          (v1/*: any*/),
           {
             "kind": "InlineFragment",
             "selections": [
               {
                 "alias": null,
-                "args": (v4/*: any*/),
+                "args": (v3/*: any*/),
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
@@ -307,6 +334,7 @@ return {
                     "alias": null,
                     "args": null,
                     "concreteType": "CommentsEdge",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "edges",
                     "plural": true,
@@ -315,6 +343,7 @@ return {
                         "alias": null,
                         "args": null,
                         "concreteType": "Comment",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "node",
                         "plural": false,
@@ -323,24 +352,26 @@ return {
                             "alias": null,
                             "args": null,
                             "concreteType": null,
+                            "directives": null,
                             "kind": "LinkedField",
                             "name": "actor",
                             "plural": false,
                             "selections": [
-                              (v5/*: any*/),
+                              (v4/*: any*/),
                               {
                                 "alias": null,
-                                "args": (v6/*: any*/),
+                                "args": (v5/*: any*/),
                                 "concreteType": "FriendsConnection",
+                                "directives": null,
                                 "kind": "LinkedField",
                                 "name": "friends",
                                 "plural": false,
-                                "selections": (v10/*: any*/),
+                                "selections": (v9/*: any*/),
                                 "storageKey": "friends(first:10)"
                               },
                               {
                                 "alias": null,
-                                "args": (v6/*: any*/),
+                                "args": (v5/*: any*/),
                                 "filters": null,
                                 "handle": "connection",
                                 "key": "NodeQuery_friends",
@@ -353,17 +384,17 @@ return {
                         ],
                         "storageKey": null
                       },
-                      (v11/*: any*/)
+                      (v10/*: any*/)
                     ],
                     "storageKey": null
                   },
-                  (v9/*: any*/)
+                  (v8/*: any*/)
                 ],
                 "storageKey": null
               },
               {
                 "alias": null,
-                "args": (v4/*: any*/),
+                "args": (v3/*: any*/),
                 "filters": [
                   "orderby",
                   "first"

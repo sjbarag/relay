@@ -41,6 +41,7 @@ fragment multipleModuleWithAliasedInlineFragmentFragment_propName on MarkdownUse
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -76,6 +77,7 @@ fragment multipleModuleWithAliasedInlineFragmentFragment_propName on MarkdownUse
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "multipleModuleWithAliasedInlineFragmentQuery",
@@ -90,6 +92,7 @@ fragment multipleModuleWithAliasedInlineFragmentFragment_propName on MarkdownUse
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -101,6 +104,7 @@ fragment multipleModuleWithAliasedInlineFragmentFragment_propName on MarkdownUse
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -125,7 +129,8 @@ fragment multipleModuleWithAliasedInlineFragmentFragment_propName on MarkdownUse
                         }
                       ],
                       "type": null,
-                      "abstractKey": null
+                      "abstractKey": null,
+                      "directives": null
                     },
                     "kind": "AliasedInlineFragmentSpread",
                     "name": "a"
@@ -150,7 +155,8 @@ fragment multipleModuleWithAliasedInlineFragmentFragment_propName on MarkdownUse
                         }
                       ],
                       "type": null,
-                      "abstractKey": null
+                      "abstractKey": null,
+                      "directives": null
                     },
                     "kind": "AliasedInlineFragmentSpread",
                     "name": "b"
@@ -174,10 +180,12 @@ fragment multipleModuleWithAliasedInlineFragmentFragment_propName on MarkdownUse
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "multipleModuleWithAliasedInlineFragmentQuery",
     "selections": [
@@ -191,6 +199,7 @@ fragment multipleModuleWithAliasedInlineFragmentFragment_propName on MarkdownUse
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -210,6 +219,7 @@ fragment multipleModuleWithAliasedInlineFragmentFragment_propName on MarkdownUse
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -305,6 +315,7 @@ fragment multipleModuleWithAliasedInlineFragmentFragment_propName on MarkdownUse
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "multipleModuleWithAliasedInlineFragmentFragment_propName",
@@ -321,6 +332,7 @@ fragment multipleModuleWithAliasedInlineFragmentFragment_propName on MarkdownUse
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

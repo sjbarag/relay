@@ -45,6 +45,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserUtil2_user on User {
         "name": "showFirstName"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "unmaskedFragmentSpreadsRecursive_TestQuery",
@@ -53,6 +54,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserUtil2_user on User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -74,20 +76,24 @@ fragment unmaskedFragmentSpreadsRecursive_UserUtil2_user on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "ProfilePicture_SIZE"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "isRelative"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "showFirstName"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "unmaskedFragmentSpreadsRecursive_TestQuery",
     "selections": [
@@ -95,6 +101,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserUtil2_user on User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -123,6 +130,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserUtil2_user on User {
               }
             ],
             "concreteType": "Image",
+            "directives": null,
             "kind": "LinkedField",
             "name": "profilePicture",
             "plural": false,
@@ -221,6 +229,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
       "name": "showFirstName"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "unmaskedFragmentSpreadsRecursive_UserProfile_user",
@@ -249,6 +258,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -298,6 +308,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
       "name": "isRelative"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "unmaskedFragmentSpreadsRecursive_UserUtil2_user",
@@ -332,6 +343,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
       "name": "isRelative"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "unmaskedFragmentSpreadsRecursive_UserUtil_user",
@@ -346,6 +358,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,

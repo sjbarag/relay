@@ -12,6 +12,7 @@ query abstractTypeRefinementDontFlattenTypeDiscriminatorInlineFragment_AbstractT
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "abstractTypeRefinementDontFlattenTypeDiscriminatorInlineFragment_AbstractTypeRefinementQuery",
@@ -26,6 +27,7 @@ query abstractTypeRefinementDontFlattenTypeDiscriminatorInlineFragment_AbstractT
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -48,6 +50,7 @@ query abstractTypeRefinementDontFlattenTypeDiscriminatorInlineFragment_AbstractT
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "abstractTypeRefinementDontFlattenTypeDiscriminatorInlineFragment_AbstractTypeRefinementQuery",
     "selections": [
@@ -61,6 +64,7 @@ query abstractTypeRefinementDontFlattenTypeDiscriminatorInlineFragment_AbstractT
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,

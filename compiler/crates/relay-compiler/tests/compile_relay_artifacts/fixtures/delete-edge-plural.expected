@@ -22,6 +22,7 @@ mutation deleteEdgePluralMutation(
         "name": "input"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "deleteEdgePluralMutation",
@@ -36,6 +37,7 @@ mutation deleteEdgePluralMutation(
           }
         ],
         "concreteType": "CommentsDeleteResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "commentsDelete",
         "plural": false,
@@ -60,15 +62,18 @@ mutation deleteEdgePluralMutation(
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "input"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "connections"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "deleteEdgePluralMutation",
     "selections": [
@@ -82,6 +87,7 @@ mutation deleteEdgePluralMutation(
           }
         ],
         "concreteType": "CommentsDeleteResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "commentsDelete",
         "plural": false,

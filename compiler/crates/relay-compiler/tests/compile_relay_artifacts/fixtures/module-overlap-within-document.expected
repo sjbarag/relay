@@ -57,6 +57,7 @@ fragment moduleOverlapWithinDocument_MarkdownUserNameRenderer_name on MarkdownUs
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -92,6 +93,7 @@ fragment moduleOverlapWithinDocument_MarkdownUserNameRenderer_name on MarkdownUs
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "moduleOverlapWithinDocument_MultipleNameRendererQuery",
@@ -106,6 +108,7 @@ fragment moduleOverlapWithinDocument_MarkdownUserNameRenderer_name on MarkdownUs
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -132,10 +135,12 @@ fragment moduleOverlapWithinDocument_MarkdownUserNameRenderer_name on MarkdownUs
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "moduleOverlapWithinDocument_MultipleNameRendererQuery",
     "selections": [
@@ -149,6 +154,7 @@ fragment moduleOverlapWithinDocument_MarkdownUserNameRenderer_name on MarkdownUs
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -176,6 +182,7 @@ fragment moduleOverlapWithinDocument_MarkdownUserNameRenderer_name on MarkdownUs
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -313,6 +320,7 @@ fragment moduleOverlapWithinDocument_PlainUserNameRenderer_name on PlainUserName
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -341,6 +349,7 @@ fragment moduleOverlapWithinDocument_PlainUserNameRenderer_name on PlainUserName
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "moduleOverlapWithinDocument_BarNameRendererFragment",
@@ -349,6 +358,7 @@ fragment moduleOverlapWithinDocument_PlainUserNameRenderer_name on PlainUserName
       "alias": null,
       "args": null,
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRenderer",
       "plural": false,
@@ -377,6 +387,7 @@ fragment moduleOverlapWithinDocument_PlainUserNameRenderer_name on PlainUserName
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "moduleOverlapWithinDocument_FooNameRendererFragment",
@@ -393,6 +404,7 @@ fragment moduleOverlapWithinDocument_PlainUserNameRenderer_name on PlainUserName
       "alias": null,
       "args": null,
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRenderer",
       "plural": false,
@@ -435,6 +447,7 @@ fragment moduleOverlapWithinDocument_PlainUserNameRenderer_name on PlainUserName
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "moduleOverlapWithinDocument_MarkdownUserNameRenderer_name",
@@ -451,6 +464,7 @@ fragment moduleOverlapWithinDocument_PlainUserNameRenderer_name on PlainUserName
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -473,6 +487,7 @@ fragment moduleOverlapWithinDocument_PlainUserNameRenderer_name on PlainUserName
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "moduleOverlapWithinDocument_PlainUserNameRenderer_name",
@@ -489,6 +504,7 @@ fragment moduleOverlapWithinDocument_PlainUserNameRenderer_name on PlainUserName
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

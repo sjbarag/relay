@@ -12,6 +12,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "relayLiveResolverWithoutFragment_Query",
@@ -37,6 +38,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "relayLiveResolverWithoutFragment_Query",
     "selections": [

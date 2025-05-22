@@ -439,8 +439,13 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
                 let argument_definitions =
                     self.build_operation_variable_definitions(&operation.variable_definitions);
                 let selections = self.build_selections(&mut context, operation.selections.iter());
+                let client_directives = self.build_directives(&operation.directives);
                 let mut fields = object! {
                     argument_definitions: Primitive::Key(argument_definitions),
+                    directives: match client_directives {
+                        None => Primitive::SkippableNull,
+                        Some(key) => Primitive::Key(key),
+                    },
                     kind: Primitive::String(CODEGEN_CONSTANTS.operation_value),
                     name: Primitive::String(operation.name.item.0),
                     selections: selections,
@@ -526,10 +531,15 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
         }
 
         let selections = self.build_selections(&mut context, fragment.selections.iter());
+        let client_directives = self.build_directives(&fragment.directives);
         let object = object! {
             argument_definitions: self.build_fragment_variable_definitions(
                     &fragment.variable_definitions,
                     &fragment.used_global_variables),
+            directives: match client_directives {
+                None => Primitive::SkippableNull,
+                Some(key) => Primitive::Key(key),
+            },
             kind: Primitive::String(CODEGEN_CONSTANTS.fragment_value),
             metadata: self.build_fragment_metadata(context, fragment, skip_connection_metadata),
             name: Primitive::String(fragment.name.item.0),
@@ -1149,7 +1159,7 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
         let (name, alias) =
             self.build_field_name_and_alias(schema_field.name.item, field.alias, &field.directives);
         let args = self.build_arguments(&field.arguments);
-        let directives = self.build_directives(&field.directives);
+        let client_directives = self.build_directives(&field.directives);
         let primitive = Primitive::Key(self.object(object! {
             :build_alias(alias, name),
             args: match args {
@@ -1158,7 +1168,7 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
                 },
             kind: Primitive::String(CODEGEN_CONSTANTS.scalar_field),
             name: Primitive::String(name),
-            directives: match directives {
+            directives: match client_directives {
                 None => Primitive::SkippableNull,
                 Some(key) => Primitive::Key(key),
             },
@@ -1247,6 +1257,7 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
             self.build_field_name_and_alias(schema_field.name.item, field.alias, &field.directives);
         let args = self.build_arguments(&field.arguments);
         let selections = self.build_selections(context, field.selections.iter());
+        let client_directives = self.build_directives(&field.directives);
         let primitive = Primitive::Key(self.object(object! {
             :build_alias(alias, name),
             args: match args {
@@ -1258,6 +1269,10 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
                 } else {
                     Primitive::String(self.schema.get_type_name(schema_field.type_.inner()))
                 },
+            directives: match client_directives {
+                None => Primitive::SkippableNull,
+                Some(key) => Primitive::Key(key),
+            },
             kind: Primitive::String(CODEGEN_CONSTANTS.linked_field),
             name: Primitive::String(name),
             plural: Primitive::Bool(schema_field.type_.is_list()),
@@ -2159,11 +2174,16 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
                     FragmentAliasMetadata::find(&inline_frag.directives)
                 {
                     let selections = self.build_selections(context, inline_frag.selections.iter());
+                    let client_directives = self.build_directives(&inline_frag.directives);
                     let primitive = Primitive::Key(self.object(object! {
                         kind: Primitive::String(CODEGEN_CONSTANTS.inline_fragment),
                         selections: selections,
                         type_: Primitive::SkippableNull,
                         abstract_key: Primitive::SkippableNull,
+                        directives: match client_directives {
+                            None => Primitive::SkippableNull,
+                            Some(key) => Primitive::Key(key),
+                        },
                     }));
                     let aliased_fragment = Primitive::Key(self.object(object! {
                         fragment: primitive,
@@ -2305,8 +2325,13 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
                 } else {
                     Primitive::Null
                 };
+                let client_directives = self.build_directives(&def.directives);
                 Primitive::Key(self.object(object! {
                     default_value: default_value,
+                    directives: match client_directives {
+                        None => Primitive::SkippableNull,
+                        Some(key) => Primitive::Key(key),
+                    },
                     kind: Primitive::String(CODEGEN_CONSTANTS.local_argument),
                     name: Primitive::String(def.name.item.0),
                 }))
@@ -2604,6 +2629,7 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
             &inline_directive_data.variable_definitions,
             &inline_directive_data.used_global_variables,
         );
+        let client_directives = self.build_directives(&inline_fragment.directives);
 
         Primitive::Key(self.object(object! {
             kind: Primitive::String(CODEGEN_CONSTANTS.inline_data_fragment_spread),
@@ -2614,6 +2640,10 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
                 Some(key) => Primitive::Key(key),
             },
             argument_definitions: argument_definitions,
+            directives: match client_directives {
+                None => Primitive::SkippableNull,
+                Some(key) => Primitive::Key(key),
+            },
         }))
     }
 

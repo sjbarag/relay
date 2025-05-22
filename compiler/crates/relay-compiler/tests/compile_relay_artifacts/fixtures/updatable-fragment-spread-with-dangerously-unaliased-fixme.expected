@@ -12,6 +12,7 @@ fragment updatableFragmentSpreadWithDangerouslyUnaliasedFixme_user on User @upda
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "updatableFragmentSpreadWithDangerouslyUnaliasedFixmeQuery",
@@ -20,6 +21,7 @@ fragment updatableFragmentSpreadWithDangerouslyUnaliasedFixme_user on User @upda
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -39,6 +41,7 @@ fragment updatableFragmentSpreadWithDangerouslyUnaliasedFixme_user on User @upda
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "updatableFragmentSpreadWithDangerouslyUnaliasedFixmeQuery",
     "selections": [
@@ -46,6 +49,7 @@ fragment updatableFragmentSpreadWithDangerouslyUnaliasedFixme_user on User @upda
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -93,6 +97,7 @@ query updatableFragmentSpreadWithDangerouslyUnaliasedFixmeQuery {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "updatableFragmentSpreadWithDangerouslyUnaliasedFixme_user",

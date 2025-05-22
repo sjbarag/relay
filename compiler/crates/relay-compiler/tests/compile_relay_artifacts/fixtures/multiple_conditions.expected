@@ -23,6 +23,7 @@ query multipleConditions_TestQuery($foo: Boolean!, $bar: Boolean!) {
         "name": "foo"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "multipleConditions_TestQuery",
@@ -31,6 +32,7 @@ query multipleConditions_TestQuery($foo: Boolean!, $bar: Boolean!) {
         "alias": null,
         "args": null,
         "concreteType": "Viewer",
+        "directives": null,
         "kind": "LinkedField",
         "name": "viewer",
         "plural": false,
@@ -39,6 +41,7 @@ query multipleConditions_TestQuery($foo: Boolean!, $bar: Boolean!) {
             "alias": null,
             "args": null,
             "concreteType": "User",
+            "directives": null,
             "kind": "LinkedField",
             "name": "account_user",
             "plural": false,
@@ -96,15 +99,18 @@ query multipleConditions_TestQuery($foo: Boolean!, $bar: Boolean!) {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "foo"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "bar"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "multipleConditions_TestQuery",
     "selections": [
@@ -112,6 +118,7 @@ query multipleConditions_TestQuery($foo: Boolean!, $bar: Boolean!) {
         "alias": null,
         "args": null,
         "concreteType": "Viewer",
+        "directives": null,
         "kind": "LinkedField",
         "name": "viewer",
         "plural": false,
@@ -120,6 +127,7 @@ query multipleConditions_TestQuery($foo: Boolean!, $bar: Boolean!) {
             "alias": null,
             "args": null,
             "concreteType": "User",
+            "directives": null,
             "kind": "LinkedField",
             "name": "account_user",
             "plural": false,

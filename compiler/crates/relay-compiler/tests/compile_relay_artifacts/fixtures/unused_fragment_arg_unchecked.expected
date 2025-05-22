@@ -31,6 +31,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto on User {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "unusedFragmentArgUnchecked_QueryWithUnusedFragmentArgumentQuery",
@@ -45,6 +46,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto on User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -66,10 +68,12 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "unusedFragmentArgUnchecked_QueryWithUnusedFragmentArgumentQuery",
     "selections": [
@@ -83,6 +87,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto on User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -126,6 +131,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto on User {
                   }
                 ],
                 "concreteType": "Image",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "profilePicture",
                 "plural": false,
@@ -197,6 +203,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto_18PEfK on User {
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "unusedFragmentArgUnchecked_Profile",
@@ -235,6 +242,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto_18PEfK on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "unusedFragmentArgUnchecked_ProfilePhoto",
@@ -251,6 +259,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto_18PEfK on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -279,6 +288,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto_18PEfK on User {
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "unusedFragmentArgUnchecked_ProfilePhotoWrapper",

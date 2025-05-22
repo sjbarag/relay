@@ -10,6 +10,7 @@ query fragmentAliasOnInlineFragmentDoesNotGetFlattenedQuery {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "fragmentAliasOnInlineFragmentDoesNotGetFlattenedQuery",
@@ -18,6 +19,7 @@ query fragmentAliasOnInlineFragmentDoesNotGetFlattenedQuery {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -55,6 +57,7 @@ query fragmentAliasOnInlineFragmentDoesNotGetFlattenedQuery {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "fragmentAliasOnInlineFragmentDoesNotGetFlattenedQuery",
     "selections": [
@@ -62,6 +65,7 @@ query fragmentAliasOnInlineFragmentDoesNotGetFlattenedQuery {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,

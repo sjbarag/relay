@@ -19,6 +19,7 @@ fragment DeferredFragment on User {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "DeferredFragment",
@@ -46,6 +47,7 @@ fragment DeferredFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "UserFragment",
@@ -83,6 +85,7 @@ fragment DeferredFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "QueryWithFragmentWithDefer",
   "selections": [
@@ -90,6 +93,7 @@ fragment DeferredFragment on User {
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,

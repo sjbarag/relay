@@ -25,6 +25,7 @@ fragment falsePositiveCircularFragmentReferenceRegression_MyNestedViewer on View
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "falsePositiveCircularFragmentReferenceRegression_TestQuery",
@@ -33,6 +34,7 @@ fragment falsePositiveCircularFragmentReferenceRegression_MyNestedViewer on View
         "alias": null,
         "args": null,
         "concreteType": "Viewer",
+        "directives": null,
         "kind": "LinkedField",
         "name": "viewer",
         "plural": false,
@@ -51,6 +53,7 @@ fragment falsePositiveCircularFragmentReferenceRegression_MyNestedViewer on View
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "actor",
             "plural": false,
@@ -76,6 +79,7 @@ fragment falsePositiveCircularFragmentReferenceRegression_MyNestedViewer on View
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "falsePositiveCircularFragmentReferenceRegression_TestQuery",
     "selections": [
@@ -83,6 +87,7 @@ fragment falsePositiveCircularFragmentReferenceRegression_MyNestedViewer on View
         "alias": null,
         "args": null,
         "concreteType": "Viewer",
+        "directives": null,
         "kind": "LinkedField",
         "name": "viewer",
         "plural": false,
@@ -91,6 +96,7 @@ fragment falsePositiveCircularFragmentReferenceRegression_MyNestedViewer on View
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "actor",
             "plural": false,
@@ -158,6 +164,7 @@ query falsePositiveCircularFragmentReferenceRegression_TestQuery {
       "name": "includeEmail"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "falsePositiveCircularFragmentReferenceRegression_MyNestedViewer",
@@ -184,6 +191,7 @@ query falsePositiveCircularFragmentReferenceRegression_TestQuery {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "falsePositiveCircularFragmentReferenceRegression_MyOtherViewer",
@@ -200,6 +208,7 @@ query falsePositiveCircularFragmentReferenceRegression_TestQuery {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "falsePositiveCircularFragmentReferenceRegression_MyViewer",

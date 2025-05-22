@@ -22,6 +22,7 @@ extend type User {
       "name": "fragment_arg"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "PopStarNameResolverFragment_name",
@@ -41,6 +42,7 @@ extend type User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "Foo_user",

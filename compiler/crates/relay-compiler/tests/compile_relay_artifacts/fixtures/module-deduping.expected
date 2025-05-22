@@ -24,6 +24,7 @@ fragment moduleDeduping_frag on PlainUserNameRenderer {
         "name": "cond"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "moduleDedupingQuery",
@@ -32,6 +33,7 @@ fragment moduleDeduping_frag on PlainUserNameRenderer {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -40,6 +42,7 @@ fragment moduleDeduping_frag on PlainUserNameRenderer {
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "nameRenderer",
             "plural": false,
@@ -73,10 +76,12 @@ fragment moduleDeduping_frag on PlainUserNameRenderer {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "cond"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "moduleDedupingQuery",
     "selections": [
@@ -84,6 +89,7 @@ fragment moduleDeduping_frag on PlainUserNameRenderer {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -92,6 +98,7 @@ fragment moduleDeduping_frag on PlainUserNameRenderer {
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "nameRenderer",
             "plural": false,
@@ -202,6 +209,7 @@ fragment moduleDeduping_frag on PlainUserNameRenderer {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "moduleDeduping_frag",

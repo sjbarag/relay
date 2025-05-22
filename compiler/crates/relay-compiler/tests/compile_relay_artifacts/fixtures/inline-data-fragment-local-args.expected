@@ -26,6 +26,7 @@ fragment inlineDataFragmentLocalArgsProfile on User
       "name": "globalSizeVar"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "inlineDataFragmentLocalArgsFragment",
@@ -34,6 +35,7 @@ fragment inlineDataFragmentLocalArgsProfile on User
       "alias": "usingLiteralPassedValue",
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -52,6 +54,7 @@ fragment inlineDataFragmentLocalArgsProfile on User
                 }
               ],
               "concreteType": "Image",
+              "directives": null,
               "kind": "LinkedField",
               "name": "profilePicture",
               "plural": false,
@@ -85,7 +88,8 @@ fragment inlineDataFragmentLocalArgsProfile on User
               "kind": "LocalArgument",
               "name": "sizeArg"
             }
-          ]
+          ],
+          "directives": null
         }
       ],
       "storageKey": null
@@ -94,6 +98,7 @@ fragment inlineDataFragmentLocalArgsProfile on User
       "alias": "usingGlobalPassedValue",
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -112,6 +117,7 @@ fragment inlineDataFragmentLocalArgsProfile on User
                 }
               ],
               "concreteType": "Image",
+              "directives": null,
               "kind": "LinkedField",
               "name": "profilePicture",
               "plural": false,
@@ -143,7 +149,8 @@ fragment inlineDataFragmentLocalArgsProfile on User
               "kind": "LocalArgument",
               "name": "sizeArg"
             }
-          ]
+          ],
+          "directives": null
         }
       ],
       "storageKey": null
@@ -152,6 +159,7 @@ fragment inlineDataFragmentLocalArgsProfile on User
       "alias": "usingDefaultValue",
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -170,6 +178,7 @@ fragment inlineDataFragmentLocalArgsProfile on User
                 }
               ],
               "concreteType": "Image",
+              "directives": null,
               "kind": "LinkedField",
               "name": "profilePicture",
               "plural": false,
@@ -195,7 +204,8 @@ fragment inlineDataFragmentLocalArgsProfile on User
               "kind": "LocalArgument",
               "name": "sizeArg"
             }
-          ]
+          ],
+          "directives": null
         }
       ],
       "storageKey": null

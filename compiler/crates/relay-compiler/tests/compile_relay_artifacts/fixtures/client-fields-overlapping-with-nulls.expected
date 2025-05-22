@@ -13,6 +13,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "clientFieldsOverlappingWithNullsQuery",
@@ -43,6 +44,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "clientFieldsOverlappingWithNullsQuery",
     "selections": [

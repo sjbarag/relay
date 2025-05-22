@@ -29,6 +29,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "clientInlineFragmentsDuplicateQuery",
@@ -40,6 +41,7 @@ extend type Query {
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "cat",
             "plural": false,
@@ -79,6 +81,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "clientInlineFragmentsDuplicateQuery",
     "selections": [
@@ -89,6 +92,7 @@ extend type Query {
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "cat",
             "plural": false,

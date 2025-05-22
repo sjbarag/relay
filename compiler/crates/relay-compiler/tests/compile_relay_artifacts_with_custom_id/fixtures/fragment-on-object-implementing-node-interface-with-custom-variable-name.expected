@@ -27,6 +27,7 @@ fragment fragmentOnObjectImplementingNodeInterfaceWithCustomVariableName_Profile
         "name": "size"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "RefetchableFragmentQuery",
@@ -41,6 +42,7 @@ fragment fragmentOnObjectImplementingNodeInterfaceWithCustomVariableName_Profile
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -62,15 +64,18 @@ fragment fragmentOnObjectImplementingNodeInterfaceWithCustomVariableName_Profile
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "size"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "global_id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "RefetchableFragmentQuery",
     "selections": [
@@ -84,6 +89,7 @@ fragment fragmentOnObjectImplementingNodeInterfaceWithCustomVariableName_Profile
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -125,6 +131,7 @@ fragment fragmentOnObjectImplementingNodeInterfaceWithCustomVariableName_Profile
                   }
                 ],
                 "concreteType": "Image",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "profilePicture",
                 "plural": false,
@@ -192,6 +199,7 @@ fragment fragmentOnObjectImplementingNodeInterfaceWithCustomVariableName_Refetch
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentOnObjectImplementingNodeInterfaceWithCustomVariableName_ProfilePicture",
@@ -206,6 +214,7 @@ fragment fragmentOnObjectImplementingNodeInterfaceWithCustomVariableName_Refetch
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -233,6 +242,7 @@ fragment fragmentOnObjectImplementingNodeInterfaceWithCustomVariableName_Refetch
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "refetch": {

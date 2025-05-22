@@ -33,6 +33,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "relayModelResolver_Query",
@@ -44,6 +45,7 @@ extend type Query {
             "alias": null,
             "args": null,
             "concreteType": "ClientUser",
+            "directives": null,
             "kind": "LinkedField",
             "name": "client_user",
             "plural": false,
@@ -73,6 +75,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "relayModelResolver_Query",
     "selections": [
@@ -83,6 +86,7 @@ extend type Query {
             "alias": null,
             "args": null,
             "concreteType": "ClientUser",
+            "directives": null,
             "kind": "LinkedField",
             "name": "client_user",
             "plural": false,
@@ -154,6 +158,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "ClientUser____relay_model_instance",
@@ -178,6 +183,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "ClientUser__id",

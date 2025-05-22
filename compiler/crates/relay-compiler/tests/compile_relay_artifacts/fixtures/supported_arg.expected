@@ -16,6 +16,7 @@ query supportedArgQuery {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "supportedArgQuery",
@@ -24,6 +25,7 @@ query supportedArgQuery {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -38,6 +40,7 @@ query supportedArgQuery {
               }
             ],
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "nameRenderer",
             "plural": false,
@@ -63,6 +66,7 @@ query supportedArgQuery {
               }
             ],
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "nameRenderer",
             "plural": false,
@@ -88,6 +92,7 @@ query supportedArgQuery {
               }
             ],
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "nameRenderer",
             "plural": false,
@@ -113,6 +118,7 @@ query supportedArgQuery {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "supportedArgQuery",
     "selections": [
@@ -120,6 +126,7 @@ query supportedArgQuery {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -134,6 +141,7 @@ query supportedArgQuery {
               }
             ],
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "nameRenderer",
             "plural": false,
@@ -159,6 +167,7 @@ query supportedArgQuery {
               }
             ],
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "nameRenderer",
             "plural": false,
@@ -184,6 +193,7 @@ query supportedArgQuery {
               }
             ],
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "nameRenderer",
             "plural": false,

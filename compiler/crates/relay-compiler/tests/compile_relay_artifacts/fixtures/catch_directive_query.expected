@@ -9,6 +9,7 @@ query catchDirectiveQueryQuery @catch(to: RESULT) {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": {
       "catchTo": "RESULT"
@@ -19,6 +20,7 @@ query catchDirectiveQueryQuery @catch(to: RESULT) {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -49,6 +51,7 @@ query catchDirectiveQueryQuery @catch(to: RESULT) {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "catchDirectiveQueryQuery",
     "selections": [
@@ -56,6 +59,7 @@ query catchDirectiveQueryQuery @catch(to: RESULT) {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,

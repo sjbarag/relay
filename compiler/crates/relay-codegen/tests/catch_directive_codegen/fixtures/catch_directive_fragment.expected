@@ -6,6 +6,7 @@ fragment MyFragment on Node @catch(to: RESULT) {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "catchTo": "RESULT"

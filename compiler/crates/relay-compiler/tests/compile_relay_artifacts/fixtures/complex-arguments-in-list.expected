@@ -39,6 +39,7 @@ query complexArgumentsInList_CheckinSearchQuery(
         "name": "searchInputText"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "complexArgumentsInList_CheckinSearchQuery",
@@ -87,6 +88,7 @@ query complexArgumentsInList_CheckinSearchQuery(
           }
         ],
         "concreteType": "CheckinSearchResult",
+        "directives": null,
         "kind": "LinkedField",
         "name": "checkinSearchQuery",
         "plural": false,
@@ -111,25 +113,30 @@ query complexArgumentsInList_CheckinSearchQuery(
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "queryText"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "searchInputText"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "searchInput"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "searchInputLast"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "complexArgumentsInList_CheckinSearchQuery",
     "selections": [
@@ -177,6 +184,7 @@ query complexArgumentsInList_CheckinSearchQuery(
           }
         ],
         "concreteType": "CheckinSearchResult",
+        "directives": null,
         "kind": "LinkedField",
         "name": "checkinSearchQuery",
         "plural": false,

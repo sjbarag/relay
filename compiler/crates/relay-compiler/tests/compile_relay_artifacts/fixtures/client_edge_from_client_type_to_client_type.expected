@@ -36,6 +36,7 @@ extend type ClientViewer {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": {
       "hasClientEdges": true
@@ -49,6 +50,7 @@ extend type ClientViewer {
             "alias": null,
             "args": null,
             "concreteType": "ClientViewer",
+            "directives": null,
             "kind": "LinkedField",
             "name": "client_viewer",
             "plural": false,
@@ -74,6 +76,7 @@ extend type ClientViewer {
                   "alias": null,
                   "args": null,
                   "concreteType": "ClientType",
+                  "directives": null,
                   "kind": "LinkedField",
                   "name": "client_edge",
                   "plural": false,
@@ -102,6 +105,7 @@ extend type ClientViewer {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "clientEdgeFromClientTypeToClientType_Query",
     "selections": [
@@ -112,6 +116,7 @@ extend type ClientViewer {
             "alias": null,
             "args": null,
             "concreteType": "ClientViewer",
+            "directives": null,
             "kind": "LinkedField",
             "name": "client_viewer",
             "plural": false,
@@ -144,6 +149,7 @@ extend type ClientViewer {
                   "alias": null,
                   "args": null,
                   "concreteType": "ClientType",
+                  "directives": null,
                   "kind": "LinkedField",
                   "name": "client_edge",
                   "plural": false,
@@ -183,6 +189,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "clientEdgeFromClientTypeToClientType_fragment",

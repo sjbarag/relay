@@ -13,6 +13,7 @@ query selectionSetConflictDifferentTypesWithoutConflictQuery {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "selectionSetConflictDifferentTypesWithoutConflictQuery",
@@ -27,6 +28,7 @@ query selectionSetConflictDifferentTypesWithoutConflictQuery {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "username",
         "plural": false,
@@ -71,6 +73,7 @@ query selectionSetConflictDifferentTypesWithoutConflictQuery {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "selectionSetConflictDifferentTypesWithoutConflictQuery",
     "selections": [
@@ -84,6 +87,7 @@ query selectionSetConflictDifferentTypesWithoutConflictQuery {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "username",
         "plural": false,

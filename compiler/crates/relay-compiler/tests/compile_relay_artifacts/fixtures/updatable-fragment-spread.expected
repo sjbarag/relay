@@ -12,6 +12,7 @@ fragment updatableFragmentSpread_user on User @updatable {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "updatableFragmentSpreadQuery",
@@ -20,6 +21,7 @@ fragment updatableFragmentSpread_user on User @updatable {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -39,6 +41,7 @@ fragment updatableFragmentSpread_user on User @updatable {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "updatableFragmentSpreadQuery",
     "selections": [
@@ -46,6 +49,7 @@ fragment updatableFragmentSpread_user on User @updatable {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -93,6 +97,7 @@ query updatableFragmentSpreadQuery {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "updatableFragmentSpread_user",

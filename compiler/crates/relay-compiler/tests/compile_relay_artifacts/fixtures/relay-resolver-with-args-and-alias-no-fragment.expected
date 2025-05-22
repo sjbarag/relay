@@ -17,6 +17,7 @@ extend type User {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "relayResolverWithArgsAndAliasNoFragment_Query",
@@ -31,6 +32,7 @@ extend type User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -87,6 +89,7 @@ extend type User {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "relayResolverWithArgsAndAliasNoFragment_Query",
     "selections": [
@@ -100,6 +103,7 @@ extend type User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,

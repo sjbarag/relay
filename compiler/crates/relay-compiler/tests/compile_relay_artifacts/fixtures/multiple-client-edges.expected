@@ -43,6 +43,7 @@ extend type User {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": {
       "hasClientEdges": true
@@ -53,6 +54,7 @@ extend type User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -78,6 +80,7 @@ extend type User {
               "alias": null,
               "args": null,
               "concreteType": "ClientUser",
+              "directives": null,
               "kind": "LinkedField",
               "name": "best_friend",
               "plural": false,
@@ -115,6 +118,7 @@ extend type User {
               "alias": null,
               "args": null,
               "concreteType": "ClientUser",
+              "directives": null,
               "kind": "LinkedField",
               "name": "worst_enemy",
               "plural": false,
@@ -141,6 +145,7 @@ extend type User {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "multipleClientEdgesQuery",
     "selections": [
@@ -148,6 +153,7 @@ extend type User {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -180,6 +186,7 @@ extend type User {
               "alias": null,
               "args": null,
               "concreteType": "ClientUser",
+              "directives": null,
               "kind": "LinkedField",
               "name": "best_friend",
               "plural": false,
@@ -224,6 +231,7 @@ extend type User {
               "alias": null,
               "args": null,
               "concreteType": "ClientUser",
+              "directives": null,
               "kind": "LinkedField",
               "name": "worst_enemy",
               "plural": false,
@@ -284,6 +292,7 @@ fragment multipleClientEdges_worst_enemy_resolver on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "multipleClientEdges_best_friend_resolver",
@@ -303,6 +312,7 @@ fragment multipleClientEdges_worst_enemy_resolver on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "multipleClientEdges_worst_enemy_resolver",

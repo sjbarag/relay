@@ -35,6 +35,7 @@ extend type Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": {
       "hasClientEdges": true
@@ -62,6 +63,7 @@ extend type Query {
           "alias": null,
           "args": null,
           "concreteType": "ClientUser",
+          "directives": null,
           "kind": "LinkedField",
           "name": "some_resolver",
           "plural": false,
@@ -92,6 +94,7 @@ extend type Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "inlineFragmentOnAbstractClientTypeNestedInResolverClientEdgeQuery",
     "selections": [
@@ -107,6 +110,7 @@ extend type Query {
                 "alias": null,
                 "args": null,
                 "concreteType": "User",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "me",
                 "plural": false,
@@ -142,6 +146,7 @@ extend type Query {
           "alias": null,
           "args": null,
           "concreteType": "ClientUser",
+          "directives": null,
           "kind": "LinkedField",
           "name": "some_resolver",
           "plural": false,
@@ -198,6 +203,7 @@ fragment inlineFragmentOnAbstractClientTypeNestedInResolverClientEdge_some_resol
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "inlineFragmentOnAbstractClientTypeNestedInResolverClientEdge_some_resolver",
@@ -206,6 +212,7 @@ fragment inlineFragmentOnAbstractClientTypeNestedInResolverClientEdge_some_resol
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,

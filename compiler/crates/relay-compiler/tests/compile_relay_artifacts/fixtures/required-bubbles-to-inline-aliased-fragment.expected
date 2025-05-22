@@ -10,6 +10,7 @@ query requiredBubblesToInlineAliasedFragmentQuery {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "requiredBubblesToInlineAliasedFragmentQuery",
@@ -24,6 +25,7 @@ query requiredBubblesToInlineAliasedFragmentQuery {
                 "alias": null,
                 "args": null,
                 "concreteType": "User",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "me",
                 "plural": false,
@@ -43,7 +45,8 @@ query requiredBubblesToInlineAliasedFragmentQuery {
             }
           ],
           "type": null,
-          "abstractKey": null
+          "abstractKey": null,
+          "directives": null
         },
         "kind": "AliasedInlineFragmentSpread",
         "name": "myAlias"
@@ -55,6 +58,7 @@ query requiredBubblesToInlineAliasedFragmentQuery {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "requiredBubblesToInlineAliasedFragmentQuery",
     "selections": [
@@ -62,6 +66,7 @@ query requiredBubblesToInlineAliasedFragmentQuery {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,

@@ -16,6 +16,7 @@ query scalarHandleField_ScalarHandleFieldQuery($id: ID!) {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "scalarHandleField_ScalarHandleFieldQuery",
@@ -30,6 +31,7 @@ query scalarHandleField_ScalarHandleFieldQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -61,10 +63,12 @@ query scalarHandleField_ScalarHandleFieldQuery($id: ID!) {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "scalarHandleField_ScalarHandleFieldQuery",
     "selections": [
@@ -78,6 +82,7 @@ query scalarHandleField_ScalarHandleFieldQuery($id: ID!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,

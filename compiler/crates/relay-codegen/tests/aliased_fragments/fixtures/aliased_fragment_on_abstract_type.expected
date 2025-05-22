@@ -11,6 +11,7 @@ query RelayReaderNamedFragmentsTest2Query {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "RelayReaderNamedFragmentsTest_maybe_node_interface",
@@ -30,6 +31,7 @@ query RelayReaderNamedFragmentsTest2Query {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "RelayReaderNamedFragmentsTest2Query",
   "selections": [
@@ -43,6 +45,7 @@ query RelayReaderNamedFragmentsTest2Query {
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,

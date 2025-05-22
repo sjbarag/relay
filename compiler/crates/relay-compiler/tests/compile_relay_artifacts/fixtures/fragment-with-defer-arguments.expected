@@ -25,6 +25,7 @@ fragment fragmentWithDeferArguments_DeferredFragment on User @argumentDefinition
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "fragmentWithDeferArguments_QueryWithFragmentWithDeferQuery",
@@ -33,6 +34,7 @@ fragment fragmentWithDeferArguments_DeferredFragment on User @argumentDefinition
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -60,6 +62,7 @@ fragment fragmentWithDeferArguments_DeferredFragment on User @argumentDefinition
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "fragmentWithDeferArguments_QueryWithFragmentWithDeferQuery",
     "selections": [
@@ -67,6 +70,7 @@ fragment fragmentWithDeferArguments_DeferredFragment on User @argumentDefinition
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -118,6 +122,7 @@ fragment fragmentWithDeferArguments_DeferredFragment on User @argumentDefinition
                   }
                 ],
                 "concreteType": "Image",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "profile_picture",
                 "plural": false,
@@ -182,6 +187,7 @@ fragment fragmentWithDeferArguments_UserFragment on User {
       "name": "scale"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentWithDeferArguments_DeferredFragment",
@@ -212,6 +218,7 @@ fragment fragmentWithDeferArguments_UserFragment on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profile_picture",
       "plural": false,
@@ -234,6 +241,7 @@ fragment fragmentWithDeferArguments_UserFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentWithDeferArguments_UserFragment",

@@ -57,6 +57,7 @@ interface ClientNamed {
       "name": "shouldInclude"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "clientConditions_Foo_user",
@@ -102,6 +103,7 @@ interface ClientNamed {
               "alias": null,
               "args": null,
               "concreteType": "StreetAddress",
+              "directives": null,
               "kind": "LinkedField",
               "name": "address",
               "plural": false,
@@ -162,6 +164,7 @@ interface ClientNamed {
           "alias": null,
           "args": null,
           "concreteType": null,
+          "directives": null,
           "kind": "LinkedField",
           "name": "foo",
           "plural": false,

@@ -40,6 +40,7 @@ fragment unusedVariablesRemovedFromPrintNotCodegen_ConnectionFragment on User
         "name": "unusedFirst"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "unusedVariablesRemovedFromPrintNotCodegen_QueryWithUnusedVariablesQuery",
@@ -54,6 +55,7 @@ fragment unusedVariablesRemovedFromPrintNotCodegen_ConnectionFragment on User
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -89,20 +91,24 @@ fragment unusedVariablesRemovedFromPrintNotCodegen_ConnectionFragment on User
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "unusedFirst"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "unusedAfter"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "unusedVariablesRemovedFromPrintNotCodegen_QueryWithUnusedVariablesQuery",
     "selections": [
@@ -116,6 +122,7 @@ fragment unusedVariablesRemovedFromPrintNotCodegen_ConnectionFragment on User
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -179,6 +186,7 @@ query unusedVariablesRemovedFromPrintNotCodegen_QueryWithUnusedVariablesQuery(
       "name": "unusedFirst"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "unusedVariablesRemovedFromPrintNotCodegen_ConnectionFragment",
@@ -203,6 +211,7 @@ query unusedVariablesRemovedFromPrintNotCodegen_QueryWithUnusedVariablesQuery(
             }
           ],
           "concreteType": "FriendsConnection",
+          "directives": null,
           "kind": "LinkedField",
           "name": "friends",
           "plural": false,
@@ -211,6 +220,7 @@ query unusedVariablesRemovedFromPrintNotCodegen_QueryWithUnusedVariablesQuery(
               "alias": null,
               "args": null,
               "concreteType": "FriendsEdge",
+              "directives": null,
               "kind": "LinkedField",
               "name": "edges",
               "plural": true,
@@ -219,6 +229,7 @@ query unusedVariablesRemovedFromPrintNotCodegen_QueryWithUnusedVariablesQuery(
                   "alias": null,
                   "args": null,
                   "concreteType": "User",
+                  "directives": null,
                   "kind": "LinkedField",
                   "name": "node",
                   "plural": false,

@@ -20,6 +20,7 @@ interface ClientNamed {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "clientInlineFragments_Foo_user",
@@ -39,6 +40,7 @@ interface ClientNamed {
           "alias": null,
           "args": null,
           "concreteType": null,
+          "directives": null,
           "kind": "LinkedField",
           "name": "foo",
           "plural": false,

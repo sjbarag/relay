@@ -34,6 +34,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "streamConnectionConditionalQuery",
@@ -48,6 +49,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -67,6 +69,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                 "alias": "comments",
                 "args": null,
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "__NodeQuery_comments_connection",
                 "plural": false,
@@ -78,6 +81,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                         "alias": null,
                         "args": null,
                         "concreteType": "CommentsEdge",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "edges",
                         "plural": true,
@@ -86,6 +90,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                             "alias": null,
                             "args": null,
                             "concreteType": "Comment",
+                            "directives": null,
                             "kind": "LinkedField",
                             "name": "node",
                             "plural": false,
@@ -121,6 +126,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                         "alias": null,
                         "args": null,
                         "concreteType": "PageInfo",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "pageInfo",
                         "plural": false,
@@ -165,15 +171,18 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "cond"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "streamConnectionConditionalQuery",
     "selections": [
@@ -187,6 +196,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -220,6 +230,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                   }
                 ],
                 "concreteType": "CommentsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "comments",
                 "plural": false,
@@ -233,6 +244,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                         "alias": null,
                         "args": null,
                         "concreteType": "CommentsEdge",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "edges",
                         "plural": true,
@@ -241,6 +253,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                             "alias": null,
                             "args": null,
                             "concreteType": "Comment",
+                            "directives": null,
                             "kind": "LinkedField",
                             "name": "node",
                             "plural": false,
@@ -286,6 +299,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                         "alias": null,
                         "args": null,
                         "concreteType": "PageInfo",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "pageInfo",
                         "plural": false,

@@ -12,6 +12,7 @@ query StableLiteralsTest {
 Operation:
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "StableLiteralsTest",
   "selections": [
@@ -19,6 +20,7 @@ Operation:
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -37,6 +39,7 @@ Operation:
             }
           ],
           "concreteType": "Comment",
+          "directives": null,
           "kind": "LinkedField",
           "name": "storyCommentSearch",
           "plural": true,

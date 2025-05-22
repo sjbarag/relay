@@ -38,6 +38,7 @@ v1 = [
 ];
 return {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "StableLiteralsTest",
   "selections": [
@@ -45,6 +46,7 @@ return {
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -53,6 +55,7 @@ return {
           "alias": null,
           "args": (v0/*: any*/),
           "concreteType": "Comment",
+          "directives": null,
           "kind": "LinkedField",
           "name": "storyCommentSearch",
           "plural": true,
@@ -63,6 +66,7 @@ return {
           "alias": "aliased",
           "args": (v0/*: any*/),
           "concreteType": "Comment",
+          "directives": null,
           "kind": "LinkedField",
           "name": "storyCommentSearch",
           "plural": true,

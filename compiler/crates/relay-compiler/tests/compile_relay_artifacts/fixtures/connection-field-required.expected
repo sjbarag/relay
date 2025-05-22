@@ -26,6 +26,7 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
         "name": "last"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "connectionFieldRequiredQuery",
@@ -40,6 +41,7 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -48,6 +50,7 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
             "alias": "comments",
             "args": null,
             "concreteType": "CommentsConnection",
+            "directives": null,
             "kind": "LinkedField",
             "name": "__Hello_comments_connection",
             "plural": false,
@@ -64,6 +67,7 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
                 "alias": null,
                 "args": null,
                 "concreteType": "CommentsEdge",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "edges",
                 "plural": true,
@@ -72,6 +76,7 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
                     "alias": null,
                     "args": null,
                     "concreteType": "Comment",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "node",
                     "plural": false,
@@ -114,6 +119,7 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
                 "alias": null,
                 "args": null,
                 "concreteType": "PageInfo",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "pageInfo",
                 "plural": false,
@@ -168,15 +174,18 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "first"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "last"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "connectionFieldRequiredQuery",
     "selections": [
@@ -190,6 +199,7 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -217,6 +227,7 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
               }
             ],
             "concreteType": "CommentsConnection",
+            "directives": null,
             "kind": "LinkedField",
             "name": "comments",
             "plural": false,
@@ -233,6 +244,7 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
                 "alias": null,
                 "args": null,
                 "concreteType": "CommentsEdge",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "edges",
                 "plural": true,
@@ -241,6 +253,7 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
                     "alias": null,
                     "args": null,
                     "concreteType": "Comment",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "node",
                     "plural": false,
@@ -279,6 +292,7 @@ query connectionFieldRequiredQuery($first: Int, $last: Int) {
                 "alias": null,
                 "args": null,
                 "concreteType": "PageInfo",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "pageInfo",
                 "plural": false,

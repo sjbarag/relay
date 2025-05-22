@@ -26,6 +26,7 @@ fragment fragmentOnObjectImplementingNodeInterface_ProfilePicture on User {
         "name": "size"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "RefetchableFragmentQuery",
@@ -40,6 +41,7 @@ fragment fragmentOnObjectImplementingNodeInterface_ProfilePicture on User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -61,15 +63,18 @@ fragment fragmentOnObjectImplementingNodeInterface_ProfilePicture on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "size"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "RefetchableFragmentQuery",
     "selections": [
@@ -83,6 +88,7 @@ fragment fragmentOnObjectImplementingNodeInterface_ProfilePicture on User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -124,6 +130,7 @@ fragment fragmentOnObjectImplementingNodeInterface_ProfilePicture on User {
                   }
                 ],
                 "concreteType": "Image",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "profilePicture",
                 "plural": false,
@@ -191,6 +198,7 @@ fragment fragmentOnObjectImplementingNodeInterface_RefetchableFragment on User {
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentOnObjectImplementingNodeInterface_ProfilePicture",
@@ -205,6 +213,7 @@ fragment fragmentOnObjectImplementingNodeInterface_RefetchableFragment on User {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -232,6 +241,7 @@ fragment fragmentOnObjectImplementingNodeInterface_RefetchableFragment on User {
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "refetch": {

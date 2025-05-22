@@ -13,6 +13,7 @@ fragment clientOnlyQueryFragment on Query {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "clientOnlyQuery",
@@ -37,6 +38,7 @@ fragment clientOnlyQueryFragment on Query {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "clientOnlyQuery",
     "selections": [
@@ -71,6 +73,7 @@ Query Text is Empty.
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "clientOnlyQueryFragment",
@@ -79,6 +82,7 @@ Query Text is Empty.
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,

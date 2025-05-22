@@ -67,6 +67,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment on Use
         "name": "site"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "RefetchableFragmentQuery",
@@ -81,6 +82,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment on Use
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -118,25 +120,30 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment on Use
     "argumentDefinitions": [
       {
         "defaultValue": 10,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "count"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "cursor"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "site"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "RefetchableFragmentQuery",
     "selections": [
@@ -150,6 +157,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment on Use
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -196,6 +204,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment on Use
                   }
                 ],
                 "concreteType": "FriendsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "friends",
                 "plural": false,
@@ -204,6 +213,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment on Use
                     "alias": null,
                     "args": null,
                     "concreteType": "FriendsEdge",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "edges",
                     "plural": true,
@@ -212,6 +222,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment on Use
                         "alias": null,
                         "args": null,
                         "concreteType": "User",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "node",
                         "plural": false,
@@ -264,6 +275,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment on Use
                     "alias": null,
                     "args": null,
                     "concreteType": "PageInfo",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "pageInfo",
                     "plural": false,
@@ -377,6 +389,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
         "name": "site"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "prefetchablePaginationQueryWithoutConflictingArgsQuery",
@@ -391,6 +404,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -429,10 +443,12 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "site"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "prefetchablePaginationQueryWithoutConflictingArgsQuery",
     "selections": [
@@ -446,6 +462,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -487,6 +504,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
                   }
                 ],
                 "concreteType": "FriendsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "friends",
                 "plural": false,
@@ -495,6 +513,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
                     "alias": null,
                     "args": null,
                     "concreteType": "FriendsEdge",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "edges",
                     "plural": true,
@@ -503,6 +522,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
                         "alias": null,
                         "args": null,
                         "concreteType": "User",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "node",
                         "plural": false,
@@ -555,6 +575,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
                     "alias": null,
                     "args": null,
                     "concreteType": "PageInfo",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "pageInfo",
                     "plural": false,
@@ -613,6 +634,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
                   }
                 ],
                 "concreteType": "FriendsConnection",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "friends",
                 "plural": false,
@@ -621,6 +643,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
                     "alias": null,
                     "args": null,
                     "concreteType": "FriendsEdge",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "edges",
                     "plural": true,
@@ -629,6 +652,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
                         "alias": null,
                         "args": null,
                         "concreteType": "User",
+                        "directives": null,
                         "kind": "LinkedField",
                         "name": "node",
                         "plural": false,
@@ -681,6 +705,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_FirstFragment__edges_
                     "alias": null,
                     "args": null,
                     "concreteType": "PageInfo",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "pageInfo",
                     "plural": false,
@@ -814,6 +839,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment_QaI6y 
       "name": "site"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "connection": [
@@ -862,6 +888,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment_QaI6y 
       "alias": "friends",
       "args": null,
       "concreteType": "FriendsConnection",
+      "directives": null,
       "kind": "LinkedField",
       "name": "__PaginationFragment_friends_connection",
       "plural": false,
@@ -870,6 +897,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment_QaI6y 
           "alias": null,
           "args": null,
           "concreteType": "FriendsEdge",
+          "directives": null,
           "kind": "LinkedField",
           "name": "edges",
           "plural": true,
@@ -902,6 +930,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment_QaI6y 
           "alias": null,
           "args": null,
           "concreteType": "PageInfo",
+          "directives": null,
           "kind": "LinkedField",
           "name": "pageInfo",
           "plural": false,
@@ -959,6 +988,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment_QaI6y 
       "name": "site"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "plural": true
@@ -969,6 +999,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment_QaI6y 
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,
@@ -1037,6 +1068,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment_QaI6y 
       "name": "site"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "connection": [
@@ -1064,6 +1096,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment_QaI6y 
       "alias": "friends",
       "args": null,
       "concreteType": "FriendsConnection",
+      "directives": null,
       "kind": "LinkedField",
       "name": "__PaginationFragment2_friends_connection",
       "plural": false,
@@ -1072,6 +1105,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment_QaI6y 
           "alias": null,
           "args": null,
           "concreteType": "FriendsEdge",
+          "directives": null,
           "kind": "LinkedField",
           "name": "edges",
           "plural": true,
@@ -1080,6 +1114,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment_QaI6y 
               "alias": null,
               "args": null,
               "concreteType": "User",
+              "directives": null,
               "kind": "LinkedField",
               "name": "node",
               "plural": false,
@@ -1132,6 +1167,7 @@ fragment prefetchablePaginationQueryWithoutConflictingArgs_SecondFragment_QaI6y 
           "alias": null,
           "args": null,
           "concreteType": "PageInfo",
+          "directives": null,
           "kind": "LinkedField",
           "name": "pageInfo",
           "plural": false,

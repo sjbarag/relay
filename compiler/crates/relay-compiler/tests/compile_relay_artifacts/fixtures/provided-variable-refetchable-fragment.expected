@@ -22,6 +22,7 @@ fragment providedVariableRefetchableFragment_providedVariableFragment on User
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "providedVariableRefetchableFragmentQuery",
@@ -36,6 +37,7 @@ fragment providedVariableRefetchableFragment_providedVariableFragment on User
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -57,10 +59,12 @@ fragment providedVariableRefetchableFragment_providedVariableFragment on User
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__includeName_RelayProvider"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "providedVariableRefetchableFragmentQuery",
     "selections": [
@@ -74,6 +78,7 @@ fragment providedVariableRefetchableFragment_providedVariableFragment on User
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -171,6 +176,7 @@ fragment providedVariableRefetchableFragment_providedVariableFragment on User {
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "refetchableQuery",
@@ -185,6 +191,7 @@ fragment providedVariableRefetchableFragment_providedVariableFragment on User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -206,15 +213,18 @@ fragment providedVariableRefetchableFragment_providedVariableFragment on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__includeName_RelayProvider"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "refetchableQuery",
     "selections": [
@@ -228,6 +238,7 @@ fragment providedVariableRefetchableFragment_providedVariableFragment on User {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -319,6 +330,7 @@ fragment providedVariableRefetchableFragment_providedVariableFragment on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "refetch": {
@@ -360,6 +372,7 @@ fragment providedVariableRefetchableFragment_providedVariableFragment on User {
       "name": "__relay_internal__pv__includeName_RelayProvider"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableRefetchableFragment_providedVariableFragment",

@@ -24,6 +24,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorNestedInlineFragment_
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "abstractTypeRefinementDontFlattenTypeDiscriminatorNestedInlineFragment_AbstractTypeRefinementQuery",
@@ -38,6 +39,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorNestedInlineFragment_
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -65,6 +67,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorNestedInlineFragment_
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "abstractTypeRefinementDontFlattenTypeDiscriminatorNestedInlineFragment_AbstractTypeRefinementQuery",
     "selections": [
@@ -78,6 +81,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorNestedInlineFragment_
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -136,6 +140,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorNestedInlineFragment_
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "abstractTypeRefinementDontFlattenTypeDiscriminatorNestedInlineFragment_NodeFragment",

@@ -28,6 +28,7 @@ import {pop_star_name as userPopStarNameResolver} from 'PopStarNameResolver';
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "relayResolverEsModules_Query",
@@ -42,6 +43,7 @@ import {pop_star_name as userPopStarNameResolver} from 'PopStarNameResolver';
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -76,6 +78,7 @@ import {pop_star_name as userPopStarNameResolver} from 'PopStarNameResolver';
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "relayResolverEsModules_Query",
     "selections": [
@@ -89,6 +92,7 @@ import {pop_star_name as userPopStarNameResolver} from 'PopStarNameResolver';
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -172,6 +176,7 @@ fragment relayResolverEsModules_PopStarNameResolverFragment_name on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "relayResolverEsModules_PopStarNameResolverFragment_name",

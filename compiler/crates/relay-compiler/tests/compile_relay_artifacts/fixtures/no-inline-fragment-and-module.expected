@@ -12,6 +12,7 @@ fragment noInlineFragmentAndModule_parent on User @no_inline {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "noInlineFragmentAndModuleQuery",
@@ -20,6 +21,7 @@ fragment noInlineFragmentAndModule_parent on User @no_inline {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -41,6 +43,7 @@ fragment noInlineFragmentAndModule_parent on User @no_inline {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "noInlineFragmentAndModuleQuery",
     "selections": [
@@ -48,6 +51,7 @@ fragment noInlineFragmentAndModule_parent on User @no_inline {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -116,6 +120,7 @@ fragment noInlineFragmentAndModule_parent on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "noInlineFragmentAndModule_parent",

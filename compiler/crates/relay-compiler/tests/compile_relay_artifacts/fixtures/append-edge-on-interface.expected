@@ -24,6 +24,7 @@ mutation appendEdgeOnInterfaceMutation(
         "name": "input"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "appendEdgeOnInterfaceMutation",
@@ -38,6 +39,7 @@ mutation appendEdgeOnInterfaceMutation(
           }
         ],
         "concreteType": "CommentCreateResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "commentCreate",
         "plural": false,
@@ -46,6 +48,7 @@ mutation appendEdgeOnInterfaceMutation(
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "feedbackCommentEdgeUsingInterface",
             "plural": false,
@@ -73,15 +76,18 @@ mutation appendEdgeOnInterfaceMutation(
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "connections"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "input"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "appendEdgeOnInterfaceMutation",
     "selections": [
@@ -95,6 +101,7 @@ mutation appendEdgeOnInterfaceMutation(
           }
         ],
         "concreteType": "CommentCreateResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "commentCreate",
         "plural": false,
@@ -103,6 +110,7 @@ mutation appendEdgeOnInterfaceMutation(
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "feedbackCommentEdgeUsingInterface",
             "plural": false,

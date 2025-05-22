@@ -56,6 +56,7 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -91,6 +92,7 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "client3DResolversEnabledServer3DFragment_NameRendererQuery",
@@ -105,6 +107,7 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -126,10 +129,12 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "client3DResolversEnabledServer3DFragment_NameRendererQuery",
     "selections": [
@@ -143,6 +148,7 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -176,6 +182,7 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
                   }
                 ],
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -301,6 +308,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -329,6 +337,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name",
@@ -345,6 +354,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -367,6 +377,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "client3DResolversEnabledServer3DFragment_NameRendererFragment",
@@ -389,6 +400,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "nameRenderer",
       "plural": false,
@@ -431,6 +443,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name",
@@ -447,6 +460,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
       "alias": null,
       "args": null,
       "concreteType": "PlainUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

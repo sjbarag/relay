@@ -11,6 +11,7 @@ fragment requiredDirectiveOnConditionalField_Foo_user on User {
       "name": "condition"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "requiredDirectiveOnConditionalField_Foo_user",

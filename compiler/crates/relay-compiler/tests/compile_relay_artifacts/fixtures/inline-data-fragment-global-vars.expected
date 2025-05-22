@@ -13,6 +13,7 @@ fragment inlineDataFragmentGlobalVarsProfile on User @inline {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "inlineDataFragmentGlobalVarsFragment",
@@ -21,6 +22,7 @@ fragment inlineDataFragmentGlobalVarsProfile on User @inline {
       "alias": null,
       "args": null,
       "concreteType": "User",
+      "directives": null,
       "kind": "LinkedField",
       "name": "me",
       "plural": false,
@@ -39,6 +41,7 @@ fragment inlineDataFragmentGlobalVarsProfile on User @inline {
                 }
               ],
               "concreteType": "Image",
+              "directives": null,
               "kind": "LinkedField",
               "name": "profilePicture",
               "plural": false,
@@ -61,7 +64,8 @@ fragment inlineDataFragmentGlobalVarsProfile on User @inline {
               "kind": "RootArgument",
               "name": "pictureSize"
             }
-          ]
+          ],
+          "directives": null
         }
       ],
       "storageKey": null

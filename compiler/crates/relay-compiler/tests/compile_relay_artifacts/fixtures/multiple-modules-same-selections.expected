@@ -40,6 +40,7 @@ fragment multipleModulesSameSelections_MarkdownUserNameRenderer_name on Markdown
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,
@@ -69,6 +70,7 @@ fragment multipleModulesSameSelections_MarkdownUserNameRenderer_name on Markdown
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "multipleModulesSameSelections_MatchQuery",
@@ -83,6 +85,7 @@ fragment multipleModulesSameSelections_MarkdownUserNameRenderer_name on Markdown
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -94,6 +97,7 @@ fragment multipleModulesSameSelections_MarkdownUserNameRenderer_name on Markdown
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -126,6 +130,7 @@ fragment multipleModulesSameSelections_MarkdownUserNameRenderer_name on Markdown
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -161,6 +166,7 @@ fragment multipleModulesSameSelections_MarkdownUserNameRenderer_name on Markdown
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "multipleModulesSameSelections_MatchQuery",
     "selections": [
@@ -174,6 +180,7 @@ fragment multipleModulesSameSelections_MarkdownUserNameRenderer_name on Markdown
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -193,6 +200,7 @@ fragment multipleModulesSameSelections_MarkdownUserNameRenderer_name on Markdown
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -233,6 +241,7 @@ fragment multipleModulesSameSelections_MarkdownUserNameRenderer_name on Markdown
                 "alias": null,
                 "args": null,
                 "concreteType": null,
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "nameRenderer",
                 "plural": false,
@@ -330,6 +339,7 @@ fragment multipleModulesSameSelections_MarkdownUserNameRenderer_name on Markdown
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "multipleModulesSameSelections_MarkdownUserNameRenderer_name",
@@ -346,6 +356,7 @@ fragment multipleModulesSameSelections_MarkdownUserNameRenderer_name on Markdown
       "alias": null,
       "args": null,
       "concreteType": "MarkdownUserNameData",
+      "directives": null,
       "kind": "LinkedField",
       "name": "data",
       "plural": false,

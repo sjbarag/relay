@@ -23,6 +23,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "spreadOfAssignableFragmentQuery",
@@ -31,6 +32,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -69,6 +71,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -107,6 +110,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -155,6 +159,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "spreadOfAssignableFragmentQuery",
     "selections": [
@@ -162,6 +167,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -195,6 +201,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -232,6 +239,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -303,6 +311,7 @@ fragment spreadOfAssignableFragmentAssignable_user on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "spreadOfAssignableFragmentAssignable_node",
@@ -322,6 +331,7 @@ fragment spreadOfAssignableFragmentAssignable_user on User {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "spreadOfAssignableFragmentAssignable_user",

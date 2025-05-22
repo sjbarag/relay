@@ -26,6 +26,7 @@ fragment fragmentOnNonNodeFetchableType_ProfilePicture on User {
         "name": "size"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "RefetchableFragmentQuery",
@@ -40,6 +41,7 @@ fragment fragmentOnNonNodeFetchableType_ProfilePicture on User {
           }
         ],
         "concreteType": "NonNodeStory",
+        "directives": null,
         "kind": "LinkedField",
         "name": "fetch__NonNodeStory",
         "plural": false,
@@ -61,15 +63,18 @@ fragment fragmentOnNonNodeFetchableType_ProfilePicture on User {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "size"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "RefetchableFragmentQuery",
     "selections": [
@@ -83,6 +88,7 @@ fragment fragmentOnNonNodeFetchableType_ProfilePicture on User {
           }
         ],
         "concreteType": "NonNodeStory",
+        "directives": null,
         "kind": "LinkedField",
         "name": "fetch__NonNodeStory",
         "plural": false,
@@ -91,6 +97,7 @@ fragment fragmentOnNonNodeFetchableType_ProfilePicture on User {
             "alias": null,
             "args": null,
             "concreteType": null,
+            "directives": null,
             "kind": "LinkedField",
             "name": "actor",
             "plural": false,
@@ -116,6 +123,7 @@ fragment fragmentOnNonNodeFetchableType_ProfilePicture on User {
                       }
                     ],
                     "concreteType": "Image",
+                    "directives": null,
                     "kind": "LinkedField",
                     "name": "profilePicture",
                     "plural": false,
@@ -212,6 +220,7 @@ fragment fragmentOnNonNodeFetchableType_RefetchableFragment on NonNodeStory {
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "fragmentOnNonNodeFetchableType_ProfilePicture",
@@ -226,6 +235,7 @@ fragment fragmentOnNonNodeFetchableType_RefetchableFragment on NonNodeStory {
         }
       ],
       "concreteType": "Image",
+      "directives": null,
       "kind": "LinkedField",
       "name": "profilePicture",
       "plural": false,
@@ -253,6 +263,7 @@ fragment fragmentOnNonNodeFetchableType_RefetchableFragment on NonNodeStory {
       "name": "size"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": {
     "refetch": {
@@ -273,6 +284,7 @@ fragment fragmentOnNonNodeFetchableType_RefetchableFragment on NonNodeStory {
       "alias": null,
       "args": null,
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "actor",
       "plural": false,

@@ -45,6 +45,7 @@ extend type Mutation {
         "name": "input"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "clientFieldsOnRoots_FooMutation",
@@ -59,6 +60,7 @@ extend type Mutation {
           }
         ],
         "concreteType": "UnfriendResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "unfriend",
         "plural": false,
@@ -96,10 +98,12 @@ extend type Mutation {
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "input"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "clientFieldsOnRoots_FooMutation",
     "selections": [
@@ -113,6 +117,7 @@ extend type Mutation {
           }
         ],
         "concreteType": "UnfriendResponsePayload",
+        "directives": null,
         "kind": "LinkedField",
         "name": "unfriend",
         "plural": false,
@@ -173,6 +178,7 @@ mutation clientFieldsOnRoots_FooMutation(
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "clientFieldsOnRoots_FooQuery",
@@ -187,6 +193,7 @@ mutation clientFieldsOnRoots_FooMutation(
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -224,10 +231,12 @@ mutation clientFieldsOnRoots_FooMutation(
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "clientFieldsOnRoots_FooQuery",
     "selections": [
@@ -241,6 +250,7 @@ mutation clientFieldsOnRoots_FooMutation(
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,

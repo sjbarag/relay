@@ -16,6 +16,7 @@ query unions_UnionQuery {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "unions_UnionQuery",
@@ -24,6 +25,7 @@ query unions_UnionQuery {
         "alias": null,
         "args": null,
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "maybeNode",
         "plural": false,
@@ -58,6 +60,7 @@ query unions_UnionQuery {
                 "alias": null,
                 "args": null,
                 "concreteType": "Text",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "body",
                 "plural": false,
@@ -87,6 +90,7 @@ query unions_UnionQuery {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "unions_UnionQuery",
     "selections": [
@@ -94,6 +98,7 @@ query unions_UnionQuery {
         "alias": null,
         "args": null,
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "maybeNode",
         "plural": false,
@@ -136,6 +141,7 @@ query unions_UnionQuery {
                 "alias": null,
                 "args": null,
                 "concreteType": "Text",
+                "directives": null,
                 "kind": "LinkedField",
                 "name": "body",
                 "plural": false,

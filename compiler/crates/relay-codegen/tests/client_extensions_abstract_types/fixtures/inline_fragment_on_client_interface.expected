@@ -23,6 +23,7 @@ interface ClientNamed {
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "Foo",
   "selections": [
@@ -30,6 +31,7 @@ interface ClientNamed {
       "alias": null,
       "args": null,
       "concreteType": "ClientType",
+      "directives": null,
       "kind": "LinkedField",
       "name": "client_type",
       "plural": false,

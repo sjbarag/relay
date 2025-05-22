@@ -17,10 +17,12 @@ fragment FeedbackFragment on Feedback {
   "argumentDefinitions": [
     {
       "defaultValue": null,
+      "directives": null,
       "kind": "LocalArgument",
       "name": "id"
     }
   ],
+  "directives": null,
   "kind": "Operation",
   "name": "QueryWithFragmentWithStream",
   "selections": [
@@ -34,6 +36,7 @@ fragment FeedbackFragment on Feedback {
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,
@@ -59,6 +62,7 @@ fragment FeedbackFragment on Feedback {
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "FeedbackFragment",
@@ -70,6 +74,7 @@ fragment FeedbackFragment on Feedback {
           "alias": null,
           "args": null,
           "concreteType": null,
+          "directives": null,
           "kind": "LinkedField",
           "name": "actors",
           "plural": true,

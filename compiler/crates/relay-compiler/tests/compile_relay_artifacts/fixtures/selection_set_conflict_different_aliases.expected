@@ -13,6 +13,7 @@ query selectionSetConflictDifferentAliasesQuery {
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "selectionSetConflictDifferentAliasesQuery",
@@ -21,6 +22,7 @@ query selectionSetConflictDifferentAliasesQuery {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -35,6 +37,7 @@ query selectionSetConflictDifferentAliasesQuery {
               }
             ],
             "concreteType": "Image",
+            "directives": null,
             "kind": "LinkedField",
             "name": "profile_picture",
             "plural": false,
@@ -60,6 +63,7 @@ query selectionSetConflictDifferentAliasesQuery {
               }
             ],
             "concreteType": "Image",
+            "directives": null,
             "kind": "LinkedField",
             "name": "profile_picture",
             "plural": false,
@@ -85,6 +89,7 @@ query selectionSetConflictDifferentAliasesQuery {
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "selectionSetConflictDifferentAliasesQuery",
     "selections": [
@@ -92,6 +97,7 @@ query selectionSetConflictDifferentAliasesQuery {
         "alias": null,
         "args": null,
         "concreteType": "User",
+        "directives": null,
         "kind": "LinkedField",
         "name": "me",
         "plural": false,
@@ -106,6 +112,7 @@ query selectionSetConflictDifferentAliasesQuery {
               }
             ],
             "concreteType": "Image",
+            "directives": null,
             "kind": "LinkedField",
             "name": "profile_picture",
             "plural": false,
@@ -131,6 +138,7 @@ query selectionSetConflictDifferentAliasesQuery {
               }
             ],
             "concreteType": "Image",
+            "directives": null,
             "kind": "LinkedField",
             "name": "profile_picture",
             "plural": false,

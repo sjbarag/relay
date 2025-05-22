@@ -17,6 +17,7 @@ query selectionSetConflictDifferentTypesWithoutConflictInTypelessInlineFragments
 {
   "fragment": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "selectionSetConflictDifferentTypesWithoutConflictInTypelessInlineFragmentsQuery",
@@ -31,6 +32,7 @@ query selectionSetConflictDifferentTypesWithoutConflictInTypelessInlineFragments
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "username",
         "plural": false,
@@ -75,6 +77,7 @@ query selectionSetConflictDifferentTypesWithoutConflictInTypelessInlineFragments
   "kind": "Request",
   "operation": {
     "argumentDefinitions": [],
+    "directives": null,
     "kind": "Operation",
     "name": "selectionSetConflictDifferentTypesWithoutConflictInTypelessInlineFragmentsQuery",
     "selections": [
@@ -88,6 +91,7 @@ query selectionSetConflictDifferentTypesWithoutConflictInTypelessInlineFragments
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "username",
         "plural": false,

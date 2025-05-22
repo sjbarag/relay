@@ -27,6 +27,7 @@ union ClientUnion = ClientType | OtherClientType
 ==================================== OUTPUT ===================================
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "MyFragment",
@@ -46,6 +47,7 @@ union ClientUnion = ClientType | OtherClientType
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Operation",
   "name": "Foo",
   "selections": [
@@ -53,6 +55,7 @@ union ClientUnion = ClientType | OtherClientType
       "alias": null,
       "args": null,
       "concreteType": "ClientType",
+      "directives": null,
       "kind": "LinkedField",
       "name": "client_type",
       "plural": false,

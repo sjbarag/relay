@@ -34,6 +34,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "providedVariableReusedNestedLinkedFragment_1Query",
@@ -52,15 +53,18 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__barGKProvider"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "providedVariableReusedNestedLinkedFragment_1Query",
     "selections": [
@@ -74,6 +78,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -165,6 +170,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
         "name": "id"
       }
     ],
+    "directives": null,
     "kind": "Fragment",
     "metadata": null,
     "name": "providedVariableReusedNestedLinkedFragment_2Query",
@@ -183,15 +189,18 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
     "argumentDefinitions": [
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "id"
       },
       {
         "defaultValue": null,
+        "directives": null,
         "kind": "LocalArgument",
         "name": "__relay_internal__pv__barGKProvider"
       }
     ],
+    "directives": null,
     "kind": "Operation",
     "name": "providedVariableReusedNestedLinkedFragment_2Query",
     "selections": [
@@ -205,6 +214,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
           }
         ],
         "concreteType": null,
+        "directives": null,
         "kind": "LinkedField",
         "name": "node",
         "plural": false,
@@ -293,6 +303,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
 
 {
   "argumentDefinitions": [],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableReusedNestedLinkedFragment_Fragment",
@@ -314,6 +325,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
       "name": "id"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableReusedNestedLinkedFragment_FragmentCommon",
@@ -328,6 +340,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
         }
       ],
       "concreteType": null,
+      "directives": null,
       "kind": "LinkedField",
       "name": "node",
       "plural": false,
@@ -352,6 +365,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
       "name": "__relay_internal__pv__barGKProvider"
     }
   ],
+  "directives": null,
   "kind": "Fragment",
   "metadata": null,
   "name": "providedVariableReusedNestedLinkedFragment_FragmentWithProvider",
