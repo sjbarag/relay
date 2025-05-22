@@ -55,6 +55,7 @@ fragment fragmentAliasNotEnabled_fragment on Query {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -104,6 +105,7 @@ fragment fragmentAliasNotEnabled_fragment on Query {
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],

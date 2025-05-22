@@ -55,6 +55,7 @@ v2 = {
   "args": null,
   "kind": "ScalarField",
   "name": "id",
+  "directives": null,
   "storageKey": null
 },
 v3 = {
@@ -75,6 +76,7 @@ v5 = {
   "args": null,
   "kind": "ScalarField",
   "name": "name",
+  "directives": null,
   "storageKey": null
 },
 v6 = [
@@ -95,6 +97,7 @@ v7 = {
   "args": null,
   "kind": "ScalarField",
   "name": "cursor",
+  "directives": null,
   "storageKey": null
 },
 v8 = [
@@ -103,6 +106,7 @@ v8 = [
     "args": null,
     "kind": "ScalarField",
     "name": "__typename",
+    "directives": null,
     "storageKey": null
   }
 ],
@@ -122,6 +126,7 @@ v9 = {
           "args": null,
           "kind": "ScalarField",
           "name": "endCursor",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -129,6 +134,7 @@ v9 = {
           "args": null,
           "kind": "ScalarField",
           "name": "hasNextPage",
+          "directives": null,
           "storageKey": null
         }
       ],

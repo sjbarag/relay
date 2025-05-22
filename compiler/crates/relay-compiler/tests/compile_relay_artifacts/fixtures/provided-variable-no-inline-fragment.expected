@@ -39,6 +39,7 @@ fragment providedVariableNoInlineFragment on User
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -104,6 +105,7 @@ fragment providedVariableNoInlineFragment on User
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -172,6 +174,7 @@ fragment providedVariableNoInlineFragment on User {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],

@@ -80,6 +80,7 @@ fragment fragmentOnViewer_ProfilePicture on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -87,6 +88,7 @@ fragment fragmentOnViewer_ProfilePicture on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "global_id",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -94,6 +96,7 @@ fragment fragmentOnViewer_ProfilePicture on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -118,6 +121,7 @@ fragment fragmentOnViewer_ProfilePicture on User {
                         "args": null,
                         "kind": "ScalarField",
                         "name": "uri",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -201,6 +205,7 @@ fragment fragmentOnViewer_RefetchableFragment on Viewer {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -243,6 +248,7 @@ fragment fragmentOnViewer_RefetchableFragment on Viewer {
           "args": null,
           "kind": "ScalarField",
           "name": "global_id",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -250,6 +256,7 @@ fragment fragmentOnViewer_RefetchableFragment on Viewer {
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         },
         {

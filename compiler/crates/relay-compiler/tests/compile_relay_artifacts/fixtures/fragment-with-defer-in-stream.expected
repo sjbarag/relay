@@ -49,6 +49,7 @@ fragment fragmentWithDeferInStream_ActorFragment on Actor {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -94,6 +95,7 @@ fragment fragmentWithDeferInStream_ActorFragment on Actor {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -101,6 +103,7 @@ fragment fragmentWithDeferInStream_ActorFragment on Actor {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -124,6 +127,7 @@ fragment fragmentWithDeferInStream_ActorFragment on Actor {
                         "args": null,
                         "kind": "ScalarField",
                         "name": "__typename",
+                        "directives": null,
                         "storageKey": null
                       },
                       {
@@ -140,6 +144,7 @@ fragment fragmentWithDeferInStream_ActorFragment on Actor {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "name",
+                            "directives": null,
                             "storageKey": null
                           }
                         ]
@@ -149,6 +154,7 @@ fragment fragmentWithDeferInStream_ActorFragment on Actor {
                         "args": null,
                         "kind": "ScalarField",
                         "name": "id",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -213,6 +219,7 @@ fragment fragmentWithDeferInStream_FeedbackFragment on Feedback {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     }
   ],
@@ -231,6 +238,7 @@ fragment fragmentWithDeferInStream_FeedbackFragment on Feedback {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {

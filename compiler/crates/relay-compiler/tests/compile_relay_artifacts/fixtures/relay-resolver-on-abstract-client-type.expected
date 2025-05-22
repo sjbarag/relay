@@ -94,6 +94,7 @@ extend interface SomeInterface {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -107,6 +108,7 @@ extend interface SomeInterface {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "name",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -157,6 +159,7 @@ Query Text is Empty.
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         }
       ]

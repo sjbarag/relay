@@ -60,6 +60,7 @@ query selectionSetConflictStreamOnNodesOrEdgesQuery {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "id",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],
@@ -128,6 +129,7 @@ query selectionSetConflictStreamOnNodesOrEdgesQuery {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "id",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],
@@ -146,6 +148,7 @@ query selectionSetConflictStreamOnNodesOrEdgesQuery {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],

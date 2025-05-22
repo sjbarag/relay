@@ -108,6 +108,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -123,6 +124,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
                     "args": null,
                     "kind": "ScalarField",
                     "name": "name",
+                    "directives": null,
                     "storageKey": null
                   }
                 ]
@@ -146,6 +148,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
                     "args": null,
                     "kind": "ScalarField",
                     "name": "count",
+                    "directives": null,
                     "storageKey": null
                   },
                   {
@@ -174,6 +177,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
                                 "args": null,
                                 "kind": "ScalarField",
                                 "name": "name",
+                                "directives": null,
                                 "storageKey": null
                               }
                             ]
@@ -183,6 +187,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
                             "args": null,
                             "kind": "ScalarField",
                             "name": "id",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],
@@ -203,6 +208,7 @@ fragment providedVariableMultipleQueries_MultiProvidedVar on User
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -319,6 +325,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -334,6 +341,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "name",
+                    "directives": null,
                     "storageKey": null
                   }
                 ]
@@ -347,6 +355,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -418,6 +427,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
           "args": null,
           "kind": "ScalarField",
           "name": "count",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -446,6 +456,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "name",
+                      "directives": null,
                       "storageKey": null
                     }
                   ]
@@ -485,6 +496,7 @@ fragment providedVariableMultipleQueries_OneProvidedVar on User {
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         }
       ]

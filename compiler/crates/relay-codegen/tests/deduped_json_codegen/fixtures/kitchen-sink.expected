@@ -84,6 +84,7 @@ Operation:
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -99,6 +100,7 @@ Operation:
                   "args": null,
                   "kind": "ScalarField",
                   "name": "name",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -140,6 +142,7 @@ var v0 = [
     "args": null,
     "kind": "ScalarField",
     "name": "height",
+    "directives": null,
     "storageKey": null
   },
   {
@@ -147,6 +150,7 @@ var v0 = [
     "args": null,
     "kind": "ScalarField",
     "name": "width",
+    "directives": null,
     "storageKey": null
   },
   {
@@ -154,6 +158,7 @@ var v0 = [
     "args": null,
     "kind": "ScalarField",
     "name": "uri",
+    "directives": null,
     "storageKey": null
   }
 ];
@@ -198,6 +203,7 @@ return {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -205,6 +211,7 @@ return {
       "args": null,
       "kind": "ScalarField",
       "name": "__typename",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -231,6 +238,7 @@ return {
           "args": null,
           "kind": "ScalarField",
           "name": "count",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -246,6 +254,7 @@ return {
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -317,6 +326,7 @@ return {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],

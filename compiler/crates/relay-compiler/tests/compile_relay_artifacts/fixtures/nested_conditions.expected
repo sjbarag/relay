@@ -73,6 +73,7 @@ fragment nestedConditions_QueryFragment2 on Query {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "name",
+                  "directives": null,
                   "storageKey": null
                 },
                 {
@@ -90,6 +91,7 @@ fragment nestedConditions_QueryFragment2 on Query {
                           "args": null,
                           "kind": "ScalarField",
                           "name": "alternate_name",
+                          "directives": null,
                           "storageKey": null
                         },
                         {
@@ -97,6 +99,7 @@ fragment nestedConditions_QueryFragment2 on Query {
                           "args": null,
                           "kind": "ScalarField",
                           "name": "canViewerComment",
+                          "directives": null,
                           "storageKey": null
                         }
                       ]
@@ -124,6 +127,7 @@ fragment nestedConditions_QueryFragment2 on Query {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "name",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -196,6 +200,7 @@ fragment nestedConditions_QueryFragment2 on Query {
                           "args": null,
                           "kind": "ScalarField",
                           "name": "name",
+                          "directives": null,
                           "storageKey": null
                         }
                       ],

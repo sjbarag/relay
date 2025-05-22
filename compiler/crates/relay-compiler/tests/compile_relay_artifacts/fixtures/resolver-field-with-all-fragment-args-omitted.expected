@@ -111,6 +111,7 @@ Query Text is Empty.
           "args": null,
           "kind": "ScalarField",
           "name": "__typename",
+          "directives": null,
           "storageKey": null
         }
       ],

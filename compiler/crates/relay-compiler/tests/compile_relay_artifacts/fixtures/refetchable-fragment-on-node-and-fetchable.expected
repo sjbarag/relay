@@ -76,6 +76,7 @@ fragment refetchableFragmentOnNodeAndFetchable_RefetchableFragment on FetchableT
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -83,6 +84,7 @@ fragment refetchableFragmentOnNodeAndFetchable_RefetchableFragment on FetchableT
             "args": null,
             "kind": "ScalarField",
             "name": "fetch_id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -140,6 +142,7 @@ fragment refetchableFragmentOnNodeAndFetchable_RefetchableFragment on FetchableT
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -147,6 +150,7 @@ fragment refetchableFragmentOnNodeAndFetchable_RefetchableFragment on FetchableT
       "args": null,
       "kind": "ScalarField",
       "name": "fetch_id",
+      "directives": null,
       "storageKey": null
     }
   ],

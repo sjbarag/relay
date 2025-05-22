@@ -32,6 +32,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
       "args": null,
       "kind": "ScalarField",
       "name": "markdown",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -47,6 +48,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -54,6 +56,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -72,6 +75,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
       "args": null,
       "kind": "ScalarField",
       "name": "plaintext",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -87,6 +91,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
           "args": null,
           "kind": "ScalarField",
           "name": "text",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -94,6 +99,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -113,6 +119,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
       "args": null,
       "kind": "ScalarField",
       "name": "markdown",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -128,6 +135,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -149,6 +157,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -212,6 +221,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
       "args": null,
       "kind": "ScalarField",
       "name": "plaintext",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -227,6 +237,7 @@ fragment fragmentWithMatchDirective_MarkdownUserNameRenderer_name on MarkdownUse
           "args": null,
           "kind": "ScalarField",
           "name": "text",
+          "directives": null,
           "storageKey": null
         }
       ],

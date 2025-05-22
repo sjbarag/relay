@@ -104,6 +104,7 @@ extend type Query {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "id",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],
@@ -127,6 +128,7 @@ extend type Query {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -188,6 +190,7 @@ Query Text is Empty.
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ]

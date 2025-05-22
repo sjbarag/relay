@@ -75,6 +75,7 @@ fragment abstractTypeRefinementDontSkipTypeDiscriminatorFragmentSpread_NodeFragm
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -82,6 +83,7 @@ fragment abstractTypeRefinementDontSkipTypeDiscriminatorFragmentSpread_NodeFragm
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -92,6 +94,7 @@ fragment abstractTypeRefinementDontSkipTypeDiscriminatorFragmentSpread_NodeFragm
                 "args": null,
                 "kind": "ScalarField",
                 "name": "username",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -150,6 +153,7 @@ fragment abstractTypeRefinementDontSkipTypeDiscriminatorFragmentSpread_NodeFragm
       "args": null,
       "kind": "ScalarField",
       "name": "username",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -173,6 +177,7 @@ fragment abstractTypeRefinementDontSkipTypeDiscriminatorFragmentSpread_NodeFragm
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     }
   ],

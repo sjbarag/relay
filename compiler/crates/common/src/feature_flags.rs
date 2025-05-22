@@ -167,6 +167,18 @@ pub struct FeatureFlags {
     /// across a number of diffs.
     #[serde(default)]
     pub legacy_include_path_in_required_reader_nodes: FeatureFlag,
+
+    /// Custom client-only directives (defined via `schemaExtensions` files) are
+    /// typically removed from both the generated query text and the
+    /// corresponding Normalization AST node, since they're not used by
+    /// relay-runtime. They have valid use-cases outside of that runtime
+    /// however, e.g. static analysis and runtime instrumentation.
+    ///
+    /// Setting this flag to 'true' allows those directives to remain in the
+    /// Normalization AST node. Client-only directives are still not included in
+    /// the generated query text.
+    #[serde(default)]
+    pub include_client_directives_in_normalization_nodes: bool,
 }
 
 #[derive(Debug, Deserialize, Clone, Serialize, Default, JsonSchema)]

@@ -16,6 +16,7 @@ fragment pluralFragment_PluralFragment on User @relay(plural: true) {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     }
   ],

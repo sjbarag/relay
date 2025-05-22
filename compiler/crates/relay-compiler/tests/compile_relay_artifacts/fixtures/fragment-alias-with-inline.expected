@@ -37,6 +37,7 @@ fragment fragmentAliasWithInline_fragment on Query @inline {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "id",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -76,6 +77,7 @@ fragment fragmentAliasWithInline_fragment on Query @inline {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],

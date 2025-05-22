@@ -75,6 +75,7 @@ interface ClientNamed {
           "args": null,
           "kind": "ScalarField",
           "name": "client_field",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -106,6 +107,7 @@ interface ClientNamed {
               "args": null,
               "kind": "ScalarField",
               "name": "client_name",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -127,6 +129,7 @@ interface ClientNamed {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "client_name",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -165,6 +168,7 @@ interface ClientNamed {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "id",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -175,6 +179,7 @@ interface ClientNamed {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "client_friend_edge_field",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -204,6 +209,7 @@ interface ClientNamed {
           "args": null,
           "kind": "ScalarField",
           "name": "client_nickname",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -213,6 +219,7 @@ interface ClientNamed {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -220,6 +227,7 @@ interface ClientNamed {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     }
   ],

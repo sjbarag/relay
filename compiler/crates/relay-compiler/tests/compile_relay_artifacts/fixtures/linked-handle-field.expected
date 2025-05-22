@@ -52,6 +52,7 @@ query linkedHandleField_LinkedHandleFieldQuery($id: ID!) {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "count",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -99,6 +100,7 @@ query linkedHandleField_LinkedHandleFieldQuery($id: ID!) {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -123,6 +125,7 @@ query linkedHandleField_LinkedHandleFieldQuery($id: ID!) {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "count",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -152,6 +155,7 @@ query linkedHandleField_LinkedHandleFieldQuery($id: ID!) {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],

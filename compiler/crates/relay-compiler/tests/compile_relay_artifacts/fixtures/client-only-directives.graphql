@@ -1,0 +1,10 @@
+query clientOnlyDirectivesQuery {
+  viewer {
+    actor {
+      id @exampleDirective
+    }
+  }
+}
+
+%extensions%
+directive @exampleDirective on FIELD

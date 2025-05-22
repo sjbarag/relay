@@ -55,6 +55,7 @@ fragment updatableFragmentSpreadWithDangerouslyUnaliasedFixme_user on User @upda
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -62,6 +63,7 @@ fragment updatableFragmentSpreadWithDangerouslyUnaliasedFixme_user on User @upda
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -100,6 +102,7 @@ query updatableFragmentSpreadWithDangerouslyUnaliasedFixmeQuery {
       "args": null,
       "kind": "ScalarField",
       "name": "firstName",
+      "directives": null,
       "storageKey": null
     }
   ],

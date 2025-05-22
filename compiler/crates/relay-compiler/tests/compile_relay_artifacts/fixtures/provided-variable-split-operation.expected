@@ -50,6 +50,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
           "args": null,
           "kind": "ScalarField",
           "name": "markdown",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -67,6 +68,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -74,6 +76,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -92,6 +95,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
       "args": null,
       "kind": "ScalarField",
       "name": "plaintext",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -107,6 +111,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
           "args": null,
           "kind": "ScalarField",
           "name": "text",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -114,6 +119,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -197,6 +203,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -204,6 +211,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -228,6 +236,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   },
                   {
@@ -341,6 +350,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -414,6 +424,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
           "args": null,
           "kind": "ScalarField",
           "name": "markdown",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -431,6 +442,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -452,6 +464,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
       "args": null,
       "kind": "ScalarField",
       "name": "plaintext",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -467,6 +480,7 @@ fragment providedVariableSplitOperation_PlainUserNameRenderer_name on PlainUserN
           "args": null,
           "kind": "ScalarField",
           "name": "text",
+          "directives": null,
           "storageKey": null
         }
       ],

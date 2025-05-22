@@ -32,6 +32,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
       "args": null,
       "kind": "ScalarField",
       "name": "markdown",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -47,6 +48,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -54,6 +56,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -181,6 +184,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -199,6 +203,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   },
                   {
@@ -227,6 +232,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -287,6 +293,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
       "args": null,
       "kind": "ScalarField",
       "name": "markdown",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -302,6 +309,7 @@ fragment multipleModuleWithAliasFragment_propName on MarkdownUserNameRenderer {
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         }
       ],

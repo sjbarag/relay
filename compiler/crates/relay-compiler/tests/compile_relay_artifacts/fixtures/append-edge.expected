@@ -58,6 +58,7 @@ mutation appendEdge_CommentCreateMutation(
                 "args": null,
                 "kind": "ScalarField",
                 "name": "cursor",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -73,6 +74,7 @@ mutation appendEdge_CommentCreateMutation(
                     "args": null,
                     "kind": "ScalarField",
                     "name": "id",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -132,6 +134,7 @@ mutation appendEdge_CommentCreateMutation(
                 "args": null,
                 "kind": "ScalarField",
                 "name": "cursor",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -147,6 +150,7 @@ mutation appendEdge_CommentCreateMutation(
                     "args": null,
                     "kind": "ScalarField",
                     "name": "id",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],

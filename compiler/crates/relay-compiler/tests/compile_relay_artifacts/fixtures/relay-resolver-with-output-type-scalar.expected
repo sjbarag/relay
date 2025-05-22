@@ -30,6 +30,7 @@ extend type User {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -45,6 +46,7 @@ extend type User {
           "args": null,
           "kind": "ScalarField",
           "name": "street",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -63,6 +65,7 @@ extend type User {
           "args": null,
           "kind": "ScalarField",
           "name": "lastName",
+          "directives": null,
           "storageKey": null
         }
       ],

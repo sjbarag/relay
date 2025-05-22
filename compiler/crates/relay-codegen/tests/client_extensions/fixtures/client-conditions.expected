@@ -91,6 +91,7 @@ interface ClientNamed {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "client_name",
+                      "directives": null,
                       "storageKey": null
                     },
                     {
@@ -98,6 +99,7 @@ interface ClientNamed {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "client_name_2",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -116,6 +118,7 @@ interface ClientNamed {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -131,6 +134,7 @@ interface ClientNamed {
               "args": null,
               "kind": "ScalarField",
               "name": "client_nickname",
+              "directives": null,
               "storageKey": null
             }
           ]
@@ -153,6 +157,7 @@ interface ClientNamed {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "client_actor_field",
+                  "directives": null,
                   "storageKey": null
                 }
               ]
@@ -179,6 +184,7 @@ interface ClientNamed {
                       ],
                       "kind": "ScalarField",
                       "name": "client_street_address_field",
+                      "directives": null,
                       "storageKey": null
                     }
                   ]
@@ -188,6 +194,7 @@ interface ClientNamed {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "city",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -209,6 +216,7 @@ interface ClientNamed {
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         }
       ]

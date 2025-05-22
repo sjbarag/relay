@@ -38,6 +38,7 @@ interface ClientNamed {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     }
   ],

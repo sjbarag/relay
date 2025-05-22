@@ -48,6 +48,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -96,6 +97,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -103,6 +105,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -113,6 +116,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -172,6 +176,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     }
   ],
@@ -193,6 +198,7 @@ fragment redundantSelectionInInlineFragments_interface_concrete on MaybeNodeInte
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         }
       ],

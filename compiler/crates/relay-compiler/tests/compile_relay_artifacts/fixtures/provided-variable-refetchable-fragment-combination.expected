@@ -78,6 +78,7 @@ fragment providedVariableRefetchableFragmentCombination_Fragment on Node
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -89,6 +90,7 @@ fragment providedVariableRefetchableFragmentCombination_Fragment on Node
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -101,6 +103,7 @@ fragment providedVariableRefetchableFragmentCombination_Fragment on Node
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               }
             ]
@@ -227,6 +230,7 @@ fragment providedVariableRefetchableFragmentCombination_Fragment on Node {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -238,6 +242,7 @@ fragment providedVariableRefetchableFragmentCombination_Fragment on Node {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -250,6 +255,7 @@ fragment providedVariableRefetchableFragmentCombination_Fragment on Node {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               }
             ]
@@ -321,6 +327,7 @@ fragment providedVariableRefetchableFragmentCombination_Fragment on Node {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -333,6 +340,7 @@ fragment providedVariableRefetchableFragmentCombination_Fragment on Node {
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         }
       ]

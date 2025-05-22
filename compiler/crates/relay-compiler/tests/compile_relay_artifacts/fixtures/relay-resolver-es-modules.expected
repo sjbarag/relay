@@ -98,6 +98,7 @@ import {pop_star_name as userPopStarNameResolver} from 'PopStarNameResolver';
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -114,6 +115,7 @@ import {pop_star_name as userPopStarNameResolver} from 'PopStarNameResolver';
                       "args": null,
                       "kind": "ScalarField",
                       "name": "name",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -133,6 +135,7 @@ import {pop_star_name as userPopStarNameResolver} from 'PopStarNameResolver';
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -178,6 +181,7 @@ fragment relayResolverEsModules_PopStarNameResolverFragment_name on User {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     }
   ],

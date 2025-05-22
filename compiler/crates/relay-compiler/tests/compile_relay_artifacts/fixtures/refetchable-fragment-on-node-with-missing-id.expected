@@ -93,6 +93,7 @@ fragment refetchableFragmentOnNodeWithMissingId_ProfilePicture on User {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -107,6 +108,7 @@ fragment refetchableFragmentOnNodeWithMissingId_ProfilePicture on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -128,6 +130,7 @@ fragment refetchableFragmentOnNodeWithMissingId_ProfilePicture on User {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "uri",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -142,6 +145,7 @@ fragment refetchableFragmentOnNodeWithMissingId_ProfilePicture on User {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -218,6 +222,7 @@ fragment refetchableFragmentOnNodeWithMissingId_RefetchableFragment on Node {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -259,6 +264,7 @@ fragment refetchableFragmentOnNodeWithMissingId_RefetchableFragment on Node {
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -275,6 +281,7 @@ fragment refetchableFragmentOnNodeWithMissingId_RefetchableFragment on Node {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     }
   ],

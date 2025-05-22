@@ -83,6 +83,7 @@ extend type ClientViewer {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "name",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -128,6 +129,7 @@ extend type ClientViewer {
                         "args": null,
                         "kind": "ScalarField",
                         "name": "some_field",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -151,6 +153,7 @@ extend type ClientViewer {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "name",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -192,6 +195,7 @@ Query Text is Empty.
           "args": null,
           "kind": "ScalarField",
           "name": "some_field",
+          "directives": null,
           "storageKey": null
         }
       ]

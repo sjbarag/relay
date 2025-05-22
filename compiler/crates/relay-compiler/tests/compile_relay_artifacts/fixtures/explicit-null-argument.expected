@@ -26,6 +26,7 @@ query explicitNullArgument_TestQuery {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -54,6 +55,7 @@ query explicitNullArgument_TestQuery {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -61,6 +63,7 @@ query explicitNullArgument_TestQuery {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],

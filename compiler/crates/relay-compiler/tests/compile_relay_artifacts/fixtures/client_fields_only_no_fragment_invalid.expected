@@ -24,6 +24,7 @@ extend type Query {
             "args": null,
             "kind": "ScalarField",
             "name": "client_field",
+            "directives": null,
             "storageKey": null
           }
         ]
@@ -46,6 +47,7 @@ extend type Query {
             "args": null,
             "kind": "ScalarField",
             "name": "client_field",
+            "directives": null,
             "storageKey": null
           }
         ]

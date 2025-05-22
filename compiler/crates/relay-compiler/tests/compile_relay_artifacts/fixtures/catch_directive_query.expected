@@ -28,6 +28,7 @@ query catchDirectiveQueryQuery @catch(to: RESULT) {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -35,6 +36,7 @@ query catchDirectiveQueryQuery @catch(to: RESULT) {
             "args": null,
             "kind": "ScalarField",
             "name": "name",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -63,6 +65,7 @@ query catchDirectiveQueryQuery @catch(to: RESULT) {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -70,6 +73,7 @@ query catchDirectiveQueryQuery @catch(to: RESULT) {
             "args": null,
             "kind": "ScalarField",
             "name": "name",
+            "directives": null,
             "storageKey": null
           }
         ],

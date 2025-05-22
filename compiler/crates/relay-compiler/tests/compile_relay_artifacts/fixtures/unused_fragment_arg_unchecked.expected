@@ -92,6 +92,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto on User {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -99,6 +100,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto on User {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -109,6 +111,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -132,6 +135,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto on User {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "uri",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -202,6 +206,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto_18PEfK on User {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -209,6 +214,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto_18PEfK on User {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -254,6 +260,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto_18PEfK on User {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -281,6 +288,7 @@ fragment unusedFragmentArgUnchecked_ProfilePhoto_18PEfK on User {
       "args": null,
       "kind": "ScalarField",
       "name": "__typename",
+      "directives": null,
       "storageKey": null
     },
     {

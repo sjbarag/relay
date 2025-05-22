@@ -24,6 +24,7 @@ query Foo {
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -33,6 +34,7 @@ query Foo {
             "args": null,
             "kind": "ScalarField",
             "name": "name",
+            "directives": null,
             "storageKey": null
           },
           "to": "RESULT"

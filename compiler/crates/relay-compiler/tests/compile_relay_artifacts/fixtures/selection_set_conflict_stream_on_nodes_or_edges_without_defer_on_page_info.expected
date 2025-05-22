@@ -55,6 +55,7 @@ query selectionSetConflictStreamOnNodesOrEdgesWithoutDeferOnPageInfoQuery {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "hasNextPage",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -84,6 +85,7 @@ query selectionSetConflictStreamOnNodesOrEdgesWithoutDeferOnPageInfoQuery {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "id",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],
@@ -139,6 +141,7 @@ query selectionSetConflictStreamOnNodesOrEdgesWithoutDeferOnPageInfoQuery {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "hasNextPage",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -170,6 +173,7 @@ query selectionSetConflictStreamOnNodesOrEdgesWithoutDeferOnPageInfoQuery {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "id",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],
@@ -188,6 +192,7 @@ query selectionSetConflictStreamOnNodesOrEdgesWithoutDeferOnPageInfoQuery {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],

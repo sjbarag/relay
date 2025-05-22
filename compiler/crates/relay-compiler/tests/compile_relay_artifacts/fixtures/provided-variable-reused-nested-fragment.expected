@@ -103,6 +103,7 @@ fragment providedVariableReusedNestedFragment_FragmentWithProvider on User
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -118,6 +119,7 @@ fragment providedVariableReusedNestedFragment_FragmentWithProvider on User
                     "args": null,
                     "kind": "ScalarField",
                     "name": "username",
+                    "directives": null,
                     "storageKey": null
                   }
                 ]
@@ -127,6 +129,7 @@ fragment providedVariableReusedNestedFragment_FragmentWithProvider on User
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -138,6 +141,7 @@ fragment providedVariableReusedNestedFragment_FragmentWithProvider on User
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -256,6 +260,7 @@ fragment providedVariableReusedNestedFragment_FragmentWithProvider on User {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -271,6 +276,7 @@ fragment providedVariableReusedNestedFragment_FragmentWithProvider on User {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "username",
+                    "directives": null,
                     "storageKey": null
                   }
                 ]
@@ -280,6 +286,7 @@ fragment providedVariableReusedNestedFragment_FragmentWithProvider on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -291,6 +298,7 @@ fragment providedVariableReusedNestedFragment_FragmentWithProvider on User {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -370,6 +378,7 @@ fragment providedVariableReusedNestedFragment_FragmentWithProvider on User {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     }
   ],
@@ -398,6 +407,7 @@ fragment providedVariableReusedNestedFragment_FragmentWithProvider on User {
           "args": null,
           "kind": "ScalarField",
           "name": "username",
+          "directives": null,
           "storageKey": null
         }
       ]

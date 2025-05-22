@@ -36,6 +36,7 @@ union ClientUnion = ClientType | OtherClientType
       "args": null,
       "kind": "ScalarField",
       "name": "__typename",
+      "directives": null,
       "storageKey": null
     }
   ],

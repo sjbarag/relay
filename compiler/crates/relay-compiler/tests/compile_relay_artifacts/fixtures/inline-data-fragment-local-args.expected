@@ -61,6 +61,7 @@ fragment inlineDataFragmentLocalArgsProfile on User
                   "args": null,
                   "kind": "ScalarField",
                   "name": "uri",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -120,6 +121,7 @@ fragment inlineDataFragmentLocalArgsProfile on User
                   "args": null,
                   "kind": "ScalarField",
                   "name": "uri",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -177,6 +179,7 @@ fragment inlineDataFragmentLocalArgsProfile on User
                   "args": null,
                   "kind": "ScalarField",
                   "name": "uri",
+                  "directives": null,
                   "storageKey": null
                 }
               ],

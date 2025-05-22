@@ -15,6 +15,7 @@ fragment requiredDirective_Foo_user on User {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -24,6 +25,7 @@ fragment requiredDirective_Foo_user on User {
         "args": null,
         "kind": "ScalarField",
         "name": "name",
+        "directives": null,
         "storageKey": null
       },
       "action": "THROW"

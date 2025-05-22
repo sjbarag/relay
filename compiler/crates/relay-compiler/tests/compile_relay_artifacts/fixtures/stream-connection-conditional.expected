@@ -57,6 +57,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -94,6 +95,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                                 "args": null,
                                 "kind": "ScalarField",
                                 "name": "__typename",
+                                "directives": null,
                                 "storageKey": null
                               }
                             ],
@@ -104,6 +106,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "cursor",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],
@@ -127,6 +130,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "endCursor",
+                            "directives": null,
                             "storageKey": null
                           },
                           {
@@ -134,6 +138,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "hasNextPage",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],
@@ -191,6 +196,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -198,6 +204,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -243,6 +250,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                                 "args": null,
                                 "kind": "ScalarField",
                                 "name": "__typename",
+                                "directives": null,
                                 "storageKey": null
                               },
                               {
@@ -250,6 +258,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                                 "args": null,
                                 "kind": "ScalarField",
                                 "name": "id",
+                                "directives": null,
                                 "storageKey": null
                               }
                             ],
@@ -260,6 +269,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "cursor",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],
@@ -285,6 +295,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "endCursor",
+                            "directives": null,
                             "storageKey": null
                           },
                           {
@@ -292,6 +303,7 @@ query streamConnectionConditionalQuery($id: ID!, $cond: Boolean!) {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "hasNextPage",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],

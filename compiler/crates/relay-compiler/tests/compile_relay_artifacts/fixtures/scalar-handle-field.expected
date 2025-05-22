@@ -42,6 +42,7 @@ query scalarHandleField_ScalarHandleFieldQuery($id: ID!) {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__name_clientName",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -86,6 +87,7 @@ query scalarHandleField_ScalarHandleFieldQuery($id: ID!) {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -96,6 +98,7 @@ query scalarHandleField_ScalarHandleFieldQuery($id: ID!) {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -116,6 +119,7 @@ query scalarHandleField_ScalarHandleFieldQuery($id: ID!) {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],

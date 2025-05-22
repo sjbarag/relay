@@ -96,6 +96,7 @@ fragment Example on User {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "uri",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -112,6 +113,7 @@ fragment Example on User {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "cursor",
+                  "directives": null,
                   "storageKey": null
                 },
                 {
@@ -127,6 +129,7 @@ fragment Example on User {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "__typename",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -155,6 +158,7 @@ fragment Example on User {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "endCursor",
+                  "directives": null,
                   "storageKey": null
                 },
                 {
@@ -162,6 +166,7 @@ fragment Example on User {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "hasNextPage",
+                  "directives": null,
                   "storageKey": null
                 }
               ],

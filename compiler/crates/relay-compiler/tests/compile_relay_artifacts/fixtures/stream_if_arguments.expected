@@ -131,6 +131,7 @@ fragment streamIfArgumentsFragment on User
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -151,6 +152,7 @@ fragment streamIfArgumentsFragment on User
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -174,6 +176,7 @@ fragment streamIfArgumentsFragment on User
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -194,6 +197,7 @@ fragment streamIfArgumentsFragment on User
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -217,6 +221,7 @@ fragment streamIfArgumentsFragment on User
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -242,6 +247,7 @@ fragment streamIfArgumentsFragment on User
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -254,6 +260,7 @@ fragment streamIfArgumentsFragment on User
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -356,6 +363,7 @@ fragment streamIfArgumentsFragment_39RTKZ on User {
               "args": null,
               "kind": "ScalarField",
               "name": "__typename",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -379,6 +387,7 @@ fragment streamIfArgumentsFragment_39RTKZ on User {
               "args": null,
               "kind": "ScalarField",
               "name": "__typename",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -402,6 +411,7 @@ fragment streamIfArgumentsFragment_39RTKZ on User {
               "args": null,
               "kind": "ScalarField",
               "name": "__typename",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -425,6 +435,7 @@ fragment streamIfArgumentsFragment_39RTKZ on User {
               "args": null,
               "kind": "ScalarField",
               "name": "__typename",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -448,6 +459,7 @@ fragment streamIfArgumentsFragment_39RTKZ on User {
               "args": null,
               "kind": "ScalarField",
               "name": "__typename",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -471,6 +483,7 @@ fragment streamIfArgumentsFragment_39RTKZ on User {
               "args": null,
               "kind": "ScalarField",
               "name": "__typename",
+              "directives": null,
               "storageKey": null
             }
           ],

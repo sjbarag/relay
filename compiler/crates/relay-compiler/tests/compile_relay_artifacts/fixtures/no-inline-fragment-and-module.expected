@@ -64,6 +64,7 @@ fragment noInlineFragmentAndModule_parent on User @no_inline {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -107,6 +108,7 @@ fragment noInlineFragmentAndModule_parent on User {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     }
   ]
@@ -123,6 +125,7 @@ fragment noInlineFragmentAndModule_parent on User {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     }
   ],

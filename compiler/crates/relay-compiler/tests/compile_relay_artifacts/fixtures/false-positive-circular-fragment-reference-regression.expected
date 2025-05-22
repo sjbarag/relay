@@ -60,6 +60,7 @@ fragment falsePositiveCircularFragmentReferenceRegression_MyNestedViewer on View
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -99,6 +100,7 @@ fragment falsePositiveCircularFragmentReferenceRegression_MyNestedViewer on View
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -106,6 +108,7 @@ fragment falsePositiveCircularFragmentReferenceRegression_MyNestedViewer on View
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -113,6 +116,7 @@ fragment falsePositiveCircularFragmentReferenceRegression_MyNestedViewer on View
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -168,6 +172,7 @@ query falsePositiveCircularFragmentReferenceRegression_TestQuery {
           "args": null,
           "kind": "ScalarField",
           "name": "primaryEmail",
+          "directives": null,
           "storageKey": null
         }
       ]

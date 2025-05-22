@@ -96,6 +96,7 @@ query complexArgumentsInList_CheckinSearchQuery(
             "args": null,
             "kind": "ScalarField",
             "name": "query",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -185,6 +186,7 @@ query complexArgumentsInList_CheckinSearchQuery(
             "args": null,
             "kind": "ScalarField",
             "name": "query",
+            "directives": null,
             "storageKey": null
           }
         ],

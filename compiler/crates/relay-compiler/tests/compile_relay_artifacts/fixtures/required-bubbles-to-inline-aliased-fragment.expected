@@ -33,6 +33,7 @@ query requiredBubblesToInlineAliasedFragmentQuery {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "id",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -70,6 +71,7 @@ query requiredBubblesToInlineAliasedFragmentQuery {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],

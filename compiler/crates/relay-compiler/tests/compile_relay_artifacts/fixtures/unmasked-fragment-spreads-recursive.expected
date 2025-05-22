@@ -110,6 +110,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserUtil2_user on User {
             ],
             "kind": "ScalarField",
             "name": "firstName",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -131,6 +132,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserUtil2_user on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "width",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -138,6 +140,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserUtil2_user on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "height",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -154,6 +157,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserUtil2_user on User {
             ],
             "kind": "ScalarField",
             "name": "url",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -161,6 +165,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserUtil2_user on User {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -231,6 +236,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
       ],
       "kind": "ScalarField",
       "name": "firstName",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -252,6 +258,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
           "args": null,
           "kind": "ScalarField",
           "name": "width",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -259,6 +266,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
           "args": null,
           "kind": "ScalarField",
           "name": "height",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -275,6 +283,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
       ],
       "kind": "ScalarField",
       "name": "url",
+      "directives": null,
       "storageKey": null
     }
   ],
@@ -304,6 +313,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
       ],
       "kind": "ScalarField",
       "name": "url",
+      "directives": null,
       "storageKey": null
     }
   ],
@@ -345,6 +355,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
           "args": null,
           "kind": "ScalarField",
           "name": "width",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -352,6 +363,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
           "args": null,
           "kind": "ScalarField",
           "name": "height",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -368,6 +380,7 @@ fragment unmaskedFragmentSpreadsRecursive_UserProfile_user on User {
       ],
       "kind": "ScalarField",
       "name": "url",
+      "directives": null,
       "storageKey": null
     }
   ],

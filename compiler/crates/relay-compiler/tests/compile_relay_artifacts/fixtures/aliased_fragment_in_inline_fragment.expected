@@ -61,6 +61,7 @@ fragment aliasedFragmentInInlineFragmentInner on User {
             "args": null,
             "kind": "ScalarField",
             "name": "name",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -68,6 +69,7 @@ fragment aliasedFragmentInInlineFragmentInner on User {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -141,6 +143,7 @@ fragment aliasedFragmentInInlineFragmentInner on User {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     }
   ],

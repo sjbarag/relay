@@ -28,6 +28,7 @@ fragment MyFragmentFirst on User {
               "args": null,
               "kind": "ScalarField",
               "name": "lastName",
+              "directives": null,
               "storageKey": null
             },
             "to": "RESULT"

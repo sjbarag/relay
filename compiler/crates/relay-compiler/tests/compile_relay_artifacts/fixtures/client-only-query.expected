@@ -25,6 +25,7 @@ fragment clientOnlyQueryFragment on Query {
             "args": null,
             "kind": "ScalarField",
             "name": "__id",
+            "directives": null,
             "storageKey": null
           }
         ]
@@ -47,6 +48,7 @@ fragment clientOnlyQueryFragment on Query {
             "args": null,
             "kind": "ScalarField",
             "name": "__id",
+            "directives": null,
             "storageKey": null
           }
         ]
@@ -86,6 +88,7 @@ Query Text is Empty.
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         }
       ],

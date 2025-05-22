@@ -43,6 +43,7 @@ query complexArguments_TestQuery($date: String) {
             "args": null,
             "kind": "ScalarField",
             "name": "date",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -89,6 +90,7 @@ query complexArguments_TestQuery($date: String) {
             "args": null,
             "kind": "ScalarField",
             "name": "date",
+            "directives": null,
             "storageKey": null
           }
         ],

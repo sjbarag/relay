@@ -760,6 +760,11 @@
             }
           ]
         },
+        "include_client_directives_in_normalization_nodes": {
+          "description": "Custom client-only directives (defined via `schemaExtensions` files) are typically removed from both the generated query text and the corresponding Normalization AST node, since they're not used by relay-runtime. They have valid use-cases outside of that runtime however, e.g. static analysis and runtime instrumentation.\n\nSetting this flag to 'true' allows those directives to remain in the Normalization AST node. Client-only directives are still not included in the generated query text.",
+          "default": false,
+          "type": "boolean"
+        },
         "legacy_include_path_in_required_reader_nodes": {
           "description": "The `path` field in `@required` Reader AST nodes is no longer used. But removing them in one diff is too large of a change to ship at once.\n\nThis flag will allow us to use the rollout FeatureFlag to remove them across a number of diffs.",
           "default": {
@@ -1048,6 +1053,7 @@
             "enforce_fragment_alias_where_ambiguous": {
               "kind": "disabled"
             },
+            "include_client_directives_in_normalization_nodes": false,
             "legacy_include_path_in_required_reader_nodes": {
               "kind": "disabled"
             },

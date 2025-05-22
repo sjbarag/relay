@@ -4,7 +4,7 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  *
- * @generated SignedSource<<b85b45e67a29afe335bbb227267438ed>>
+ * @generated SignedSource<<13b47aba8273071717c3ba2491f6d59b>>
  */
 
 mod compile_relay_artifacts;
@@ -423,6 +423,27 @@ async fn client_linked_fields() {
     let input = include_str!("compile_relay_artifacts/fixtures/client-linked-fields.graphql");
     let expected = include_str!("compile_relay_artifacts/fixtures/client-linked-fields.expected");
     test_fixture(transform_fixture, file!(), "client-linked-fields.graphql", "compile_relay_artifacts/fixtures/client-linked-fields.expected", input, expected).await;
+}
+
+#[tokio::test]
+async fn client_only_directives() {
+    let input = include_str!("compile_relay_artifacts/fixtures/client-only-directives.graphql");
+    let expected = include_str!("compile_relay_artifacts/fixtures/client-only-directives.expected");
+    test_fixture(transform_fixture, file!(), "client-only-directives.graphql", "compile_relay_artifacts/fixtures/client-only-directives.expected", input, expected).await;
+}
+
+#[tokio::test]
+async fn client_only_directives_excluded() {
+    let input = include_str!("compile_relay_artifacts/fixtures/client-only-directives-excluded.graphql");
+    let expected = include_str!("compile_relay_artifacts/fixtures/client-only-directives-excluded.expected");
+    test_fixture(transform_fixture, file!(), "client-only-directives-excluded.graphql", "compile_relay_artifacts/fixtures/client-only-directives-excluded.expected", input, expected).await;
+}
+
+#[tokio::test]
+async fn client_only_directives_included() {
+    let input = include_str!("compile_relay_artifacts/fixtures/client-only-directives-included.graphql");
+    let expected = include_str!("compile_relay_artifacts/fixtures/client-only-directives-included.expected");
+    test_fixture(transform_fixture, file!(), "client-only-directives-included.graphql", "compile_relay_artifacts/fixtures/client-only-directives-included.expected", input, expected).await;
 }
 
 #[tokio::test]

@@ -83,6 +83,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -98,6 +99,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
                     "args": null,
                     "kind": "ScalarField",
                     "name": "username",
+                    "directives": null,
                     "storageKey": null
                   }
                 ]
@@ -111,6 +113,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -211,6 +214,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -226,6 +230,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
                     "args": null,
                     "kind": "ScalarField",
                     "name": "username",
+                    "directives": null,
                     "storageKey": null
                   }
                 ]
@@ -239,6 +244,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -360,6 +366,7 @@ fragment providedVariableReusedNestedLinkedFragment_FragmentWithProvider on User
           "args": null,
           "kind": "ScalarField",
           "name": "username",
+          "directives": null,
           "storageKey": null
         }
       ]

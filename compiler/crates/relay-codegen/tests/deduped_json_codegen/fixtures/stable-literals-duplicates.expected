@@ -32,6 +32,7 @@ v1 = [
     "args": null,
     "kind": "ScalarField",
     "name": "id",
+    "directives": null,
     "storageKey": null
   }
 ];

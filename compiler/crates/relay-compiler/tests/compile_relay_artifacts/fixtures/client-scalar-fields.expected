@@ -30,6 +30,7 @@ extend type FriendsConnection {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -45,6 +46,7 @@ extend type FriendsConnection {
           "args": null,
           "kind": "ScalarField",
           "name": "count",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -55,6 +57,7 @@ extend type FriendsConnection {
               "args": null,
               "kind": "ScalarField",
               "name": "client_friends_connection_field",
+              "directives": null,
               "storageKey": null
             }
           ]
@@ -70,6 +73,7 @@ extend type FriendsConnection {
           "args": null,
           "kind": "ScalarField",
           "name": "client_nickname",
+          "directives": null,
           "storageKey": null
         }
       ]

@@ -144,6 +144,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -155,6 +156,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -165,6 +167,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -217,6 +220,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                             "args": null,
                             "kind": "ScalarField",
                             "name": "id",
+                            "directives": null,
                             "storageKey": null
                           },
                           {
@@ -224,6 +228,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                             "args": null,
                             "kind": "ScalarField",
                             "name": "__typename",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],
@@ -234,6 +239,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                         "args": null,
                         "kind": "ScalarField",
                         "name": "cursor",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -252,6 +258,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                         "args": null,
                         "kind": "ScalarField",
                         "name": "endCursor",
+                        "directives": null,
                         "storageKey": null
                       },
                       {
@@ -259,6 +266,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                         "args": null,
                         "kind": "ScalarField",
                         "name": "hasNextPage",
+                        "directives": null,
                         "storageKey": null
                       },
                       {
@@ -266,6 +274,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                         "args": null,
                         "kind": "ScalarField",
                         "name": "hasPreviousPage",
+                        "directives": null,
                         "storageKey": null
                       },
                       {
@@ -273,6 +282,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment on No
                         "args": null,
                         "kind": "ScalarField",
                         "name": "startCursor",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -434,6 +444,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -444,6 +455,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -475,6 +487,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
                       "args": null,
                       "kind": "ScalarField",
                       "name": "id",
+                      "directives": null,
                       "storageKey": null
                     },
                     {
@@ -482,6 +495,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
                       "args": null,
                       "kind": "ScalarField",
                       "name": "__typename",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -492,6 +506,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
                   "args": null,
                   "kind": "ScalarField",
                   "name": "cursor",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -510,6 +525,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
                   "args": null,
                   "kind": "ScalarField",
                   "name": "endCursor",
+                  "directives": null,
                   "storageKey": null
                 },
                 {
@@ -517,6 +533,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
                   "args": null,
                   "kind": "ScalarField",
                   "name": "hasNextPage",
+                  "directives": null,
                   "storageKey": null
                 },
                 {
@@ -524,6 +541,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
                   "args": null,
                   "kind": "ScalarField",
                   "name": "hasPreviousPage",
+                  "directives": null,
                   "storageKey": null
                 },
                 {
@@ -531,6 +549,7 @@ fragment refetchableFragmentWithConnectionBidirectional_PaginationFragment_1G22u
                   "args": null,
                   "kind": "ScalarField",
                   "name": "startCursor",
+                  "directives": null,
                   "storageKey": null
                 }
               ],

@@ -20,6 +20,7 @@ query RelayReaderNamedFragmentsTest2Query {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     }
   ],

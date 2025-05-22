@@ -93,6 +93,7 @@ import condA_provider from '../bareProvider';
                 "args": null,
                 "kind": "ScalarField",
                 "name": "username",
+                "directives": null,
                 "storageKey": null
               }
             ]
@@ -107,6 +108,7 @@ import condA_provider from '../bareProvider';
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               }
             ]
@@ -121,6 +123,7 @@ import condA_provider from '../bareProvider';
                 "args": null,
                 "kind": "ScalarField",
                 "name": "alternate_name",
+                "directives": null,
                 "storageKey": null
               }
             ]
@@ -130,6 +133,7 @@ import condA_provider from '../bareProvider';
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -201,6 +205,7 @@ fragment providedVariableDirectiveCommonjsRelativizeEnabledFragment on User {
           "args": null,
           "kind": "ScalarField",
           "name": "username",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -215,6 +220,7 @@ fragment providedVariableDirectiveCommonjsRelativizeEnabledFragment on User {
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -229,6 +235,7 @@ fragment providedVariableDirectiveCommonjsRelativizeEnabledFragment on User {
           "args": null,
           "kind": "ScalarField",
           "name": "alternate_name",
+          "directives": null,
           "storageKey": null
         }
       ]

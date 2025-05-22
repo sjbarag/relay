@@ -64,6 +64,7 @@ extend type Query {
               "args": null,
               "kind": "ScalarField",
               "name": "name",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -101,6 +102,7 @@ extend type Query {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "id",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -127,6 +129,7 @@ extend type Query {
               "args": null,
               "kind": "ScalarField",
               "name": "name",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -177,6 +180,7 @@ fragment clientEdgeFromServerTypeToClientType_resolver_fragment on Query {
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],

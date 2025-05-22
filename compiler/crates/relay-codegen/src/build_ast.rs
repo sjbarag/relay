@@ -1149,6 +1149,7 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
         let (name, alias) =
             self.build_field_name_and_alias(schema_field.name.item, field.alias, &field.directives);
         let args = self.build_arguments(&field.arguments);
+        let directives = self.build_directives(&field.directives);
         let primitive = Primitive::Key(self.object(object! {
             :build_alias(alias, name),
             args: match args {
@@ -1157,6 +1158,10 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
                 },
             kind: Primitive::String(CODEGEN_CONSTANTS.scalar_field),
             name: Primitive::String(name),
+            directives: match directives {
+                None => Primitive::SkippableNull,
+                Some(key) => Primitive::Key(key),
+            },
             storage_key: match args {
                     None => Primitive::SkippableNull,
                     Some(key) => {
@@ -1690,6 +1695,56 @@ impl<'schema, 'builder, 'config> CodegenBuilder<'schema, 'builder, 'config> {
         }
 
         Primitive::Key(self.object(object_props))
+    }
+
+    fn build_directives(&mut self, directives: &[Directive]) -> Option<AstKey> {
+        if !self
+            .project_config
+            .feature_flags
+            .include_client_directives_in_normalization_nodes
+        {
+            return None;
+        }
+
+        if self.variant == CodegenVariant::Reader {
+            return None;
+        }
+
+        let directives = directives
+            .into_iter()
+            .filter_map(
+                |directive| match self.schema.get_directive(directive.name.item) {
+                    Some(schema_directive) => {
+                        if schema_directive.is_extension {
+                            self.build_directive(directive)
+                        } else {
+                            None
+                        }
+                    }
+                    None => None,
+                },
+            )
+            .map(Primitive::Key)
+            .collect::<Vec<_>>();
+
+        if directives.is_empty() {
+            None
+        } else {
+            Some(self.array(directives))
+        }
+    }
+
+    fn build_directive(&mut self, directive: &Directive) -> Option<AstKey> {
+        let args = self.build_arguments(&directive.arguments);
+        Some(self.object(object! {
+            kind: Primitive::String(CODEGEN_CONSTANTS.directive),
+            name: Primitive::String(directive.name.item.0),
+            args: match args {
+                None => Primitive::SkippableNull,
+                Some(key) => Primitive::Key(key),
+            },
+            // loc omitted
+        }))
     }
 
     fn build_normalization_fragment_spread(

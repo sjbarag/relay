@@ -42,6 +42,7 @@ fragment fragmentWithDeferArguments_DeferredFragment on User @argumentDefinition
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -75,6 +76,7 @@ fragment fragmentWithDeferArguments_DeferredFragment on User @argumentDefinition
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -82,6 +84,7 @@ fragment fragmentWithDeferArguments_DeferredFragment on User @argumentDefinition
             "args": null,
             "kind": "ScalarField",
             "name": "emailAddresses",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -94,6 +97,7 @@ fragment fragmentWithDeferArguments_DeferredFragment on User @argumentDefinition
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -101,6 +105,7 @@ fragment fragmentWithDeferArguments_DeferredFragment on User @argumentDefinition
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -122,6 +127,7 @@ fragment fragmentWithDeferArguments_DeferredFragment on User @argumentDefinition
                     "args": null,
                     "kind": "ScalarField",
                     "name": "uri",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -185,6 +191,7 @@ fragment fragmentWithDeferArguments_UserFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -192,6 +199,7 @@ fragment fragmentWithDeferArguments_UserFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -213,6 +221,7 @@ fragment fragmentWithDeferArguments_UserFragment on User {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -234,6 +243,7 @@ fragment fragmentWithDeferArguments_UserFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -241,6 +251,7 @@ fragment fragmentWithDeferArguments_UserFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "emailAddresses",
+      "directives": null,
       "storageKey": null
     },
     {

@@ -26,6 +26,7 @@ fragment MyFragment on User {
             "args": null,
             "kind": "ScalarField",
             "name": "city",
+            "directives": null,
             "storageKey": null
           }
         ],

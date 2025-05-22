@@ -54,6 +54,7 @@ extend type User {
               "args": null,
               "kind": "ScalarField",
               "name": "name",
+              "directives": null,
               "storageKey": null
             },
             "action": "NONE"

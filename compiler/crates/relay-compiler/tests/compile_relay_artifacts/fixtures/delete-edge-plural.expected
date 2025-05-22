@@ -45,6 +45,7 @@ mutation deleteEdgePluralMutation(
             "args": null,
             "kind": "ScalarField",
             "name": "deletedCommentIds",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -90,6 +91,7 @@ mutation deleteEdgePluralMutation(
             "args": null,
             "kind": "ScalarField",
             "name": "deletedCommentIds",
+            "directives": null,
             "storageKey": null
           },
           {

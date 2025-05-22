@@ -49,6 +49,7 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
       "args": null,
       "kind": "ScalarField",
       "name": "markdown",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -64,6 +65,7 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -71,6 +73,7 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -149,6 +152,7 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -156,6 +160,7 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -180,6 +185,7 @@ fragment client3DResolversEnabledServer3DFragment_MarkdownUserNameRenderer_name 
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   },
                   {
@@ -288,6 +294,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
       "args": null,
       "kind": "ScalarField",
       "name": "plaintext",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -303,6 +310,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
           "args": null,
           "kind": "ScalarField",
           "name": "text",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -310,6 +318,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -329,6 +338,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
       "args": null,
       "kind": "ScalarField",
       "name": "markdown",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -344,6 +354,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -365,6 +376,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -428,6 +440,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
       "args": null,
       "kind": "ScalarField",
       "name": "plaintext",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -443,6 +456,7 @@ fragment client3DResolversEnabledServer3DFragment_PlainUserNameRenderer_name on 
           "args": null,
           "kind": "ScalarField",
           "name": "text",
+          "directives": null,
           "storageKey": null
         }
       ],

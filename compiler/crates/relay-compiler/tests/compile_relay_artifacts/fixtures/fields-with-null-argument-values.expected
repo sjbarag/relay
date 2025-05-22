@@ -51,6 +51,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -75,6 +76,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -99,6 +101,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -117,6 +120,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -141,6 +145,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -188,6 +193,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -195,6 +201,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -219,6 +226,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -243,6 +251,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -261,6 +270,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -285,6 +295,7 @@ query fieldsWithNullArgumentValues_NodeQuery($id: ID!) {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],

@@ -45,6 +45,7 @@ mutation deleteEdgeMutation(
             "args": null,
             "kind": "ScalarField",
             "name": "deletedCommentId",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -90,6 +91,7 @@ mutation deleteEdgeMutation(
             "args": null,
             "kind": "ScalarField",
             "name": "deletedCommentId",
+            "directives": null,
             "storageKey": null
           },
           {

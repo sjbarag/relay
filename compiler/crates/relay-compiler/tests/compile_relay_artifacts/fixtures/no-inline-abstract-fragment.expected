@@ -188,6 +188,7 @@ fragment noInlineAbstractFragment_child on User
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -297,6 +298,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
               "args": null,
               "kind": "ScalarField",
               "name": "uri",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -321,6 +323,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
               "args": null,
               "kind": "ScalarField",
               "name": "uri",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -345,6 +348,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
               "args": null,
               "kind": "ScalarField",
               "name": "uri",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -369,6 +373,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
               "args": null,
               "kind": "ScalarField",
               "name": "uri",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -393,6 +398,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
               "args": null,
               "kind": "ScalarField",
               "name": "uri",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -450,6 +456,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -474,6 +481,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -498,6 +506,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -522,6 +531,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -580,6 +590,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
               "args": null,
               "kind": "ScalarField",
               "name": "uri",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -604,6 +615,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
               "args": null,
               "kind": "ScalarField",
               "name": "uri",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -628,6 +640,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
               "args": null,
               "kind": "ScalarField",
               "name": "uri",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -652,6 +665,7 @@ fragment noInlineAbstractFragment_parent_4pGKCl on Actor {
               "args": null,
               "kind": "ScalarField",
               "name": "uri",
+              "directives": null,
               "storageKey": null
             }
           ],

@@ -64,6 +64,7 @@ extend type Settings {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "client_field",
+                "directives": null,
                 "storageKey": null
               }
             ]
@@ -101,6 +102,7 @@ Query Text is Empty.
           "args": null,
           "kind": "ScalarField",
           "name": "client_field",
+          "directives": null,
           "storageKey": null
         }
       ]

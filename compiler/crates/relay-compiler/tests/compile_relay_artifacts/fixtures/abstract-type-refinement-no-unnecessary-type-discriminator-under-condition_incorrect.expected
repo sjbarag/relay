@@ -75,6 +75,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
                         "args": null,
                         "kind": "ScalarField",
                         "name": "username",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -96,6 +97,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
                         "args": null,
                         "kind": "ScalarField",
                         "name": "canViewerLike",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -112,6 +114,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
                     "args": null,
                     "kind": "ScalarField",
                     "name": "canViewerLike",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -123,6 +126,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
                 "args": null,
                 "kind": "ScalarField",
                 "name": "lastName",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -179,6 +183,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -190,6 +195,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
                 "args": null,
                 "kind": "ScalarField",
                 "name": "lastName",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -197,6 +203,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -212,6 +219,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
                         "args": null,
                         "kind": "ScalarField",
                         "name": "username",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -233,6 +241,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
                         "args": null,
                         "kind": "ScalarField",
                         "name": "canViewerLike",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -249,6 +258,7 @@ mutation abstractTypeRefinementNoUnnecessaryTypeDiscriminatorUnderConditionIncor
                     "args": null,
                     "kind": "ScalarField",
                     "name": "canViewerLike",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],

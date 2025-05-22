@@ -45,6 +45,7 @@ mutation catchDirectiveMutationMutation @catch(to: RESULT) {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -92,6 +93,7 @@ mutation catchDirectiveMutationMutation @catch(to: RESULT) {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -99,6 +101,7 @@ mutation catchDirectiveMutationMutation @catch(to: RESULT) {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               }
             ],

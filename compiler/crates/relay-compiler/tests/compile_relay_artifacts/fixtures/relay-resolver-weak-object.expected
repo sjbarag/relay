@@ -60,6 +60,7 @@ extend type Query {
               "args": null,
               "kind": "ScalarField",
               "name": "__typename",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -99,6 +100,7 @@ extend type Query {
               "args": null,
               "kind": "ScalarField",
               "name": "__typename",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -135,6 +137,7 @@ Query Text is Empty.
           "args": null,
           "kind": "ScalarField",
           "name": "__relay_model_instance",
+          "directives": null,
           "storageKey": null
         }
       ]

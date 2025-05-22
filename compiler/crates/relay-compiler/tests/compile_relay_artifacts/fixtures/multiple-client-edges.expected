@@ -87,6 +87,7 @@ extend type User {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "name",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -123,6 +124,7 @@ extend type User {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "name",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -163,6 +165,7 @@ extend type User {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "actor_key",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -186,6 +189,7 @@ extend type User {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "name",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -205,6 +209,7 @@ extend type User {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "actor_key",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -228,6 +233,7 @@ extend type User {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "name",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -239,6 +245,7 @@ extend type User {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -286,6 +293,7 @@ fragment multipleClientEdges_worst_enemy_resolver on User {
       "args": null,
       "kind": "ScalarField",
       "name": "actor_key",
+      "directives": null,
       "storageKey": null
     }
   ],
@@ -304,6 +312,7 @@ fragment multipleClientEdges_worst_enemy_resolver on User {
       "args": null,
       "kind": "ScalarField",
       "name": "actor_key",
+      "directives": null,
       "storageKey": null
     }
   ],

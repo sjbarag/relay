@@ -56,6 +56,7 @@ mutation appendNodeLiteralEdgeTypeNameCommentCreateMutation(
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -112,6 +113,7 @@ mutation appendNodeLiteralEdgeTypeNameCommentCreateMutation(
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               }
             ],

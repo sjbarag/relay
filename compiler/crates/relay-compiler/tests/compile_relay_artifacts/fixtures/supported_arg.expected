@@ -47,6 +47,7 @@ query supportedArgQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -71,6 +72,7 @@ query supportedArgQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -95,6 +97,7 @@ query supportedArgQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -140,6 +143,7 @@ query supportedArgQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -164,6 +168,7 @@ query supportedArgQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -188,6 +193,7 @@ query supportedArgQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -198,6 +204,7 @@ query supportedArgQuery {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],

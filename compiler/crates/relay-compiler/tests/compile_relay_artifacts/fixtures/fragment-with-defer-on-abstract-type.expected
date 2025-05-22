@@ -78,6 +78,7 @@ fragment fragmentWithDeferOnAbstractType_NodeFragment on Node {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -94,6 +95,7 @@ fragment fragmentWithDeferOnAbstractType_NodeFragment on Node {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -104,6 +106,7 @@ fragment fragmentWithDeferOnAbstractType_NodeFragment on Node {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "name",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -118,6 +121,7 @@ fragment fragmentWithDeferOnAbstractType_NodeFragment on Node {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "websites",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -131,6 +135,7 @@ fragment fragmentWithDeferOnAbstractType_NodeFragment on Node {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -181,6 +186,7 @@ fragment fragmentWithDeferOnAbstractType_NodeFragment on Node {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -191,6 +197,7 @@ fragment fragmentWithDeferOnAbstractType_NodeFragment on Node {
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -205,6 +212,7 @@ fragment fragmentWithDeferOnAbstractType_NodeFragment on Node {
           "args": null,
           "kind": "ScalarField",
           "name": "websites",
+          "directives": null,
           "storageKey": null
         }
       ],

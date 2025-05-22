@@ -45,6 +45,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -52,6 +53,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "__id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -81,6 +83,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -88,6 +91,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "__id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -117,6 +121,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -124,6 +129,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "__id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -136,6 +142,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -164,6 +171,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -171,6 +179,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -195,6 +204,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -206,6 +216,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -230,6 +241,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -241,6 +253,7 @@ fragment spreadOfAssignableFragmentAssignable_node on Node @assignable {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -299,6 +312,7 @@ fragment spreadOfAssignableFragmentAssignable_user on User {
       "args": null,
       "kind": "ScalarField",
       "name": "__typename",
+      "directives": null,
       "storageKey": null
     }
   ],
@@ -317,6 +331,7 @@ fragment spreadOfAssignableFragmentAssignable_user on User {
       "args": null,
       "kind": "ScalarField",
       "name": "__typename",
+      "directives": null,
       "storageKey": null
     }
   ],

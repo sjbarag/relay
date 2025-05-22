@@ -92,6 +92,7 @@ fragment fragmentOnQueryCommonjs_ProfilePicture on User {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -99,6 +100,7 @@ fragment fragmentOnQueryCommonjs_ProfilePicture on User {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -109,6 +111,7 @@ fragment fragmentOnQueryCommonjs_ProfilePicture on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "name",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -130,6 +133,7 @@ fragment fragmentOnQueryCommonjs_ProfilePicture on User {
                     "args": null,
                     "kind": "ScalarField",
                     "name": "uri",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -212,6 +216,7 @@ fragment fragmentOnQueryCommonjs_RefetchableFragment_1Bmzm5 on Query {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -267,6 +272,7 @@ import RefetchableFragmentQuery_graphql from './RefetchableFragmentQuery.graphql
               "args": null,
               "kind": "ScalarField",
               "name": "id",
+              "directives": null,
               "storageKey": null
             },
             {
@@ -274,6 +280,7 @@ import RefetchableFragmentQuery_graphql from './RefetchableFragmentQuery.graphql
               "args": null,
               "kind": "ScalarField",
               "name": "name",
+              "directives": null,
               "storageKey": null
             },
             {

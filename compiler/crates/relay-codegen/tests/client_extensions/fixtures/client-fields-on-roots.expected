@@ -81,6 +81,7 @@ type ClientUser {
           "args": null,
           "kind": "ScalarField",
           "name": "client_root_field",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -104,6 +105,7 @@ type ClientUser {
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -126,6 +128,7 @@ type ClientUser {
           "args": null,
           "kind": "ScalarField",
           "name": "name",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -148,6 +151,7 @@ type ClientUser {
           "args": null,
           "kind": "ScalarField",
           "name": "client_root_field",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -168,6 +172,7 @@ type ClientUser {
           "args": null,
           "kind": "ScalarField",
           "name": "client_root_field",
+          "directives": null,
           "storageKey": null
         }
       ]

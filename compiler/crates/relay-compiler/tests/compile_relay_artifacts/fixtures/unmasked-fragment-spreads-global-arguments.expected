@@ -99,6 +99,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserUtil_user on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "width",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -106,6 +107,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserUtil_user on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "height",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -122,6 +124,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserUtil_user on User {
             ],
             "kind": "ScalarField",
             "name": "url",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -129,6 +132,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserUtil_user on User {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -201,6 +205,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserProfile_user on User {
           "args": null,
           "kind": "ScalarField",
           "name": "width",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -208,6 +213,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserProfile_user on User {
           "args": null,
           "kind": "ScalarField",
           "name": "height",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -224,6 +230,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserProfile_user on User {
       ],
       "kind": "ScalarField",
       "name": "url",
+      "directives": null,
       "storageKey": null
     }
   ],
@@ -253,6 +260,7 @@ fragment unmaskedFragmentSpreadsGlobalArguments_UserProfile_user on User {
       ],
       "kind": "ScalarField",
       "name": "url",
+      "directives": null,
       "storageKey": null
     }
   ],

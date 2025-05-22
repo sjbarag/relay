@@ -36,6 +36,7 @@ extend type FriendsEdge {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -62,6 +63,7 @@ extend type FriendsEdge {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "client_friend_edge_field",
+                  "directives": null,
                   "storageKey": null
                 },
                 {
@@ -77,6 +79,7 @@ extend type FriendsEdge {
                       "args": null,
                       "kind": "ScalarField",
                       "name": "id",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],
@@ -98,6 +101,7 @@ extend type FriendsEdge {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "hasNextPage",
+                  "directives": null,
                   "storageKey": null
                 }
               ],

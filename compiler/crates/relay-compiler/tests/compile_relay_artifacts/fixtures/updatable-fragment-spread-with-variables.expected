@@ -67,6 +67,7 @@ fragment updatableFragmentSpreadWithVariables_user on User @updatable {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -74,6 +75,7 @@ fragment updatableFragmentSpreadWithVariables_user on User @updatable {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -123,6 +125,7 @@ query updatableFragmentSpreadWithVariablesQuery {
       ],
       "kind": "ScalarField",
       "name": "firstName",
+      "directives": null,
       "storageKey": null
     }
   ],

@@ -41,6 +41,7 @@ fragment unmaskedFragmentSpreadsOnQuery_UserUtil_user on User {
             ],
             "kind": "ScalarField",
             "name": "url",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -81,6 +82,7 @@ fragment unmaskedFragmentSpreadsOnQuery_UserUtil_user on User {
             ],
             "kind": "ScalarField",
             "name": "url",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -88,6 +90,7 @@ fragment unmaskedFragmentSpreadsOnQuery_UserUtil_user on User {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -139,6 +142,7 @@ query unmaskedFragmentSpreadsOnQuery_TestQuery(
       ],
       "kind": "ScalarField",
       "name": "url",
+      "directives": null,
       "storageKey": null
     }
   ],

@@ -58,6 +58,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -118,6 +119,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -125,6 +127,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -170,6 +173,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
                                 "args": null,
                                 "kind": "ScalarField",
                                 "name": "id",
+                                "directives": null,
                                 "storageKey": null
                               }
                             ],
@@ -191,6 +195,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
                             "args": null,
                             "kind": "ScalarField",
                             "name": "hasNextPage",
+                            "directives": null,
                             "storageKey": null
                           }
                         ],
@@ -226,6 +231,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
                         "args": null,
                         "kind": "ScalarField",
                         "name": "text",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -326,6 +332,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "id",
+                  "directives": null,
                   "storageKey": null
                 }
               ],
@@ -347,6 +354,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
               "args": null,
               "kind": "ScalarField",
               "name": "hasNextPage",
+              "directives": null,
               "storageKey": null
             }
           ],
@@ -379,6 +387,7 @@ fragment deferMultipleFragmentsSameParent_FeedbackText_feedback on Feedback {
           "args": null,
           "kind": "ScalarField",
           "name": "text",
+          "directives": null,
           "storageKey": null
         }
       ],

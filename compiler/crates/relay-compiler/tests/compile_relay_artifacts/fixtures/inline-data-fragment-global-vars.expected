@@ -48,6 +48,7 @@ fragment inlineDataFragmentGlobalVarsProfile on User @inline {
                   "args": null,
                   "kind": "ScalarField",
                   "name": "uri",
+                  "directives": null,
                   "storageKey": null
                 }
               ],

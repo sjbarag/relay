@@ -45,6 +45,7 @@ extend type Page {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -63,6 +64,7 @@ extend type Page {
               "args": null,
               "kind": "ScalarField",
               "name": "city",
+              "directives": null,
               "storageKey": null
             },
             {
@@ -79,6 +81,7 @@ extend type Page {
                   ],
                   "kind": "ScalarField",
                   "name": "client_street_address_field",
+                  "directives": null,
                   "storageKey": null
                 }
               ]
@@ -94,6 +97,7 @@ extend type Page {
               "args": null,
               "kind": "ScalarField",
               "name": "client_actor_field",
+              "directives": null,
               "storageKey": null
             }
           ]

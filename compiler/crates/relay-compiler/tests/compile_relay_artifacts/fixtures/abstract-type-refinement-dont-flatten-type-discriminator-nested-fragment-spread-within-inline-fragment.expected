@@ -44,6 +44,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorNestedFragmentSpreadW
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -83,6 +84,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorNestedFragmentSpreadW
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -94,6 +96,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorNestedFragmentSpreadW
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -139,6 +142,7 @@ fragment abstractTypeRefinementDontFlattenTypeDiscriminatorNestedFragmentSpreadW
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     }
   ],

@@ -47,6 +47,7 @@ query stableLiterals_StableLiteralsTestQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -96,6 +97,7 @@ query stableLiterals_StableLiteralsTestQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -106,6 +108,7 @@ query stableLiterals_StableLiteralsTestQuery {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],

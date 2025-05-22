@@ -47,6 +47,7 @@ extend type Query {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "description",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -80,6 +81,7 @@ extend type Query {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -87,6 +89,7 @@ extend type Query {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "description",
+                "directives": null,
                 "storageKey": null
               }
             ],

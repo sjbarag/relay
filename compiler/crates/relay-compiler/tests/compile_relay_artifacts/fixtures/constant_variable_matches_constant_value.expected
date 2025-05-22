@@ -63,6 +63,7 @@ fragment constantVariableMatchesConstantValue_F on Query @argumentDefinitions(
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -103,6 +104,7 @@ fragment constantVariableMatchesConstantValue_F on Query @argumentDefinitions(
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -110,6 +112,7 @@ fragment constantVariableMatchesConstantValue_F on Query @argumentDefinitions(
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -178,6 +181,7 @@ fragment constantVariableMatchesConstantValue_F_3kBhXp on Query {
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],

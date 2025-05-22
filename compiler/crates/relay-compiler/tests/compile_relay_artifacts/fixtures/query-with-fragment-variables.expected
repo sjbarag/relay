@@ -67,6 +67,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -142,6 +143,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -149,6 +151,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -173,6 +176,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
                     "args": null,
                     "kind": "ScalarField",
                     "name": "uri",
+                    "directives": null,
                     "storageKey": null
                   }
                 ],
@@ -239,6 +243,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
                                     "args": null,
                                     "kind": "ScalarField",
                                     "name": "uri",
+                                    "directives": null,
                                     "storageKey": null
                                   }
                                 ],
@@ -249,6 +254,7 @@ fragment queryWithFragmentVariables_Profile on User @argumentDefinitions(picture
                                 "args": null,
                                 "kind": "ScalarField",
                                 "name": "id",
+                                "directives": null,
                                 "storageKey": null
                               }
                             ],
@@ -345,6 +351,7 @@ fragment queryWithFragmentVariables_Profile_4CNNX6 on User {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],

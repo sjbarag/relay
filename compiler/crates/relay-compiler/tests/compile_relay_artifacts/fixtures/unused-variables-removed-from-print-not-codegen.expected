@@ -63,6 +63,7 @@ fragment unusedVariablesRemovedFromPrintNotCodegen_ConnectionFragment on User
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -124,6 +125,7 @@ fragment unusedVariablesRemovedFromPrintNotCodegen_ConnectionFragment on User
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -131,6 +133,7 @@ fragment unusedVariablesRemovedFromPrintNotCodegen_ConnectionFragment on User
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -225,6 +228,7 @@ query unusedVariablesRemovedFromPrintNotCodegen_QueryWithUnusedVariablesQuery(
                       "args": null,
                       "kind": "ScalarField",
                       "name": "id",
+                      "directives": null,
                       "storageKey": null
                     }
                   ],

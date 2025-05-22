@@ -42,6 +42,7 @@ fragment queryWithModuleDirectiveCustomImport_MarkdownUserNameRenderer_name on M
       "args": null,
       "kind": "ScalarField",
       "name": "markdown",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -57,6 +58,7 @@ fragment queryWithModuleDirectiveCustomImport_MarkdownUserNameRenderer_name on M
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -64,6 +66,7 @@ fragment queryWithModuleDirectiveCustomImport_MarkdownUserNameRenderer_name on M
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -142,6 +145,7 @@ fragment queryWithModuleDirectiveCustomImport_MarkdownUserNameRenderer_name on M
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -149,6 +153,7 @@ fragment queryWithModuleDirectiveCustomImport_MarkdownUserNameRenderer_name on M
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -167,6 +172,7 @@ fragment queryWithModuleDirectiveCustomImport_MarkdownUserNameRenderer_name on M
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   },
                   {
@@ -249,6 +255,7 @@ fragment queryWithModuleDirectiveCustomImport_NameRendererFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "markdown",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -264,6 +271,7 @@ fragment queryWithModuleDirectiveCustomImport_NameRendererFragment on User {
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -285,6 +293,7 @@ fragment queryWithModuleDirectiveCustomImport_NameRendererFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {

@@ -90,6 +90,7 @@ query selectionsOnInterfaceQuery($id: ID!) {
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -106,6 +107,7 @@ query selectionsOnInterfaceQuery($id: ID!) {
                 ],
                 "kind": "ScalarField",
                 "name": "firstName",
+                "directives": null,
                 "storageKey": "firstName(if:true)"
               }
             ],
@@ -126,6 +128,7 @@ query selectionsOnInterfaceQuery($id: ID!) {
                 ],
                 "kind": "ScalarField",
                 "name": "firstName",
+                "directives": null,
                 "storageKey": "firstName(if:false)"
               }
             ],
@@ -137,6 +140,7 @@ query selectionsOnInterfaceQuery($id: ID!) {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -193,6 +197,7 @@ fragment selectionsOnInterfaceUserFragment on User {
       ],
       "kind": "ScalarField",
       "name": "firstName",
+      "directives": null,
       "storageKey": "firstName(if:false)"
     }
   ],
@@ -217,6 +222,7 @@ fragment selectionsOnInterfaceUserFragment on User {
       ],
       "kind": "ScalarField",
       "name": "firstName",
+      "directives": null,
       "storageKey": "firstName(if:true)"
     }
   ],

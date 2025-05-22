@@ -44,6 +44,7 @@ query selectionSetConflictDifferentAliasesQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "width",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -68,6 +69,7 @@ query selectionSetConflictDifferentAliasesQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "width",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -113,6 +115,7 @@ query selectionSetConflictDifferentAliasesQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "width",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -137,6 +140,7 @@ query selectionSetConflictDifferentAliasesQuery {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "width",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -147,6 +151,7 @@ query selectionSetConflictDifferentAliasesQuery {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],

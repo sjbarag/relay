@@ -28,6 +28,7 @@ fragment DeferredFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -35,6 +36,7 @@ fragment DeferredFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "name",
+      "directives": null,
       "storageKey": null
     }
   ],
@@ -63,6 +65,7 @@ fragment DeferredFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "emailAddresses",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -70,6 +73,7 @@ fragment DeferredFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     }
   ],
@@ -100,6 +104,7 @@ fragment DeferredFragment on User {
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],

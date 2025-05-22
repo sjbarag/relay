@@ -69,6 +69,7 @@ type SpecialUser implements BasicUser @__RelayResolverModel {
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -76,6 +77,7 @@ type SpecialUser implements BasicUser @__RelayResolverModel {
           "args": null,
           "kind": "ScalarField",
           "name": "data",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -96,6 +98,7 @@ type SpecialUser implements BasicUser @__RelayResolverModel {
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -103,6 +106,7 @@ type SpecialUser implements BasicUser @__RelayResolverModel {
           "args": null,
           "kind": "ScalarField",
           "name": "data",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -134,6 +138,7 @@ import JSResource from 'JSResource';
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -208,6 +213,7 @@ import JSResource from 'JSResource';
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -223,6 +229,7 @@ import JSResource from 'JSResource';
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   },
                   {
@@ -242,6 +249,7 @@ import JSResource from 'JSResource';
                         "args": null,
                         "kind": "ScalarField",
                         "name": "id",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -265,6 +273,7 @@ import JSResource from 'JSResource';
                         "args": null,
                         "kind": "ScalarField",
                         "name": "id",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -336,6 +345,7 @@ import {resolverDataInjector} from 'relay-runtime/experimental';
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -386,6 +396,7 @@ import {resolverDataInjector} from 'relay-runtime/experimental';
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -409,6 +420,7 @@ import {resolverDataInjector} from 'relay-runtime/experimental';
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -416,6 +428,7 @@ import {resolverDataInjector} from 'relay-runtime/experimental';
           "args": null,
           "kind": "ScalarField",
           "name": "data",
+          "directives": null,
           "storageKey": null
         }
       ]
@@ -439,6 +452,7 @@ import {resolverDataInjector} from 'relay-runtime/experimental';
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -446,6 +460,7 @@ import {resolverDataInjector} from 'relay-runtime/experimental';
           "args": null,
           "kind": "ScalarField",
           "name": "data",
+          "directives": null,
           "storageKey": null
         }
       ]

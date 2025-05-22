@@ -100,6 +100,7 @@ fragment fragmentOnNonNodeFetchableType_ProfilePicture on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "__typename",
+                "directives": null,
                 "storageKey": null
               },
               {
@@ -124,6 +125,7 @@ fragment fragmentOnNonNodeFetchableType_ProfilePicture on User {
                         "args": null,
                         "kind": "ScalarField",
                         "name": "uri",
+                        "directives": null,
                         "storageKey": null
                       }
                     ],
@@ -138,6 +140,7 @@ fragment fragmentOnNonNodeFetchableType_ProfilePicture on User {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               }
             ],
@@ -148,6 +151,7 @@ fragment fragmentOnNonNodeFetchableType_ProfilePicture on User {
             "args": null,
             "kind": "ScalarField",
             "name": "fetch_id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -155,6 +159,7 @@ fragment fragmentOnNonNodeFetchableType_ProfilePicture on User {
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           }
         ],
@@ -230,6 +235,7 @@ fragment fragmentOnNonNodeFetchableType_RefetchableFragment on NonNodeStory {
           "args": null,
           "kind": "ScalarField",
           "name": "uri",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -284,6 +290,7 @@ fragment fragmentOnNonNodeFetchableType_RefetchableFragment on NonNodeStory {
       "args": null,
       "kind": "ScalarField",
       "name": "fetch_id",
+      "directives": null,
       "storageKey": null
     }
   ],

@@ -32,6 +32,7 @@ fragment queryWithConditionalModule_MarkdownUserNameRenderer_name on MarkdownUse
       "args": null,
       "kind": "ScalarField",
       "name": "markdown",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -47,6 +48,7 @@ fragment queryWithConditionalModule_MarkdownUserNameRenderer_name on MarkdownUse
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         },
         {
@@ -54,6 +56,7 @@ fragment queryWithConditionalModule_MarkdownUserNameRenderer_name on MarkdownUse
           "args": null,
           "kind": "ScalarField",
           "name": "id",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -142,6 +145,7 @@ fragment queryWithConditionalModule_MarkdownUserNameRenderer_name on MarkdownUse
             "args": null,
             "kind": "ScalarField",
             "name": "__typename",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -149,6 +153,7 @@ fragment queryWithConditionalModule_MarkdownUserNameRenderer_name on MarkdownUse
             "args": null,
             "kind": "ScalarField",
             "name": "id",
+            "directives": null,
             "storageKey": null
           },
           {
@@ -167,6 +172,7 @@ fragment queryWithConditionalModule_MarkdownUserNameRenderer_name on MarkdownUse
                     "args": null,
                     "kind": "ScalarField",
                     "name": "__typename",
+                    "directives": null,
                     "storageKey": null
                   },
                   {
@@ -257,6 +263,7 @@ fragment queryWithConditionalModule_NameRendererFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "markdown",
+      "directives": null,
       "storageKey": null
     },
     {
@@ -272,6 +279,7 @@ fragment queryWithConditionalModule_NameRendererFragment on User {
           "args": null,
           "kind": "ScalarField",
           "name": "markup",
+          "directives": null,
           "storageKey": null
         }
       ],
@@ -298,6 +306,7 @@ fragment queryWithConditionalModule_NameRendererFragment on User {
       "args": null,
       "kind": "ScalarField",
       "name": "id",
+      "directives": null,
       "storageKey": null
     },
     {

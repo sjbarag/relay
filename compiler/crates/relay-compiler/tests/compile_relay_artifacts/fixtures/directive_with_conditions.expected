@@ -63,6 +63,7 @@ query directiveWithConditions_TestQuery($foo: Boolean!, $bar: Boolean!) {
                         "args": null,
                         "kind": "ScalarField",
                         "name": "alternate_name",
+                        "directives": null,
                         "storageKey": null
                       },
                       {
@@ -70,6 +71,7 @@ query directiveWithConditions_TestQuery($foo: Boolean!, $bar: Boolean!) {
                         "args": null,
                         "kind": "ScalarField",
                         "name": "canViewerComment",
+                        "directives": null,
                         "storageKey": null
                       }
                     ]
@@ -134,6 +136,7 @@ query directiveWithConditions_TestQuery($foo: Boolean!, $bar: Boolean!) {
                         "args": null,
                         "kind": "ScalarField",
                         "name": "alternate_name",
+                        "directives": null,
                         "storageKey": null
                       },
                       {
@@ -141,6 +144,7 @@ query directiveWithConditions_TestQuery($foo: Boolean!, $bar: Boolean!) {
                         "args": null,
                         "kind": "ScalarField",
                         "name": "canViewerComment",
+                        "directives": null,
                         "storageKey": null
                       }
                     ]
@@ -152,6 +156,7 @@ query directiveWithConditions_TestQuery($foo: Boolean!, $bar: Boolean!) {
                 "args": null,
                 "kind": "ScalarField",
                 "name": "id",
+                "directives": null,
                 "storageKey": null
               }
             ],
